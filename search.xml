@@ -1,59 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Happy Every Day</title>
-      <link href="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我的第二篇博客</title>
-      <link href="/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-      <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-      
-        <content type="html"><![CDATA[<p>#冲冲冲！</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>“我的第一篇博客”</title>
-      <link href="/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/"/>
-      <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
-      
-        <content type="html"><![CDATA[<hr><p>这还行来</p> <a id="more"></a> <p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/06/08/hello-world/"/>
-      <url>/2020/06/08/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>我的第二篇博客</title>
+    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>#冲冲冲！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>“我的第一篇博客”</title>
+    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
+    <content><![CDATA[<hr>
+<p>这还行来</p>
+ <a id="more"></a> 
+
+<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（一）</title>
+    <url>/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0/</url>
+    <content><![CDATA[<hr>
+<p>第一章Java的基本程序设计结构</p>
+<p>软件安装：安装JDK</p>
+<p>微信公众号“唠码客”往期文章</p>
+<p>安装IDEA</p>
+<p>微信公众号“唠码客”往期文章</p>
+<p>创建第一个Java程序参考链接： <a href="https://www.cnblogs.com/hanwen1014/p/9053492.html" target="_blank" rel="noopener">https://www.cnblogs.com/hanwen1014/p/9053492.html</a> </p>
+ <a id="more"></a> 
+
+<p>一、一个简单的Java应用程序</p>
+<p>1类名的标准命名规则：类名以大写字母做开头，后面可以是数字或字母，若类名由多个单词构成则每个单词的首字母应大写。</p>
+<p>例：CamelCase</p>
+<p>2一个Java文件只能有一个public类，且公共类名（HelloWord）必须与java源文件名（如HelloWord.java）相同。一个程序可以有多个类但只能有一个public类，也只允许有一个起点即一个main方法。</p>
+<p>3main方法：Java的源文件里必须包含一个main方法。main方法是Java程序运行的起点。Java语言规范：mian方法必须声明为public，必须是静态的。</p>
+<p>4块：Java中用{}划分程序的各个部分，通常称为块。以“{”开始，以“}”结束。一般习惯把匹配的大括号上下对齐。</p>
+<p>5Java中每个语句必须以分号结束，回车不是一条语句的结束标志，因此，如果需要，可以将一条语句写在多行。</p>
+<p>6System.out.print(“aSdafa”);//使用System.out对象的print方法。</p>
+<p>7参数：有的程序员也把参数叫做实参。</p>
+<p>二、注释</p>
+<p>1Java有三种注释形式。</p>
+<p>1.1//：注释内容从//到本行结束</p>
+<p>1.2多行注释：/<em><em>/，注释内容从/</em>开始到</em>/结束。</p>
+<p>这种多行注释不能嵌套注释，/<em><em>/是从第一个/</em>开始到第一个</em>/结束：</p>
+<p>/<em>/</em>System.out.println(“qwe<em>/“);</em>/</p>
+<p>1.3文档化注释（在第二章详细介绍）：/<strong>注释部分*/，这种注释可以用来自动的生成文档。也可以用来注释多行，由/</strong>开始到*/结束。</p>
+<p>三、数据类型</p>
+<p>1.1一共8种基本数据类型:四种整型分别是int,short,long,byte;两种浮点类型分别是float,double;一种字符类型char;一种用于表示真值的boolean类型。</p>
+<p>1.2表示长整型(long)需要后缀一个L或l,如：40000L；表示十六进制要有前缀0x或0X.如：0x10表示十进制16；表示八进制要有前缀0.如：010表示十进制8；表示二进制要有前缀0b或0B.如：0b10表示十进制2。</p>
+<p>1.3可以在数的中间加下划线，如：2_000_000表示2000000，下划线是为了让人们更易读，编译时Java编译器会除去这些下划线。</p>
+<p>1.4浮点类型</p>
+<p>1.4.1单精度类型float：有效位数为6~7位。如float a=2.4;</p>
+<p>float类型的数值需要加一个后缀F或f,如3.14F.没有后缀F或f的浮点数会默认为double类型，当然浮点数也可以后缀D或d,如3.14D。</p>
+<p>双精度类型double:有效位数位15位。</p>
+<p>1.4.2可以使用十六进制表示浮点数，如十进制0.125用十六进制表示为0x1.0p-3：即1.0*2的-3次方。其中1.0这里用十六进制表示，表示指数，指数的基数为2，-3这里用十进制表示。</p>
+<p>1.4.3用于表示溢出和出错情况的三个特殊的浮点值：</p>
+<p>正无穷大：Double.POSITIVE_INFINITY</p>
+<p>负无穷大：Double.NEGATIVE_INFINITY</p>
+<p>NaN:不是一个数字</p>
+<p>例如一个正的浮点数除以0的结果为正无穷大，计算0.0/0或负数的平方根的结果为NaN。</p>
+<p>double a = 0.0 / 0;//此时a并不是一个数<br>if <strong>(</strong>Double.<strong>isNaN**</strong>(<strong>a</strong>)) {<strong>//检验a是否是一个数值<br>  System.</strong>out<strong>.println</strong>(<strong>“a不是一个数值”</strong>)<strong>;<br>  System.</strong>out<strong>.println</strong>(<strong>a</strong>)<strong>;//控制台输出NaN<br>**}</strong> else <strong>{**</strong><br>**  System.<strong>out</strong>.println<strong>(</strong>“a的数值是：”+a<strong>)</strong>;<br><strong>}</strong> ;</p>
+<p>1.4.4浮点数不适用于无法接收舍入误差的金融计算</p>
+<p>浮点数值采用二进制系统表示，即只能精确到0.5（此0.5是十进制）而二进制系统无法精确到1/10，，就好像十进制无法精确表示1/3，所以:</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>2.0-1.1<strong>)</strong>;//控制台输出：0.8999999999999999</p>
+<p>如果数值计算中不允许有任何舍入误差，就应该使用BigDecimal类，本章稍后讲。</p>
+<p>1.5char类型</p>
+<p>‘A’是编码值为65的字符常量，它与“A”不同，“A”是包含一个字符A的字符串，char类型的值还可以表示为十六进制，其范围从\u0000到\uFFFF。Unicode字符可以用一个char值描述或者两个char值描述。以下为部分特殊字符的转义序列：</p>
+<p>转义序列        名称        Unicode值</p>
+<p>\t                制表        \u0009</p>
+<p>\n                换行        \u000a</p>
+<p>\r                回车        \u000d</p>
+<p>\”                双引号    \u0022</p>
+<p>所有的转义序列都可以出现在字符中或字符串中，如：</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\u0009”+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\t”+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\t’+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\0009’+”d”<strong>)</strong>;//输出a    d</p>
+<p>Unicode转义序列会在解析代码之前得到处理，如：”\u0022+\u0022”在编译前\u0022会先转换成”，因此编译后会得到””+””,也就是一个空字符串。更为隐秘的是在注释中出现：// \u000a。。。。。，编译时会有语法错误，在编译代码前会先把 \u000a替换成一个换行符，此时等效于：</p>
+<p>//（换行了）</p>
+<p>。。。。。</p>
+<p>能用字符串类型表示就不要用字符类型。</p>
+<p>1.6布尔型</p>
+<p>在Java中整型值和布尔值无法相互转换。如下情况会发生编译错误：</p>
+<p>int i = 0;<br>if (i = 0) {<br>  System.out.println(“sdfsf”);<br>}</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Happy Every Day</title>
+    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
+]]></content>
+  </entry>
 </search>
