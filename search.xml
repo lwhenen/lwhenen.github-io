@@ -11,6 +11,36 @@
 ]]></content>
   </entry>
   <entry>
+    <title>我的第二篇博客</title>
+    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>#冲冲冲！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Happy Every Day</title>
+    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>第一章Java程序概述（一）</title>
     <url>/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0/</url>
     <content><![CDATA[<hr>
@@ -79,12 +109,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我的第二篇博客</title>
-    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>#冲冲冲！</p>
-]]></content>
-  </entry>
-  <entry>
     <title>第一章Java程序概述（二）</title>
     <url>/2020/06/12/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -105,35 +129,28 @@
 <p>关键词final表示这个变量只能被赋值一次，一旦被赋值之后就不能再更改，习惯上常量名全部大写。</p>
 <p>2.2类常量</p>
 <p>类常量：Java中经常希望某个常量可以在一个类的多个方法中使用，可以使用static final设置一个类常量，如：</p>
-<p>public class HelloHa <strong>{**</strong><br>**  <strong>public</strong> static final int <strong>ABC</strong> = 0;</p>
-<p>  public static void main<strong>(</strong>String<strong>[]</strong> args<strong>) {**</strong></p>
-<hr>
-<p>**  <strong>}</strong></p>
-<p>public void aaa<strong>(){**</strong></p>
-<hr>
-<p><strong>**}</strong></p>
-<p>**<br><strong>**}</strong></p>
+<p>public class HelloHa {</p>
+<p>  public static final int <strong>ABC</strong> = 0;</p>
+<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
+<p>}</p>
+<p>public void aaa(){</p>
+<p>}</p>
+<p>}</p>
 <p>注意：类常量的定义在类的方法的外部。因此在同一个类的其他方法里也可以使用此常量。</p>
 <p>3如果一个常量被声明为public，那么其他类的方法也可以使用这个常量。</p>
 <p>CSDN：把其他类的变量设置为public static，即静态公共变量，直接用类名.变量名获取（不可以只写变量名）。但是这个方法最好只用于基础数据变量（int/long/boolean/double/byte等），否则会造成内存泄漏。例：</p>
-<p>class Aaa <strong>{**</strong><br>**  public static final int <strong>q</strong> = 0;<br>  void aaa<strong>() {**</strong></p>
-<hr>
-<p>**  <strong>}**</strong><br><strong><strong>}</strong></strong></p>
-<hr>
-<p><strong>public class HelloHa <strong>{</strong></strong></p>
-<hr>
-<p>**  public static void main<strong>(</strong>String<strong>[]</strong> args<strong>) {**</strong><br>**    System.<strong>out</strong>.println<strong>(</strong>Aaa.<strong>q)</strong>;</p>
-<p>  <strong>}**</strong></p>
-<hr>
-<p><strong>**}</strong></p>
+<p>class Aaa {<br>  public static final int <strong>q</strong> = 0;<br>  void aaa() {</p>
+<p>}<br>}</p>
+<p>public class HelloHa {</p>
+<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {<br>   System.<strong>out</strong>.println<strong>(</strong>Aaa.<strong>q)</strong>;<br>      }</p>
+<p>}</p>
 <p>4枚举类型（详细内容在第三章介绍）</p>
 <p>enum Size <strong>{S</strong>, <strong>M</strong>, <strong>L</strong>, <strong>X}</strong>//定义枚举类型</p>
-<p>public class HelloHa <strong>{**</strong></p>
-<hr>
-<p>**  public static void main<strong>(</strong>String<strong>[]</strong> args<strong>) {**</strong><br>**    Size s = Size.<strong>S</strong>;//声明枚举类型的变量，Size类型的变量只能存储这个类型声明中给定的某个枚举值或者特殊值null,null表示这个变量没有设置任何值</p>
-<p>  <strong>}**</strong></p>
-<hr>
-<p><strong>**}</strong></p>
+<p>public class HelloHa {</p>
+<p>   public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
+<p>​      Size s = Size.<strong>S</strong>;//声明枚举类型的变量，Size类型的变量只能存储这个类型声明中给定的某个枚举值或者特殊值null,null表示这个变量没有设置任何值</p>
+<p> }</p>
+<p>}</p>
 <p>五、运算符</p>
 <p>1算数运算符，如：+，-，*，/，%（求余又称取模）</p>
 <p>整数被零除（5.0/0）会产生一个异常，而浮点数被零除会得到无穷大或NaN结果。</p>
@@ -167,30 +184,6 @@
 <p>&amp;&amp;和||运算符是按照”短路”方式求值的：若第通过一个操作数就能确定表达式的值，则不会再判断第二个操作数的值。</p>
 <p>&amp;和|不遵循短路求值</p>
 <p>三元运算符：x&lt;y?x:y//如果x&lt;y则返回x</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Happy Every Day</title>
-    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/06/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
   </entry>
 </search>
