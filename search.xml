@@ -11,90 +11,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我的第二篇博客</title>
-    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>#冲冲冲！</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一章Java程序概述（二）</title>
-    <url>/2020/06/12/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<p>四、变量和常量</p>
-<p>1变量</p>
-<p>1.1int i,j;不提倡一行声明多个变量这种风格，逐一声明每个变量可以提高程序的可读性。在Java中变量的声明尽可能靠近变量第一次使用的地方。</p>
-<p>1.2从Java10开始，如果从变量的初始值就可以推断出它的类型，就不再需要声明类型，只需要使用关键字var而无需指定类型：</p>
-<p>var i = 0;</p>
- <a id="more"></a> 
-
-<p>1.3在C和C++中，区分变量的声明和定义，如：</p>
-<p>int i;//声明</p>
-<p>int i=10;定义</p>
-<p>在Java中并不区分变量的声明和定义。</p>
-<p>2常量</p>
-<p>2.1</p>
-<p>用关键字final表示常量，如：final ABC=0;</p>
-<p>关键词final表示这个变量只能被赋值一次，一旦被赋值之后就不能再更改，习惯上常量名全部大写。</p>
-<p>2.2类常量</p>
-<p>类常量：Java中经常希望某个常量可以在一个类的多个方法中使用，可以使用static final设置一个类常量，如：</p>
-<p>public class HelloHa {</p>
-<p>  public static final int <strong>ABC</strong> = 0;</p>
-<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
-<p>}</p>
-<p>public void aaa(){</p>
-<p>}</p>
-<p>}</p>
-<p>注意：类常量的定义在类的方法的外部。因此在同一个类的其他方法里也可以使用此常量。</p>
-<p>3如果一个常量被声明为public，那么其他类的方法也可以使用这个常量。</p>
-<p>CSDN：把其他类的变量设置为public static，即静态公共变量，直接用类名.变量名获取（不可以只写变量名）。但是这个方法最好只用于基础数据变量（int/long/boolean/double/byte等），否则会造成内存泄漏。例：</p>
-<p>class Aaa {<br>  public static final int <strong>q</strong> = 0;<br>  void aaa() {</p>
-<p>}<br>}</p>
-<p>public class HelloHa {</p>
-<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {<br>   System.<strong>out</strong>.println<strong>(</strong>Aaa.<strong>q)</strong>;<br>      }</p>
-<p>}</p>
-<p>4枚举类型（详细内容在第三章介绍）</p>
-<p>enum Size <strong>{S</strong>, <strong>M</strong>, <strong>L</strong>, <strong>X}</strong>//定义枚举类型</p>
-<p>public class HelloHa {</p>
-<p>   public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
-<p>​      Size s = Size.<strong>S</strong>;//声明枚举类型的变量，Size类型的变量只能存储这个类型声明中给定的某个枚举值或者特殊值null,null表示这个变量没有设置任何值</p>
-<p> }</p>
-<p>}</p>
-<p>五、运算符</p>
-<p>1算数运算符，如：+，-，*，/，%（求余又称取模）</p>
-<p>整数被零除（5.0/0）会产生一个异常，而浮点数被零除会得到无穷大或NaN结果。</p>
-<p>若表达式a/b的商为负数，则商会向0取整；a%b的余数的定义是（a/b）*b+a%b的值恒等于a。例如：-14/3和14/-3的商都是-4，但-14%3是-2，而14%-3是2。</p>
-<p>2数值类型的转换</p>
-<p>2.1自动转换（隐式的）</p>
-<p>当用一个二元运算符连接两个值时，会先自动将两个操作数转换成同一种类型，然后再进行计算：</p>
-<p>如果两个操作数中有一个是double类型，另一个操作数就会转换成double类型。</p>
-<p>否则，如果其中一个操作数是float类型，另一个操作数就会转换成float类型。</p>
-<p>否则，如果其中一个操作数是long类型，另一个操作数就会转换成long类型。</p>
-<p>否则，如果其中一个操作数是int类型，另一个操作数就会转换成int类型。</p>
-<p>2.2强制类型转换（显式的）</p>
-<p>强制类型转换：如有时需要将double类型转换成int类型，且有可能有时会丢掉一些信息。</p>
-<p>强制类型转换的语法格式是在圆括号中给出想要转换的目标类型，后面紧跟带转换的变量名，如：</p>
-<p>double i=9.999;</p>
-<p>int j=(int)i;//j是9</p>
-<p>j的值是9，因为强制类型转换是通过截断小数点部分将浮点值转换成整型。</p>
-<p>如果想对浮点数进行舍入运算，以便得到最接近的整数（很多情况下这种操作更有用），那就需要使用Math.round方法：</p>
-<p>double i=9.999;</p>
-<p>int j=(int)Math.round(i);//j是10</p>
-<p>当调用round方法时，仍然需要使用显式的强制类型转换，因为round方法返回的结果是long类型，由于存在信息丢失的可能性，所以只有使用显式的强制类型转换才能将long类型转换成int类型。</p>
-<p>警告：如果试图将一个数值强制转换成另一种类型时，这个数值超出了目标类型的表示范围，结果就会截断成一个完全不同的值，如：</p>
-<p>(byte)300;//实际输出值为44</p>
-<p>3结合赋值和运算符</p>
-<p>在赋值中使用运算符的简写形式：x+=1;//等效于x=x+1</p>
-<p>如果右侧操作数的类型和左侧操作数的类型不同，就会发生自动的发生强制转换（运算符简写形式下，不写强制类型的语法格式也是合法的）或自动转换，如：</p>
-<p>int x = 1;<br>x += 1.5;//将double强制转换成int，先(int)(x+1.5)<br>System.<strong>out</strong>.println<strong>(</strong>x<strong>)</strong>;//输出2</p>
-<p>4自增和自减运算符</p>
-<p>i++或++i，自增和自减运算符改变的变量的值，不能作用于数值的本身，即不能：6++</p>
-<p>5关系运算符和boolean运算符</p>
-<p>&amp;&amp;和||运算符是按照”短路”方式求值的：若第通过一个操作数就能确定表达式的值，则不会再判断第二个操作数的值。</p>
-<p>&amp;和|不遵循短路求值</p>
-<p>三元运算符：x&lt;y?x:y//如果x&lt;y则返回x</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2020/06/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -110,6 +26,12 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第二篇博客</title>
+    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>#冲冲冲！</p>
 ]]></content>
   </entry>
   <entry>
@@ -178,6 +100,74 @@
 <p>1.6布尔型</p>
 <p>在Java中整型值和布尔值无法相互转换。如下情况会发生编译错误：</p>
 <p>int i = 0;<br>if (i = 0) {<br>  System.out.println(“sdfsf”);<br>}</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（七）</title>
+    <url>/2020/06/18/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%83%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<p>这是第一章的最后一篇博客啦，从明天开始进入第二章类和对象。</p>
+<a id="more"></a>
+
+<p>2在Java中允许长度为0的数组，</p>
+<p>//Java中允许有长度为0的数组，注意：长度为0的数组和null并不相同<br>int[] a = new int[0];<br>System.out.println(a.length);//输出0</p>
+<p>注意：长度为0和null并不相同。</p>
+<p>3访问数组元素</p>
+<p>创建一个数字数组时，所有元素都初始化为0；创建一个boolean数组时，元素全部初始化为false;对象数组的元素则初始化为null，，表示这些元素还未存储任何对象。</p>
+<p>int[] a = new int[3];<br>String[] b = new String[3];<br>for (int i = 0; i &lt; 3; i++) {<br>  System.out.println(a[i]);//输出0，0，0<br>  System.out.println(b[i]);//输出null，null.null<br>   }</p>
+<p>4for each循环</p>
+<p>3.1for each循环会自动遍历所有元素。这种增强得到for循环的语句格式为：</p>
+<p>for(variable:collection)statement</p>
+<p>它定义一个变量用于暂存集合中的每一个元素，并执行相应的语句（也可以是语句块）。collection这一集合表达式必须时一个数组或者是一个实现了Iterable接口的类对象（如：ArrayList）。</p>
+<p>int[] a=new int[3];<br>for(int b:a){<br>  System.out.println(b);//输出0,0,0<br>}</p>
+<p>3.2for each循环语句更加简介、更不易出错，因为你不必为下标的起始值和终止值而操心。</p>
+<p>fer each循环语句的循环变量将会遍历数组中的每个元素，而不是下标值。</p>
+<p>3.3还有一个更为简单的方式打印数组中得到所有值，即利用Arrays类的toString方法，返回一个包含数组元素的字符串，这些元素包围在中括号内，并用逗号分隔。</p>
+<p>int[] a=new int[3];<br>System.out.println(Arrays.toString(a));//输出[0, 0, 0]</p>
+<p>5数组拷贝</p>
+<p>5.1拷贝一个数组变量</p>
+<p>在Java中允许将一个数组变量拷贝到另一个数组变量，这时两个变量将引用同一个数组：</p>
+<p>//将一个数组变量拷贝到另一个数组变量</p>
+<p>int[] a={1,2,3};<br>int[] b=a;<br>for(int i=0;i&lt;3;i++) {<br>  System.out.println(b[i]);//依次输出1，2，3<br>}<br>System.out.println(a==b);//输出true,即表明两个数组变量a和b引用了同一个位置上的数组</p>
+<p>5.2</p>
+<p>如果希望将一个数组的所有值拷贝到另一个新的数组中去，就要使用Arrays类的copyOf方法：</p>
+<p>//将一个数组中的值拷贝到一个新的数组中<br>int[] a={1,2,3};<br>int[] b=Arrays.copyOf(a,a.length*2);<br>for(int i=0;i&lt;6;i++) {<br>  System.out.println(b[i]);//依次输出123000<br>}<br>System.out.println(a==b);//输出false，表明数组变量b引用的是另一个新的数组</p>
+<p>copyOf方法中的第二个参数是新数组的大小，这个方法通常用来增加数组的大小。</p>
+<p>新数组的长度大于原始数组时：如果数组元素是数值型，那么额外的元素将被赋值为0；如果数组元素为布尔型，则将数组元素赋值为false。</p>
+<p>新数组的长度小于原始数组时：则只拷贝前面的值：</p>
+<p>int<strong>[]</strong> a=<strong>{</strong>1,2,3<strong>}</strong>;<br>int<strong>[]</strong> b=Arrays.copyOf(a,2);<br>for<strong>(</strong>int i=0;i&lt;2;i++) {</p>
+<p>​    System.<strong>out</strong>.println<strong>(</strong>b<strong>[</strong>i<strong>])</strong>;//依次输出1，2<br>}</p>
+<p>6数组排序</p>
+<p>6.1要想对数值型数组进行排序，可以使用Arrays类的sort方法：</p>
+<p>int[] a={8,2,7,0};<br>Arrays.sort(a);<br>System.out.println(Arrays.toString(a));//输出[0, 2, 7, 8]</p>
+<p>这个方法使用了快速排序算法，快速排序算法对于大多数数据集合来说效率都是比较高的。</p>
+<p>6.2随机抽取</p>
+<p>Math.random方法将返回一个0到1之间（包含）不包含1）的随机浮点数，用n乘以这个浮点数，就可以得到从0到n-1之间的一个浮点数：</p>
+<p>System.out.println(Math.random());//[0,1)之间随机返回一个浮点数<br>int n = 8;<br>int r = (int) Math.random() * n;//r为在[0,n-1]中随机取一个数</p>
+<p>7多维数组</p>
+<p>7.1二维数组（或者说矩阵）</p>
+<p>简写形式：</p>
+<p><code>int[][] a = {</code><br>      <code>{1,2},</code><br>      <code>{3,4}</code><br><code>};</code><br><code>System.out.println(Arrays.deepToString(a));//输出[[1, 2], [3, 4]]</code><br><code>System.out.println(a[0][0]);//输出1</code><br><code>System.out.println(a[0][1]);//输出2</code></p>
+<p>声明数组：</p>
+<p>int[][] a;//a为数组变量，未初始化前不能使用</p>
+<p>声明并初始化：</p>
+<p><code>int [][] a=new int[3][3];</code>//此时才创建了一个数组</p>
+<p>7.2访问二维数组</p>
+<p>for each不能自动处理二维数组的每一个元素，它会循环处理行，而这些行本身就是一维数组。要想访问二维数组的所有元素，需要使用两个嵌套的for each循环：</p>
+<p>int[][] a = {<br>      {1, 2},<br>      {3, 4}<br>};<br>for (int[] b:a){<br>  for(int c:b){<br>    System.out.println(c);//依次输出1，2，3，4<br>  }<br>}</p>
+<p>7.3</p>
+<p>如果想快速得打印出一个二维数组元素列表，可以调用Arrays类的deepToString方法。</p>
+<p>int[][] a = {<br>    {1, 2},<br>    {3, 4}<br>};<br>System.out.println(Arrays.deepToString(a));//输出[[1, 2], [3, 4]]</p>
+<p>8不规则数组</p>
+<p>Java实际上没有多维数组，只有一维数组，多维数组被解释为“数组的数组”。</p>
+<p><code>int [][] a=new int[3][3]；</code></p>
+<p>int[i]表示引用第i个子数组，int[i][j]表示引用这个子数组里的第j个元素。</p>
+<p>由于可以单独的访问数组的某一行(即某个子数组)，所以可以让两行进行交换。</p>
+<p><code>int [][] a=new int[3][3];</code></p>
+<p><code>int i=1;</code></p>
+<p><code>int[] temp=a[i];</code></p>
+<p><code>a[i]=a[i+1];</code></p>
+<p><code>a[i+1]=temp;</code></p>
 ]]></content>
   </entry>
   <entry>
@@ -275,135 +265,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第二章对象与类（一）</title>
-    <url>/2020/06/19/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<hr>
-<p>今天这篇博客如果看起来很吃力的话大家评论留言一下，我会考虑再出一篇更易理解的。</p>
- <a id="more"></a> 
-
-<p>第二章、对象与类</p>
-<p>一、面向对象程序设计简称OOP。</p>
-<p>1类</p>
-<p>由类构造对象的过程称为创建类的实例。</p>
-<p>封装(有时称为数据隐藏)：就是将数据和行为组合在一个包中，并对对象的使用者隐藏具体的实现方式。</p>
-<p>对象中的数据称为实例字段。</p>
-<p>操作数据的过程称为方法。</p>
-<p>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。无论何时，只要在对象上调用一个方法，它的状态就有可能发生改变。</p>
-<p>实现封装的关键在于，绝对不能让类中的方法直接访问其他类的实例字段。程序只能通过对象的方法与对象数据进行交互。</p>
-<p>在Java中，所有的都源自一个“超类”，即Object类。</p>
-<p>通过扩展一个类（父）来建立另一个类（子）的过程的过程被称为继承。</p>
-<p>2对象</p>
-<p>对象的三个主要特性：</p>
-<p>（1）对象的行为：对象的行为是用可调用的方法来定义的。</p>
-<p>（2）对象的状态：每个对象都保存着描述当前状况的信息，这就是对象的状态。（但是对象的状态不能完全描述一个对象）</p>
-<p>（3）对象的标识：每个对象都有一个唯一的标识（或称身份），如：在一个订单处理系统中，任何两个订单都存在着不同之处，即使所订购的货物完全相同，它们也是不同的订单。注意：作为同一个类的实例，每个对象的标识符的总是不同的，状态也往往存在着差异。</p>
-<p>3类之间的关系</p>
-<p>依赖：如果一个类的方法使用或操纵另一个类的对象，我们就说一个类依赖于另一个类。</p>
-<p>应该尽可能地将相互依赖的类减至最少。因为如果类A不知道类B的存在，它就不会关心类B的任何改变（这意味着B的改变不会导致A产生任何bug），用软件工程的术语说，就是尽可能减少类之间的耦合。</p>
-<p>聚合（包容）：类A的对象包含类B的对象。</p>
-<p>还有关联关系等。</p>
-<p>继承：表示一个更特殊类与一个更一般的类之间的关系。如果类A扩展类B，类A不但包含从类B继承的方法等，还会有一些额外的功能。</p>
-<p>很多采用UML（统一建模语言）绘制类图，用来描述类之间的关系。</p>
-<p>二、使用预定义类</p>
-<p>并不是所有的类都表现出面向对象的典型特征。例如，Math类。可以直接使用Math类的方法，如Math.random,而不必了解它具体是如何实现的，你只需要知道方法名和参数(如果有的话）。这正是封装的关键所在，当然所有类都是这样。 但Math类只封装了功能，它也不必隐藏数据。由于没有数招，因此也不必专虑创建对象和初始化它们的实例字段，因为根本没有实例字段。</p>
-<p>1对象与对象变量</p>
-<p>在Java中要使用构造器（或称构造函数）构造新实例，构造器是一种特殊的方法，用来构造并初始化对象。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一章Java程序概述（四）</title>
-    <url>/2020/06/14/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
-    <content><![CDATA[<p>字符串池：可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆），存放在池子里的这些字符串可以被多个引用变量共享。</p>
-<a id="more"></a>
-
-<p>5检测字符串是否相等</p>
-<p>5.1equals方法：只检测的是字符串字面量即字符串的内容是否相等。</p>
-<p>//全部输出true<br>String a = “He”;<br>String b = “He”;<br>//字符串字面量是指双引号引住的一系列字符，双引号中可以没有字符，可以只有一个字符，也可以有很多个字符。<br>System.out.println(a.equals(b));//equals方法两侧可以是字符串变量如：a，也可以是字符串字面量如：He<br>System.out.println(a.equals(“He”));<br>System.out.println(“He”.equals(b));</p>
-<p>5.2equalsIgnoreCase方法：在不区分字符串大小写情况下，只检测字符串字面量即字符串的内容是否相等。</p>
-<p>equalsIgnoreCase方法两侧可以是字符串变量也可以是字符串字面量<br> System.out.println(“Hello”.equalsIgnoreCase(“hello”));//输出true<br> String a = “He”;<br> String b = “He”;<br> System.out.println(a.equalsIgnoreCase(b));//输出true</p>
-<p>5.3==：一定不要使用==运算符检测两个字符串是否相等，只检测的是字符串字面量存储的位置是否相同，并不检测字符串字面量即内容是否相同。</p>
-<p>用subtring方法操作的字符串并不会被共享。</p>
-<p>//==比较的是字符串的存储位置<br> String greeting = “Hello”;<br> System.out.println(greeting == “Hello”);//这里字符串字面量Hello是共享的（即只有一个字符串字面量Hello）,输出true<br> System.out.println(greeting.substring(0, 3) == “Hel”);//控制台输出false，创建了两个相同的字符串字面量Hel，即两个字符串内容相同但存储位置不同，这里字符串字面量Hel是不共享的<br> String c = “a” + “b”;<br> String d=”ab”;<br> System.out.println(c == d);//控制台输出true,用+创建的字符串字面量可以共享</p>
-<p>5.4compareTo方法：只检测的是字符串字面量即字符串的内容是否相等，若相等则输出0，不相等则输出1。</p>
-<p>String greeting = “Hello”;<br>String a = greeting.substring(0, 3);//Hel不共享<br>System.out.println(a == “Hel”);//在这里又创建了新的字符串字面量Hel，输出false,即两个字符串字面量相同但存储位置不同，==比较的是存储位置<br>System.out.println(a.compareTo(“Hel”));//输出0，compareTo方法：如果两个字符串相等则输出0否则输出1，比较的是两个字符串字面量即内容是否相同（不比较存储位置）<br>System.out.println(a.equals(“Hel”));//控制台输出true,equals方法比较的是字符串字面量即内容<br>System.out.println(a.equalsIgnoreCase(“Hel”));//控制台输出true，equalsIgnoreCase方法比较的是字符串字面量即内容</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Happy Every Day</title>
-    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一章Java程序概述（七）</title>
-    <url>/2020/06/18/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%83%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<p>这是第一章的最后一篇博客啦，从明天开始进入第二章类和对象。</p>
-<a id="more"></a>
-
-<p>2在Java中允许长度为0的数组，</p>
-<p>//Java中允许有长度为0的数组，注意：长度为0的数组和null并不相同<br>int[] a = new int[0];<br>System.out.println(a.length);//输出0</p>
-<p>注意：长度为0和null并不相同。</p>
-<p>3访问数组元素</p>
-<p>创建一个数字数组时，所有元素都初始化为0；创建一个boolean数组时，元素全部初始化为false;对象数组的元素则初始化为null，，表示这些元素还未存储任何对象。</p>
-<p>int[] a = new int[3];<br>String[] b = new String[3];<br>for (int i = 0; i &lt; 3; i++) {<br>  System.out.println(a[i]);//输出0，0，0<br>  System.out.println(b[i]);//输出null，null.null<br>   }</p>
-<p>4for each循环</p>
-<p>3.1for each循环会自动遍历所有元素。这种增强得到for循环的语句格式为：</p>
-<p>for(variable:collection)statement</p>
-<p>它定义一个变量用于暂存集合中的每一个元素，并执行相应的语句（也可以是语句块）。collection这一集合表达式必须时一个数组或者是一个实现了Iterable接口的类对象（如：ArrayList）。</p>
-<p>int[] a=new int[3];<br>for(int b:a){<br>  System.out.println(b);//输出0,0,0<br>}</p>
-<p>3.2for each循环语句更加简介、更不易出错，因为你不必为下标的起始值和终止值而操心。</p>
-<p>fer each循环语句的循环变量将会遍历数组中的每个元素，而不是下标值。</p>
-<p>3.3还有一个更为简单的方式打印数组中得到所有值，即利用Arrays类的toString方法，返回一个包含数组元素的字符串，这些元素包围在中括号内，并用逗号分隔。</p>
-<p>int[] a=new int[3];<br>System.out.println(Arrays.toString(a));//输出[0, 0, 0]</p>
-<p>5数组拷贝</p>
-<p>5.1拷贝一个数组变量</p>
-<p>在Java中允许将一个数组变量拷贝到另一个数组变量，这时两个变量将引用同一个数组：</p>
-<p>//将一个数组变量拷贝到另一个数组变量</p>
-<p>int[] a={1,2,3};<br>int[] b=a;<br>for(int i=0;i&lt;3;i++) {<br>  System.out.println(b[i]);//依次输出1，2，3<br>}<br>System.out.println(a==b);//输出true,即表明两个数组变量a和b引用了同一个位置上的数组</p>
-<p>5.2</p>
-<p>如果希望将一个数组的所有值拷贝到另一个新的数组中去，就要使用Arrays类的copyOf方法：</p>
-<p>//将一个数组中的值拷贝到一个新的数组中<br>int[] a={1,2,3};<br>int[] b=Arrays.copyOf(a,a.length*2);<br>for(int i=0;i&lt;6;i++) {<br>  System.out.println(b[i]);//依次输出123000<br>}<br>System.out.println(a==b);//输出false，表明数组变量b引用的是另一个新的数组</p>
-<p>copyOf方法中的第二个参数是新数组的大小，这个方法通常用来增加数组的大小。</p>
-<p>新数组的长度大于原始数组时：如果数组元素是数值型，那么额外的元素将被赋值为0；如果数组元素为布尔型，则将数组元素赋值为false。</p>
-<p>新数组的长度小于原始数组时：则只拷贝前面的值：</p>
-<p>int<strong>[]</strong> a=<strong>{</strong>1,2,3<strong>}</strong>;<br>int<strong>[]</strong> b=Arrays.copyOf(a,2);<br>for<strong>(</strong>int i=0;i&lt;2;i++) {</p>
-<p>​    System.<strong>out</strong>.println<strong>(</strong>b<strong>[</strong>i<strong>])</strong>;//依次输出1，2<br>}</p>
-<p>6数组排序</p>
-<p>6.1要想对数值型数组进行排序，可以使用Arrays类的sort方法：</p>
-<p>int[] a={8,2,7,0};<br>Arrays.sort(a);<br>System.out.println(Arrays.toString(a));//输出[0, 2, 7, 8]</p>
-<p>这个方法使用了快速排序算法，快速排序算法对于大多数数据集合来说效率都是比较高的。</p>
-<p>6.2随机抽取</p>
-<p>Math.random方法将返回一个0到1之间（包含）不包含1）的随机浮点数，用n乘以这个浮点数，就可以得到从0到n-1之间的一个浮点数：</p>
-<p>System.out.println(Math.random());//[0,1)之间随机返回一个浮点数<br>int n = 8;<br>int r = (int) Math.random() * n;//r为在[0,n-1]中随机取一个数</p>
-<p>7多维数组</p>
-<p>7.1二维数组（或者说矩阵）</p>
-<p>简写形式：</p>
-<p><code>int[][] a = {</code><br>      <code>{1,2},</code><br>      <code>{3,4}</code><br><code>};</code><br><code>System.out.println(Arrays.deepToString(a));//输出[[1, 2], [3, 4]]</code><br><code>System.out.println(a[0][0]);//输出1</code><br><code>System.out.println(a[0][1]);//输出2</code></p>
-<p>声明数组：</p>
-<p>int[][] a;//a为数组变量，未初始化前不能使用</p>
-<p>声明并初始化：</p>
-<p><code>int [][] a=new int[3][3];</code>//此时才创建了一个数组</p>
-<p>7.2访问二维数组</p>
-<p>for each不能自动处理二维数组的每一个元素，它会循环处理行，而这些行本身就是一维数组。要想访问二维数组的所有元素，需要使用两个嵌套的for each循环：</p>
-<p>int[][] a = {<br>      {1, 2},<br>      {3, 4}<br>};<br>for (int[] b:a){<br>  for(int c:b){<br>    System.out.println(c);//依次输出1，2，3，4<br>  }<br>}</p>
-<p>7.3</p>
-<p>如果想快速得打印出一个二维数组元素列表，可以调用Arrays类的deepToString方法。</p>
-<p>int[][] a = {<br>    {1, 2},<br>    {3, 4}<br>};<br>System.out.println(Arrays.deepToString(a));//输出[[1, 2], [3, 4]]</p>
-<p>8不规则数组</p>
-<p>Java实际上没有多维数组，只有一维数组，多维数组被解释为“数组的数组”。</p>
-<p><code>int [][] a=new int[3][3]；</code></p>
-<p>int[i]表示引用第i个子数组，int[i][j]表示引用这个子数组里的第j个元素。</p>
-<p>由于可以单独的访问数组的某一行(即某个子数组)，所以可以让两行进行交换。</p>
-<p><code>int [][] a=new int[3][3];</code></p>
-<p><code>int i=1;</code></p>
-<p><code>int[] temp=a[i];</code></p>
-<p><code>a[i]=a[i+1];</code></p>
-<p><code>a[i+1]=temp;</code></p>
-]]></content>
-  </entry>
-  <entry>
     <title>第一章java程序概述（六）</title>
     <url>/2020/06/17/%E7%AC%AC%E4%B8%80%E7%AB%A0java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%85%AD%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -494,6 +355,176 @@
 <p>简写形式：int[] a={1,2,3,}//最后一个数后面可以加逗号</p>
 <p>int[] a=new int[4];//编译成功<br>a=new int[5];//编译成功<br>int[] b={1,2,3,4};<br>b={1,2};//编译出错，因为一旦创建了数组就不能改变它的长度</p>
 <p>一旦创建了数组就不能再改变它的长度。如果程序运行时常常需要扩展数组的大小，就应该使用另一种数据结构：数组列表（array listt）</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第二章对象与类（二）</title>
+    <url>/2020/06/20/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<p>今天考试，更新的比较少。</p>
+<a id="more"></a> 
+
+<p>1.2在Java标准库里有一个Date类，它可以实时描述现在的时间点。</p>
+<p>构造器的名字应该与类名相同，构造对象时在前面加new操作符：</p>
+<p>new Date<strong>()</strong>;</p>
+<p>如果需要的话，也可以将这个对象传递给一个方法：</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>new Date<strong>())</strong>;//输出Sat Jun 20 21:43:37 CST 2020</p>
+<p>或者，也可以对刚刚创建的对象应用一个方法，Date类中有一个toString方法，可以将返回的日期以字符串描述：</p>
+<p>String s = new Date<strong>()</strong>.toString<strong>()</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>s<strong>)</strong>;//Sat Jun 20 21:47:52 CST 2020</p>
+<p>1.3对象变量不是对象。</p>
+<p>定义（声明）一个对象变量：</p>
+<p>Date deadline;</p>
+<p>此时还没有引用任何对象，还不能在这个变量上使用任何Date类的方法。即String s=deadline.toString()是无法编译成功的。</p>
+<p>1.4初始化对象变量</p>
+<p>Date deadline=new Date();//deadline引用了一个新构造的对象</p>
+<p>或者两个变量引用同一个对象：</p>
+<p>Date date1= new Date<strong>()</strong>;<br>Date date2=date1;<br>System.<strong>out</strong>.println<strong>(</strong>date1==date2<strong>)</strong>;//输出true,两个变量引用同一位置的对象</p>
+<p>1.5对象变量只是引用一个对象，并不是包含对象。任何对象变量的值都是对存储在另一个地方的某个对象的引用。</p>
+<p>1.6new操作符的返回值也是一个引用。</p>
+<p>Date deadline=new Date()</p>
+<p>new Date()构造了一个Date类型的对象，它的值是对新创建对象的一个引用，这个引用存储在对象变量deadline中。</p>
+<p>1.6可以将对象变量设置为null,即这个对象变量目前没有存储任何对象。</p>
+<p>1.7所有的额Java对象都存储在堆中。</p>
+<p>当一个对象包含另一个对象变量时，它只是包含着另一个堆对象的指针（或者说这个对象只包含着对另一个堆对象的引用）。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（二）</title>
+    <url>/2020/06/12/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<p>四、变量和常量</p>
+<p>1变量</p>
+<p>1.1int i,j;不提倡一行声明多个变量这种风格，逐一声明每个变量可以提高程序的可读性。在Java中变量的声明尽可能靠近变量第一次使用的地方。</p>
+<p>1.2从Java10开始，如果从变量的初始值就可以推断出它的类型，就不再需要声明类型，只需要使用关键字var而无需指定类型：</p>
+<p>var i = 0;</p>
+ <a id="more"></a> 
+
+<p>1.3在C和C++中，区分变量的声明和定义，如：</p>
+<p>int i;//声明</p>
+<p>int i=10;定义</p>
+<p>在Java中并不区分变量的声明和定义。</p>
+<p>2常量</p>
+<p>2.1</p>
+<p>用关键字final表示常量，如：final ABC=0;</p>
+<p>关键词final表示这个变量只能被赋值一次，一旦被赋值之后就不能再更改，习惯上常量名全部大写。</p>
+<p>2.2类常量</p>
+<p>类常量：Java中经常希望某个常量可以在一个类的多个方法中使用，可以使用static final设置一个类常量，如：</p>
+<p>public class HelloHa {</p>
+<p>  public static final int <strong>ABC</strong> = 0;</p>
+<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
+<p>}</p>
+<p>public void aaa(){</p>
+<p>}</p>
+<p>}</p>
+<p>注意：类常量的定义在类的方法的外部。因此在同一个类的其他方法里也可以使用此常量。</p>
+<p>3如果一个常量被声明为public，那么其他类的方法也可以使用这个常量。</p>
+<p>CSDN：把其他类的变量设置为public static，即静态公共变量，直接用类名.变量名获取（不可以只写变量名）。但是这个方法最好只用于基础数据变量（int/long/boolean/double/byte等），否则会造成内存泄漏。例：</p>
+<p>class Aaa {<br>  public static final int <strong>q</strong> = 0;<br>  void aaa() {</p>
+<p>}<br>}</p>
+<p>public class HelloHa {</p>
+<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {<br>   System.<strong>out</strong>.println<strong>(</strong>Aaa.<strong>q)</strong>;<br>      }</p>
+<p>}</p>
+<p>4枚举类型（详细内容在第三章介绍）</p>
+<p>enum Size <strong>{S</strong>, <strong>M</strong>, <strong>L</strong>, <strong>X}</strong>//定义枚举类型</p>
+<p>public class HelloHa {</p>
+<p>   public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
+<p>​      Size s = Size.<strong>S</strong>;//声明枚举类型的变量，Size类型的变量只能存储这个类型声明中给定的某个枚举值或者特殊值null,null表示这个变量没有设置任何值</p>
+<p> }</p>
+<p>}</p>
+<p>五、运算符</p>
+<p>1算数运算符，如：+，-，*，/，%（求余又称取模）</p>
+<p>整数被零除（5.0/0）会产生一个异常，而浮点数被零除会得到无穷大或NaN结果。</p>
+<p>若表达式a/b的商为负数，则商会向0取整；a%b的余数的定义是（a/b）*b+a%b的值恒等于a。例如：-14/3和14/-3的商都是-4，但-14%3是-2，而14%-3是2。</p>
+<p>2数值类型的转换</p>
+<p>2.1自动转换（隐式的）</p>
+<p>当用一个二元运算符连接两个值时，会先自动将两个操作数转换成同一种类型，然后再进行计算：</p>
+<p>如果两个操作数中有一个是double类型，另一个操作数就会转换成double类型。</p>
+<p>否则，如果其中一个操作数是float类型，另一个操作数就会转换成float类型。</p>
+<p>否则，如果其中一个操作数是long类型，另一个操作数就会转换成long类型。</p>
+<p>否则，如果其中一个操作数是int类型，另一个操作数就会转换成int类型。</p>
+<p>2.2强制类型转换（显式的）</p>
+<p>强制类型转换：如有时需要将double类型转换成int类型，且有可能有时会丢掉一些信息。</p>
+<p>强制类型转换的语法格式是在圆括号中给出想要转换的目标类型，后面紧跟带转换的变量名，如：</p>
+<p>double i=9.999;</p>
+<p>int j=(int)i;//j是9</p>
+<p>j的值是9，因为强制类型转换是通过截断小数点部分将浮点值转换成整型。</p>
+<p>如果想对浮点数进行舍入运算，以便得到最接近的整数（很多情况下这种操作更有用），那就需要使用Math.round方法：</p>
+<p>double i=9.999;</p>
+<p>int j=(int)Math.round(i);//j是10</p>
+<p>当调用round方法时，仍然需要使用显式的强制类型转换，因为round方法返回的结果是long类型，由于存在信息丢失的可能性，所以只有使用显式的强制类型转换才能将long类型转换成int类型。</p>
+<p>警告：如果试图将一个数值强制转换成另一种类型时，这个数值超出了目标类型的表示范围，结果就会截断成一个完全不同的值，如：</p>
+<p>(byte)300;//实际输出值为44</p>
+<p>3结合赋值和运算符</p>
+<p>在赋值中使用运算符的简写形式：x+=1;//等效于x=x+1</p>
+<p>如果右侧操作数的类型和左侧操作数的类型不同，就会发生自动的发生强制转换（运算符简写形式下，不写强制类型的语法格式也是合法的）或自动转换，如：</p>
+<p>int x = 1;<br>x += 1.5;//将double强制转换成int，先(int)(x+1.5)<br>System.<strong>out</strong>.println<strong>(</strong>x<strong>)</strong>;//输出2</p>
+<p>4自增和自减运算符</p>
+<p>i++或++i，自增和自减运算符改变的变量的值，不能作用于数值的本身，即不能：6++</p>
+<p>5关系运算符和boolean运算符</p>
+<p>&amp;&amp;和||运算符是按照”短路”方式求值的：若第通过一个操作数就能确定表达式的值，则不会再判断第二个操作数的值。</p>
+<p>&amp;和|不遵循短路求值</p>
+<p>三元运算符：x&lt;y?x:y//如果x&lt;y则返回x</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Happy Every Day</title>
+    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第二章对象与类（一）</title>
+    <url>/2020/06/19/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<hr>
+<p>今天这篇博客如果看起来很吃力的话大家评论留言一下，我会考虑再出一篇更易理解的。</p>
+ <a id="more"></a> 
+
+<p>第二章、对象与类</p>
+<p>一、面向对象程序设计简称OOP。</p>
+<p>1类</p>
+<p>由类构造对象的过程称为创建类的实例。</p>
+<p>封装(有时称为数据隐藏)：就是将数据和行为组合在一个包中，并对对象的使用者隐藏具体的实现方式。</p>
+<p>对象中的数据称为实例字段。</p>
+<p>操作数据的过程称为方法。</p>
+<p>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。无论何时，只要在对象上调用一个方法，它的状态就有可能发生改变。</p>
+<p>实现封装的关键在于，绝对不能让类中的方法直接访问其他类的实例字段。程序只能通过对象的方法与对象数据进行交互。</p>
+<p>在Java中，所有的都源自一个“超类”，即Object类。</p>
+<p>通过扩展一个类（父）来建立另一个类（子）的过程的过程被称为继承。</p>
+<p>2对象</p>
+<p>对象的三个主要特性：</p>
+<p>（1）对象的行为：对象的行为是用可调用的方法来定义的。</p>
+<p>（2）对象的状态：每个对象都保存着描述当前状况的信息，这就是对象的状态。（但是对象的状态不能完全描述一个对象）</p>
+<p>（3）对象的标识：每个对象都有一个唯一的标识（或称身份），如：在一个订单处理系统中，任何两个订单都存在着不同之处，即使所订购的货物完全相同，它们也是不同的订单。注意：作为同一个类的实例，每个对象的标识符的总是不同的，状态也往往存在着差异。</p>
+<p>3类之间的关系</p>
+<p>依赖：如果一个类的方法使用或操纵另一个类的对象，我们就说一个类依赖于另一个类。</p>
+<p>应该尽可能地将相互依赖的类减至最少。因为如果类A不知道类B的存在，它就不会关心类B的任何改变（这意味着B的改变不会导致A产生任何bug），用软件工程的术语说，就是尽可能减少类之间的耦合。</p>
+<p>聚合（包容）：类A的对象包含类B的对象。</p>
+<p>还有关联关系等。</p>
+<p>继承：表示一个更特殊类与一个更一般的类之间的关系。如果类A扩展类B，类A不但包含从类B继承的方法等，还会有一些额外的功能。</p>
+<p>很多采用UML（统一建模语言）绘制类图，用来描述类之间的关系。</p>
+<p>二、使用预定义类</p>
+<p>并不是所有的类都表现出面向对象的典型特征。例如，Math类。可以直接使用Math类的方法，如Math.random,而不必了解它具体是如何实现的，你只需要知道方法名和参数(如果有的话）。这正是封装的关键所在，当然所有类都是这样。 但Math类只封装了功能，它也不必隐藏数据。由于没有数招，因此也不必专虑创建对象和初始化它们的实例字段，因为根本没有实例字段。</p>
+<p>1对象与对象变量</p>
+<p>在Java中要使用构造器（或称构造函数）构造新实例，构造器是一种特殊的方法，用来构造并初始化对象。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（四）</title>
+    <url>/2020/06/14/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
+    <content><![CDATA[<p>字符串池：可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆），存放在池子里的这些字符串可以被多个引用变量共享。</p>
+<a id="more"></a>
+
+<p>5检测字符串是否相等</p>
+<p>5.1equals方法：只检测的是字符串字面量即字符串的内容是否相等。</p>
+<p>//全部输出true<br>String a = “He”;<br>String b = “He”;<br>//字符串字面量是指双引号引住的一系列字符，双引号中可以没有字符，可以只有一个字符，也可以有很多个字符。<br>System.out.println(a.equals(b));//equals方法两侧可以是字符串变量如：a，也可以是字符串字面量如：He<br>System.out.println(a.equals(“He”));<br>System.out.println(“He”.equals(b));</p>
+<p>5.2equalsIgnoreCase方法：在不区分字符串大小写情况下，只检测字符串字面量即字符串的内容是否相等。</p>
+<p>equalsIgnoreCase方法两侧可以是字符串变量也可以是字符串字面量<br> System.out.println(“Hello”.equalsIgnoreCase(“hello”));//输出true<br> String a = “He”;<br> String b = “He”;<br> System.out.println(a.equalsIgnoreCase(b));//输出true</p>
+<p>5.3==：一定不要使用==运算符检测两个字符串是否相等，只检测的是字符串字面量存储的位置是否相同，并不检测字符串字面量即内容是否相同。</p>
+<p>用subtring方法操作的字符串并不会被共享。</p>
+<p>//==比较的是字符串的存储位置<br> String greeting = “Hello”;<br> System.out.println(greeting == “Hello”);//这里字符串字面量Hello是共享的（即只有一个字符串字面量Hello）,输出true<br> System.out.println(greeting.substring(0, 3) == “Hel”);//控制台输出false，创建了两个相同的字符串字面量Hel，即两个字符串内容相同但存储位置不同，这里字符串字面量Hel是不共享的<br> String c = “a” + “b”;<br> String d=”ab”;<br> System.out.println(c == d);//控制台输出true,用+创建的字符串字面量可以共享</p>
+<p>5.4compareTo方法：只检测的是字符串字面量即字符串的内容是否相等，若相等则输出0，不相等则输出1。</p>
+<p>String greeting = “Hello”;<br>String a = greeting.substring(0, 3);//Hel不共享<br>System.out.println(a == “Hel”);//在这里又创建了新的字符串字面量Hel，输出false,即两个字符串字面量相同但存储位置不同，==比较的是存储位置<br>System.out.println(a.compareTo(“Hel”));//输出0，compareTo方法：如果两个字符串相等则输出0否则输出1，比较的是两个字符串字面量即内容是否相同（不比较存储位置）<br>System.out.println(a.equals(“Hel”));//控制台输出true,equals方法比较的是字符串字面量即内容<br>System.out.println(a.equalsIgnoreCase(“Hel”));//控制台输出true，equalsIgnoreCase方法比较的是字符串字面量即内容</p>
 ]]></content>
   </entry>
 </search>
