@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>“我的第一篇博客”</title>
-    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
-    <content><![CDATA[<hr>
-<p>这还行来</p>
- <a id="more"></a> 
-
-<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2020/06/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -26,6 +16,16 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>“我的第一篇博客”</title>
+    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
+    <content><![CDATA[<hr>
+<p>这还行来</p>
+ <a id="more"></a> 
+
+<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
 ]]></content>
   </entry>
   <entry>
@@ -217,6 +217,102 @@
 ]]></content>
   </entry>
   <entry>
+    <title>第一章Java程序概述（二）</title>
+    <url>/2020/06/12/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<p>四、变量和常量</p>
+<p>1变量</p>
+<p>1.1int i,j;不提倡一行声明多个变量这种风格，逐一声明每个变量可以提高程序的可读性。在Java中变量的声明尽可能靠近变量第一次使用的地方。</p>
+<p>1.2从Java10开始，如果从变量的初始值就可以推断出它的类型，就不再需要声明类型，只需要使用关键字var而无需指定类型：</p>
+<p>var i = 0;</p>
+ <a id="more"></a> 
+
+<p>1.3在C和C++中，区分变量的声明和定义，如：</p>
+<p>int i;//声明</p>
+<p>int i=10;定义</p>
+<p>在Java中并不区分变量的声明和定义。</p>
+<p>2常量</p>
+<p>2.1</p>
+<p>用关键字final表示常量，如：final ABC=0;</p>
+<p>关键词final表示这个变量只能被赋值一次，一旦被赋值之后就不能再更改，习惯上常量名全部大写。</p>
+<p>2.2类常量</p>
+<p>类常量：Java中经常希望某个常量可以在一个类的多个方法中使用，可以使用static final设置一个类常量，如：</p>
+<p>public class HelloHa {</p>
+<p>  public static final int <strong>ABC</strong> = 0;</p>
+<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
+<p>}</p>
+<p>public void aaa(){</p>
+<p>}</p>
+<p>}</p>
+<p>注意：类常量的定义在类的方法的外部。因此在同一个类的其他方法里也可以使用此常量。</p>
+<p>3如果一个常量被声明为public，那么其他类的方法也可以使用这个常量。</p>
+<p>CSDN：把其他类的变量设置为public static，即静态公共变量，直接用类名.变量名获取（不可以只写变量名）。但是这个方法最好只用于基础数据变量（int/long/boolean/double/byte等），否则会造成内存泄漏。例：</p>
+<p>class Aaa {<br>  public static final int <strong>q</strong> = 0;<br>  void aaa() {</p>
+<p>}<br>}</p>
+<p>public class HelloHa {</p>
+<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {<br>   System.<strong>out</strong>.println<strong>(</strong>Aaa.<strong>q)</strong>;<br>      }</p>
+<p>}</p>
+<p>4枚举类型（详细内容在第三章介绍）</p>
+<p>enum Size <strong>{S</strong>, <strong>M</strong>, <strong>L</strong>, <strong>X}</strong>//定义枚举类型</p>
+<p>public class HelloHa {</p>
+<p>   public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
+<p>​      Size s = Size.<strong>S</strong>;//声明枚举类型的变量，Size类型的变量只能存储这个类型声明中给定的某个枚举值或者特殊值null,null表示这个变量没有设置任何值</p>
+<p> }</p>
+<p>}</p>
+<p>五、运算符</p>
+<p>1算数运算符，如：+，-，*，/，%（求余又称取模）</p>
+<p>整数被零除（5.0/0）会产生一个异常，而浮点数被零除会得到无穷大或NaN结果。</p>
+<p>若表达式a/b的商为负数，则商会向0取整；a%b的余数的定义是（a/b）*b+a%b的值恒等于a。例如：-14/3和14/-3的商都是-4，但-14%3是-2，而14%-3是2。</p>
+<p>2数值类型的转换</p>
+<p>2.1自动转换（隐式的）</p>
+<p>当用一个二元运算符连接两个值时，会先自动将两个操作数转换成同一种类型，然后再进行计算：</p>
+<p>如果两个操作数中有一个是double类型，另一个操作数就会转换成double类型。</p>
+<p>否则，如果其中一个操作数是float类型，另一个操作数就会转换成float类型。</p>
+<p>否则，如果其中一个操作数是long类型，另一个操作数就会转换成long类型。</p>
+<p>否则，如果其中一个操作数是int类型，另一个操作数就会转换成int类型。</p>
+<p>2.2强制类型转换（显式的）</p>
+<p>强制类型转换：如有时需要将double类型转换成int类型，且有可能有时会丢掉一些信息。</p>
+<p>强制类型转换的语法格式是在圆括号中给出想要转换的目标类型，后面紧跟带转换的变量名，如：</p>
+<p>double i=9.999;</p>
+<p>int j=(int)i;//j是9</p>
+<p>j的值是9，因为强制类型转换是通过截断小数点部分将浮点值转换成整型。</p>
+<p>如果想对浮点数进行舍入运算，以便得到最接近的整数（很多情况下这种操作更有用），那就需要使用Math.round方法：</p>
+<p>double i=9.999;</p>
+<p>int j=(int)Math.round(i);//j是10</p>
+<p>当调用round方法时，仍然需要使用显式的强制类型转换，因为round方法返回的结果是long类型，由于存在信息丢失的可能性，所以只有使用显式的强制类型转换才能将long类型转换成int类型。</p>
+<p>警告：如果试图将一个数值强制转换成另一种类型时，这个数值超出了目标类型的表示范围，结果就会截断成一个完全不同的值，如：</p>
+<p>(byte)300;//实际输出值为44</p>
+<p>3结合赋值和运算符</p>
+<p>在赋值中使用运算符的简写形式：x+=1;//等效于x=x+1</p>
+<p>如果右侧操作数的类型和左侧操作数的类型不同，就会发生自动的发生强制转换（运算符简写形式下，不写强制类型的语法格式也是合法的）或自动转换，如：</p>
+<p>int x = 1;<br>x += 1.5;//将double强制转换成int，先(int)(x+1.5)<br>System.<strong>out</strong>.println<strong>(</strong>x<strong>)</strong>;//输出2</p>
+<p>4自增和自减运算符</p>
+<p>i++或++i，自增和自减运算符改变的变量的值，不能作用于数值的本身，即不能：6++</p>
+<p>5关系运算符和boolean运算符</p>
+<p>&amp;&amp;和||运算符是按照”短路”方式求值的：若第通过一个操作数就能确定表达式的值，则不会再判断第二个操作数的值。</p>
+<p>&amp;和|不遵循短路求值</p>
+<p>三元运算符：x&lt;y?x:y//如果x&lt;y则返回x</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（四）</title>
+    <url>/2020/06/14/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
+    <content><![CDATA[<p>字符串池：可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆），存放在池子里的这些字符串可以被多个引用变量共享。</p>
+<a id="more"></a>
+
+<p>5检测字符串是否相等</p>
+<p>5.1equals方法：只检测的是字符串字面量即字符串的内容是否相等。</p>
+<p>//全部输出true<br>String a = “He”;<br>String b = “He”;<br>//字符串字面量是指双引号引住的一系列字符，双引号中可以没有字符，可以只有一个字符，也可以有很多个字符。<br>System.out.println(a.equals(b));//equals方法两侧可以是字符串变量如：a，也可以是字符串字面量如：He<br>System.out.println(a.equals(“He”));<br>System.out.println(“He”.equals(b));</p>
+<p>5.2equalsIgnoreCase方法：在不区分字符串大小写情况下，只检测字符串字面量即字符串的内容是否相等。</p>
+<p>equalsIgnoreCase方法两侧可以是字符串变量也可以是字符串字面量<br> System.out.println(“Hello”.equalsIgnoreCase(“hello”));//输出true<br> String a = “He”;<br> String b = “He”;<br> System.out.println(a.equalsIgnoreCase(b));//输出true</p>
+<p>5.3==：一定不要使用==运算符检测两个字符串是否相等，只检测的是字符串字面量存储的位置是否相同，并不检测字符串字面量即内容是否相同。</p>
+<p>用subtring方法操作的字符串并不会被共享。</p>
+<p>//==比较的是字符串的存储位置<br> String greeting = “Hello”;<br> System.out.println(greeting == “Hello”);//这里字符串字面量Hello是共享的（即只有一个字符串字面量Hello）,输出true<br> System.out.println(greeting.substring(0, 3) == “Hel”);//控制台输出false，创建了两个相同的字符串字面量Hel，即两个字符串内容相同但存储位置不同，这里字符串字面量Hel是不共享的<br> String c = “a” + “b”;<br> String d=”ab”;<br> System.out.println(c == d);//控制台输出true,用+创建的字符串字面量可以共享</p>
+<p>5.4compareTo方法：只检测的是字符串字面量即字符串的内容是否相等，若相等则输出0，不相等则输出1。</p>
+<p>String greeting = “Hello”;<br>String a = greeting.substring(0, 3);//Hel不共享<br>System.out.println(a == “Hel”);//在这里又创建了新的字符串字面量Hel，输出false,即两个字符串字面量相同但存储位置不同，==比较的是存储位置<br>System.out.println(a.compareTo(“Hel”));//输出0，compareTo方法：如果两个字符串相等则输出0否则输出1，比较的是两个字符串字面量即内容是否相同（不比较存储位置）<br>System.out.println(a.equals(“Hel”));//控制台输出true,equals方法比较的是字符串字面量即内容<br>System.out.println(a.equalsIgnoreCase(“Hel”));//控制台输出true，equalsIgnoreCase方法比较的是字符串字面量即内容</p>
+]]></content>
+  </entry>
+  <entry>
     <title>第一章Java程序概述（五）</title>
     <url>/2020/06/15/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%94%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -358,121 +454,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第二章对象与类（二）</title>
-    <url>/2020/06/20/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<p>今天考试，更新的比较少。</p>
-<a id="more"></a> 
-
-<p>1.2在Java标准库里有一个Date类，它可以实时描述现在的时间点。</p>
-<p>构造器的名字应该与类名相同，构造对象时在前面加new操作符：</p>
-<p>new Date<strong>()</strong>;</p>
-<p>如果需要的话，也可以将这个对象传递给一个方法：</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>new Date<strong>())</strong>;//输出Sat Jun 20 21:43:37 CST 2020</p>
-<p>或者，也可以对刚刚创建的对象应用一个方法，Date类中有一个toString方法，可以将返回的日期以字符串描述：</p>
-<p>String s = new Date<strong>()</strong>.toString<strong>()</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>s<strong>)</strong>;//Sat Jun 20 21:47:52 CST 2020</p>
-<p>1.3对象变量不是对象。</p>
-<p>定义（声明）一个对象变量：</p>
-<p>Date deadline;</p>
-<p>此时还没有引用任何对象，还不能在这个变量上使用任何Date类的方法。即String s=deadline.toString()是无法编译成功的。</p>
-<p>1.4初始化对象变量</p>
-<p>Date deadline=new Date();//deadline引用了一个新构造的对象</p>
-<p>或者两个变量引用同一个对象：</p>
-<p>Date date1= new Date<strong>()</strong>;<br>Date date2=date1;<br>System.<strong>out</strong>.println<strong>(</strong>date1==date2<strong>)</strong>;//输出true,两个变量引用同一位置的对象</p>
-<p>1.5对象变量只是引用一个对象，并不是包含对象。任何对象变量的值都是对存储在另一个地方的某个对象的引用。</p>
-<p>1.6new操作符的返回值也是一个引用。</p>
-<p>Date deadline=new Date()</p>
-<p>new Date()构造了一个Date类型的对象，它的值是对新创建对象的一个引用，这个引用存储在对象变量deadline中。</p>
-<p>1.6可以将对象变量设置为null,即这个对象变量目前没有存储任何对象。</p>
-<p>1.7所有的额Java对象都存储在堆中。</p>
-<p>当一个对象包含另一个对象变量时，它只是包含着另一个堆对象的指针（或者说这个对象只包含着对另一个堆对象的引用）。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一章Java程序概述（二）</title>
-    <url>/2020/06/12/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<p>四、变量和常量</p>
-<p>1变量</p>
-<p>1.1int i,j;不提倡一行声明多个变量这种风格，逐一声明每个变量可以提高程序的可读性。在Java中变量的声明尽可能靠近变量第一次使用的地方。</p>
-<p>1.2从Java10开始，如果从变量的初始值就可以推断出它的类型，就不再需要声明类型，只需要使用关键字var而无需指定类型：</p>
-<p>var i = 0;</p>
- <a id="more"></a> 
-
-<p>1.3在C和C++中，区分变量的声明和定义，如：</p>
-<p>int i;//声明</p>
-<p>int i=10;定义</p>
-<p>在Java中并不区分变量的声明和定义。</p>
-<p>2常量</p>
-<p>2.1</p>
-<p>用关键字final表示常量，如：final ABC=0;</p>
-<p>关键词final表示这个变量只能被赋值一次，一旦被赋值之后就不能再更改，习惯上常量名全部大写。</p>
-<p>2.2类常量</p>
-<p>类常量：Java中经常希望某个常量可以在一个类的多个方法中使用，可以使用static final设置一个类常量，如：</p>
-<p>public class HelloHa {</p>
-<p>  public static final int <strong>ABC</strong> = 0;</p>
-<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
-<p>}</p>
-<p>public void aaa(){</p>
-<p>}</p>
-<p>}</p>
-<p>注意：类常量的定义在类的方法的外部。因此在同一个类的其他方法里也可以使用此常量。</p>
-<p>3如果一个常量被声明为public，那么其他类的方法也可以使用这个常量。</p>
-<p>CSDN：把其他类的变量设置为public static，即静态公共变量，直接用类名.变量名获取（不可以只写变量名）。但是这个方法最好只用于基础数据变量（int/long/boolean/double/byte等），否则会造成内存泄漏。例：</p>
-<p>class Aaa {<br>  public static final int <strong>q</strong> = 0;<br>  void aaa() {</p>
-<p>}<br>}</p>
-<p>public class HelloHa {</p>
-<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {<br>   System.<strong>out</strong>.println<strong>(</strong>Aaa.<strong>q)</strong>;<br>      }</p>
-<p>}</p>
-<p>4枚举类型（详细内容在第三章介绍）</p>
-<p>enum Size <strong>{S</strong>, <strong>M</strong>, <strong>L</strong>, <strong>X}</strong>//定义枚举类型</p>
-<p>public class HelloHa {</p>
-<p>   public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
-<p>​      Size s = Size.<strong>S</strong>;//声明枚举类型的变量，Size类型的变量只能存储这个类型声明中给定的某个枚举值或者特殊值null,null表示这个变量没有设置任何值</p>
-<p> }</p>
-<p>}</p>
-<p>五、运算符</p>
-<p>1算数运算符，如：+，-，*，/，%（求余又称取模）</p>
-<p>整数被零除（5.0/0）会产生一个异常，而浮点数被零除会得到无穷大或NaN结果。</p>
-<p>若表达式a/b的商为负数，则商会向0取整；a%b的余数的定义是（a/b）*b+a%b的值恒等于a。例如：-14/3和14/-3的商都是-4，但-14%3是-2，而14%-3是2。</p>
-<p>2数值类型的转换</p>
-<p>2.1自动转换（隐式的）</p>
-<p>当用一个二元运算符连接两个值时，会先自动将两个操作数转换成同一种类型，然后再进行计算：</p>
-<p>如果两个操作数中有一个是double类型，另一个操作数就会转换成double类型。</p>
-<p>否则，如果其中一个操作数是float类型，另一个操作数就会转换成float类型。</p>
-<p>否则，如果其中一个操作数是long类型，另一个操作数就会转换成long类型。</p>
-<p>否则，如果其中一个操作数是int类型，另一个操作数就会转换成int类型。</p>
-<p>2.2强制类型转换（显式的）</p>
-<p>强制类型转换：如有时需要将double类型转换成int类型，且有可能有时会丢掉一些信息。</p>
-<p>强制类型转换的语法格式是在圆括号中给出想要转换的目标类型，后面紧跟带转换的变量名，如：</p>
-<p>double i=9.999;</p>
-<p>int j=(int)i;//j是9</p>
-<p>j的值是9，因为强制类型转换是通过截断小数点部分将浮点值转换成整型。</p>
-<p>如果想对浮点数进行舍入运算，以便得到最接近的整数（很多情况下这种操作更有用），那就需要使用Math.round方法：</p>
-<p>double i=9.999;</p>
-<p>int j=(int)Math.round(i);//j是10</p>
-<p>当调用round方法时，仍然需要使用显式的强制类型转换，因为round方法返回的结果是long类型，由于存在信息丢失的可能性，所以只有使用显式的强制类型转换才能将long类型转换成int类型。</p>
-<p>警告：如果试图将一个数值强制转换成另一种类型时，这个数值超出了目标类型的表示范围，结果就会截断成一个完全不同的值，如：</p>
-<p>(byte)300;//实际输出值为44</p>
-<p>3结合赋值和运算符</p>
-<p>在赋值中使用运算符的简写形式：x+=1;//等效于x=x+1</p>
-<p>如果右侧操作数的类型和左侧操作数的类型不同，就会发生自动的发生强制转换（运算符简写形式下，不写强制类型的语法格式也是合法的）或自动转换，如：</p>
-<p>int x = 1;<br>x += 1.5;//将double强制转换成int，先(int)(x+1.5)<br>System.<strong>out</strong>.println<strong>(</strong>x<strong>)</strong>;//输出2</p>
-<p>4自增和自减运算符</p>
-<p>i++或++i，自增和自减运算符改变的变量的值，不能作用于数值的本身，即不能：6++</p>
-<p>5关系运算符和boolean运算符</p>
-<p>&amp;&amp;和||运算符是按照”短路”方式求值的：若第通过一个操作数就能确定表达式的值，则不会再判断第二个操作数的值。</p>
-<p>&amp;和|不遵循短路求值</p>
-<p>三元运算符：x&lt;y?x:y//如果x&lt;y则返回x</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Happy Every Day</title>
-    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>第二章对象与类（一）</title>
     <url>/2020/06/19/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%80%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -510,21 +491,46 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（四）</title>
-    <url>/2020/06/14/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
-    <content><![CDATA[<p>字符串池：可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆），存放在池子里的这些字符串可以被多个引用变量共享。</p>
-<a id="more"></a>
+    <title>Happy Every Day</title>
+    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第二章对象与类（二）</title>
+    <url>/2020/06/20/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<p>今天考试，更新的比较少。</p>
+<a id="more"></a> 
 
-<p>5检测字符串是否相等</p>
-<p>5.1equals方法：只检测的是字符串字面量即字符串的内容是否相等。</p>
-<p>//全部输出true<br>String a = “He”;<br>String b = “He”;<br>//字符串字面量是指双引号引住的一系列字符，双引号中可以没有字符，可以只有一个字符，也可以有很多个字符。<br>System.out.println(a.equals(b));//equals方法两侧可以是字符串变量如：a，也可以是字符串字面量如：He<br>System.out.println(a.equals(“He”));<br>System.out.println(“He”.equals(b));</p>
-<p>5.2equalsIgnoreCase方法：在不区分字符串大小写情况下，只检测字符串字面量即字符串的内容是否相等。</p>
-<p>equalsIgnoreCase方法两侧可以是字符串变量也可以是字符串字面量<br> System.out.println(“Hello”.equalsIgnoreCase(“hello”));//输出true<br> String a = “He”;<br> String b = “He”;<br> System.out.println(a.equalsIgnoreCase(b));//输出true</p>
-<p>5.3==：一定不要使用==运算符检测两个字符串是否相等，只检测的是字符串字面量存储的位置是否相同，并不检测字符串字面量即内容是否相同。</p>
-<p>用subtring方法操作的字符串并不会被共享。</p>
-<p>//==比较的是字符串的存储位置<br> String greeting = “Hello”;<br> System.out.println(greeting == “Hello”);//这里字符串字面量Hello是共享的（即只有一个字符串字面量Hello）,输出true<br> System.out.println(greeting.substring(0, 3) == “Hel”);//控制台输出false，创建了两个相同的字符串字面量Hel，即两个字符串内容相同但存储位置不同，这里字符串字面量Hel是不共享的<br> String c = “a” + “b”;<br> String d=”ab”;<br> System.out.println(c == d);//控制台输出true,用+创建的字符串字面量可以共享</p>
-<p>5.4compareTo方法：只检测的是字符串字面量即字符串的内容是否相等，若相等则输出0，不相等则输出1。</p>
-<p>String greeting = “Hello”;<br>String a = greeting.substring(0, 3);//Hel不共享<br>System.out.println(a == “Hel”);//在这里又创建了新的字符串字面量Hel，输出false,即两个字符串字面量相同但存储位置不同，==比较的是存储位置<br>System.out.println(a.compareTo(“Hel”));//输出0，compareTo方法：如果两个字符串相等则输出0否则输出1，比较的是两个字符串字面量即内容是否相同（不比较存储位置）<br>System.out.println(a.equals(“Hel”));//控制台输出true,equals方法比较的是字符串字面量即内容<br>System.out.println(a.equalsIgnoreCase(“Hel”));//控制台输出true，equalsIgnoreCase方法比较的是字符串字面量即内容</p>
+<p>1.2在Java标准库里有一个Date类，它可以实时描述现在的时间点。</p>
+<p>构造器的名字应该与类名相同，构造对象时在前面加new操作符：</p>
+<p>new Date<strong>()</strong>;</p>
+<p>如果需要的话，也可以将这个对象传递给一个方法：</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>new Date<strong>())</strong>;//输出Sat Jun 20 21:43:37 CST 2020</p>
+<p>或者，也可以对刚刚创建的对象应用一个方法，Date类中有一个toString方法，可以将返回的日期以字符串描述：</p>
+<p>String s = new Date<strong>()</strong>.toString<strong>()</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>s<strong>)</strong>;//Sat Jun 20 21:47:52 CST 2020</p>
+<p>1.3对象变量不是对象。</p>
+<p>定义（声明）一个对象变量：</p>
+<p>Date deadline;</p>
+<p>此时还没有引用任何对象，还不能在这个变量上使用任何Date类的方法。即String s=deadline.toString()是无法编译成功的。</p>
+<p>1.4初始化对象变量</p>
+<p>Date deadline=new Date();//deadline引用了一个新构造的对象</p>
+<p>或者两个变量引用同一个对象：</p>
+<p>Date date1= new Date<strong>()</strong>;<br>Date date2=date1;<br>System.<strong>out</strong>.println<strong>(</strong>date1==date2<strong>)</strong>;//输出true,两个变量引用同一位置的对象</p>
+<p>1.5对象变量只是引用一个对象，并不是包含对象。任何对象变量的值都是对存储在另一个地方的某个对象的引用。</p>
+<p>1.6new操作符的返回值也是一个引用。</p>
+<p>Date deadline=new Date()</p>
+<p>new Date()构造了一个Date类型的对象，它的值是对新创建对象的一个引用，这个引用存储在对象变量deadline中。</p>
+<p>1.6可以将对象变量设置为null,即这个对象变量目前没有存储任何对象。</p>
+<p>1.7所有的额Java对象都存储在堆中。</p>
+<p>当一个对象包含另一个对象变量时，它只是包含着另一个堆对象的指针（或者说这个对象只包含着对另一个堆对象的引用）。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>莒南县法治调研实践</title>
+    <url>/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/</url>
+    <content><![CDATA[<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/a.jpg" alt="a">)<img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/b.jpg" alt="b">)<img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/c.jpg" alt="c">)<img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/d.jpg" alt="d">)<img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/e.jpg" alt="e">)<img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/f.jpg" alt="f">)<img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/g.jpg" alt="g"></p>
 ]]></content>
   </entry>
 </search>
