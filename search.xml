@@ -29,12 +29,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我的第二篇博客</title>
-    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>#冲冲冲！</p>
-]]></content>
-  </entry>
-  <entry>
     <title>第一章Java程序概述（一）</title>
     <url>/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0/</url>
     <content><![CDATA[<hr>
@@ -100,6 +94,12 @@
 <p>1.6布尔型</p>
 <p>在Java中整型值和布尔值无法相互转换。如下情况会发生编译错误：</p>
 <p>int i = 0;<br>if (i = 0) {<br>  System.out.println(“sdfsf”);<br>}</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第二篇博客</title>
+    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>#冲冲冲！</p>
 ]]></content>
   </entry>
   <entry>
@@ -295,24 +295,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（四）</title>
-    <url>/2020/06/14/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
-    <content><![CDATA[<p>字符串池：可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆），存放在池子里的这些字符串可以被多个引用变量共享。</p>
-<a id="more"></a>
-
-<p>5检测字符串是否相等</p>
-<p>5.1equals方法：只检测的是字符串字面量即字符串的内容是否相等。</p>
-<p>//全部输出true<br>String a = “He”;<br>String b = “He”;<br>//字符串字面量是指双引号引住的一系列字符，双引号中可以没有字符，可以只有一个字符，也可以有很多个字符。<br>System.out.println(a.equals(b));//equals方法两侧可以是字符串变量如：a，也可以是字符串字面量如：He<br>System.out.println(a.equals(“He”));<br>System.out.println(“He”.equals(b));</p>
-<p>5.2equalsIgnoreCase方法：在不区分字符串大小写情况下，只检测字符串字面量即字符串的内容是否相等。</p>
-<p>equalsIgnoreCase方法两侧可以是字符串变量也可以是字符串字面量<br> System.out.println(“Hello”.equalsIgnoreCase(“hello”));//输出true<br> String a = “He”;<br> String b = “He”;<br> System.out.println(a.equalsIgnoreCase(b));//输出true</p>
-<p>5.3==：一定不要使用==运算符检测两个字符串是否相等，只检测的是字符串字面量存储的位置是否相同，并不检测字符串字面量即内容是否相同。</p>
-<p>用subtring方法操作的字符串并不会被共享。</p>
-<p>//==比较的是字符串的存储位置<br> String greeting = “Hello”;<br> System.out.println(greeting == “Hello”);//这里字符串字面量Hello是共享的（即只有一个字符串字面量Hello）,输出true<br> System.out.println(greeting.substring(0, 3) == “Hel”);//控制台输出false，创建了两个相同的字符串字面量Hel，即两个字符串内容相同但存储位置不同，这里字符串字面量Hel是不共享的<br> String c = “a” + “b”;<br> String d=”ab”;<br> System.out.println(c == d);//控制台输出true,用+创建的字符串字面量可以共享</p>
-<p>5.4compareTo方法：只检测的是字符串字面量即字符串的内容是否相等，若相等则输出0，不相等则输出1。</p>
-<p>String greeting = “Hello”;<br>String a = greeting.substring(0, 3);//Hel不共享<br>System.out.println(a == “Hel”);//在这里又创建了新的字符串字面量Hel，输出false,即两个字符串字面量相同但存储位置不同，==比较的是存储位置<br>System.out.println(a.compareTo(“Hel”));//输出0，compareTo方法：如果两个字符串相等则输出0否则输出1，比较的是两个字符串字面量即内容是否相同（不比较存储位置）<br>System.out.println(a.equals(“Hel”));//控制台输出true,equals方法比较的是字符串字面量即内容<br>System.out.println(a.equalsIgnoreCase(“Hel”));//控制台输出true，equalsIgnoreCase方法比较的是字符串字面量即内容</p>
-]]></content>
-  </entry>
-  <entry>
     <title>第一章Java程序概述（五）</title>
     <url>/2020/06/15/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%94%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -454,6 +436,30 @@
 ]]></content>
   </entry>
   <entry>
+    <title>第一章Java程序概述（四）</title>
+    <url>/2020/06/14/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
+    <content><![CDATA[<p>字符串池：可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆），存放在池子里的这些字符串可以被多个引用变量共享。</p>
+<a id="more"></a>
+
+<p>5检测字符串是否相等</p>
+<p>5.1equals方法：只检测的是字符串字面量即字符串的内容是否相等。</p>
+<p>//全部输出true<br>String a = “He”;<br>String b = “He”;<br>//字符串字面量是指双引号引住的一系列字符，双引号中可以没有字符，可以只有一个字符，也可以有很多个字符。<br>System.out.println(a.equals(b));//equals方法两侧可以是字符串变量如：a，也可以是字符串字面量如：He<br>System.out.println(a.equals(“He”));<br>System.out.println(“He”.equals(b));</p>
+<p>5.2equalsIgnoreCase方法：在不区分字符串大小写情况下，只检测字符串字面量即字符串的内容是否相等。</p>
+<p>equalsIgnoreCase方法两侧可以是字符串变量也可以是字符串字面量<br> System.out.println(“Hello”.equalsIgnoreCase(“hello”));//输出true<br> String a = “He”;<br> String b = “He”;<br> System.out.println(a.equalsIgnoreCase(b));//输出true</p>
+<p>5.3==：一定不要使用==运算符检测两个字符串是否相等，只检测的是字符串字面量存储的位置是否相同，并不检测字符串字面量即内容是否相同。</p>
+<p>用subtring方法操作的字符串并不会被共享。</p>
+<p>//==比较的是字符串的存储位置<br> String greeting = “Hello”;<br> System.out.println(greeting == “Hello”);//这里字符串字面量Hello是共享的（即只有一个字符串字面量Hello）,输出true<br> System.out.println(greeting.substring(0, 3) == “Hel”);//控制台输出false，创建了两个相同的字符串字面量Hel，即两个字符串内容相同但存储位置不同，这里字符串字面量Hel是不共享的<br> String c = “a” + “b”;<br> String d=”ab”;<br> System.out.println(c == d);//控制台输出true,用+创建的字符串字面量可以共享</p>
+<p>5.4compareTo方法：只检测的是字符串字面量即字符串的内容是否相等，若相等则输出0，不相等则输出1。</p>
+<p>String greeting = “Hello”;<br>String a = greeting.substring(0, 3);//Hel不共享<br>System.out.println(a == “Hel”);//在这里又创建了新的字符串字面量Hel，输出false,即两个字符串字面量相同但存储位置不同，==比较的是存储位置<br>System.out.println(a.compareTo(“Hel”));//输出0，compareTo方法：如果两个字符串相等则输出0否则输出1，比较的是两个字符串字面量即内容是否相同（不比较存储位置）<br>System.out.println(a.equals(“Hel”));//控制台输出true,equals方法比较的是字符串字面量即内容<br>System.out.println(a.equalsIgnoreCase(“Hel”));//控制台输出true，equalsIgnoreCase方法比较的是字符串字面量即内容</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Happy Every Day</title>
+    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>第二章对象与类（一）</title>
     <url>/2020/06/19/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%80%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -488,12 +494,6 @@
 <p>并不是所有的类都表现出面向对象的典型特征。例如，Math类。可以直接使用Math类的方法，如Math.random,而不必了解它具体是如何实现的，你只需要知道方法名和参数(如果有的话）。这正是封装的关键所在，当然所有类都是这样。 但Math类只封装了功能，它也不必隐藏数据。由于没有数招，因此也不必专虑创建对象和初始化它们的实例字段，因为根本没有实例字段。</p>
 <p>1对象与对象变量</p>
 <p>在Java中要使用构造器（或称构造函数）构造新实例，构造器是一种特殊的方法，用来构造并初始化对象。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Happy Every Day</title>
-    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
 ]]></content>
   </entry>
   <entry>
