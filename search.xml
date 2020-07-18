@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>“我的第一篇博客”</title>
-    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
-    <content><![CDATA[<hr>
-<p>这还行来</p>
- <a id="more"></a> 
-
-<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>“精准蒲法”农村普法一体化平台 关于民间借贷的九大注意事项</title>
     <url>/2020/07/15/%E5%85%B3%E4%BA%8E%E6%B0%91%E9%97%B4%E5%80%9F%E8%B4%B7%E7%9A%84%E4%B9%9D%E5%A4%A7%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
     <content><![CDATA[  
@@ -90,26 +62,31 @@
 ]]></content>
   </entry>
   <entry>
-    <title>“精准蒲法”农村普法一体化平台 农村房屋买卖常见的法律问题有哪些?</title>
-    <url>/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<p>​        一、房屋买卖中房屋与土地的“主从”关系二、现有法律规范中对<a href="http://www.64365.com/baike/ncfwmm/" target="_blank" rel="noopener">农村房屋买卖</a>问题的规定三、最高人民法院对农村房屋买卖效力的意见四、<a href="http://www.64365.com/baike/ncfwmmht/" target="_blank" rel="noopener">农村房屋买卖合同</a>的效力认定。</p>
-<p><img src="/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89/ii.png" alt="ii"></p>
-<p>​        在农村的房屋买卖过程中，经常出现相关的买卖纠纷。大多数买卖双方由于不知道相关的法律规定，所以经常产生纠纷。那么，<a href="http://www.64365.com/baike/ncfwmm/" target="_blank" rel="noopener">农村房屋买卖</a>常见的法律问题有哪些？怎么避免相关的买卖纠纷？</p>
-<p>​        【农村<a href="http://www.64365.com/tuwen/wytxk/" target="_blank" rel="noopener">房屋过户</a>条件】关于农村房屋买卖相关法律问题的探讨</p>
-<p>​        随着社会主义新农村建设的不断推进，农村的房屋流转日益增多，由此而引发的房屋买卖纠纷逐年增加。由于现有房屋买卖的法律<a href="http://www.64365.com/fagui/" target="_blank" rel="noopener">法规</a>比较杂乱，难以理解和把握。《<a href="http://www.64365.com/fagui/article-640350.aspx" target="_blank" rel="noopener">物权法</a>》草案中曾对农村房屋转让作出过详细规定，但正式通过的法律文本中却因有争议删去了相关条款，导致目前农村房屋转让仍然缺少具有可操作性的法律依据。为了减少对涉及<a href="http://www.64365.com/baike/ncfwmmht/" target="_blank" rel="noopener">农村房屋买卖合同</a>效力认定问题的争议，更好地维护和促进社会主义新农村建设，本文试从法律应用层面上提出解决农村房屋买卖法律适用问题的个人见解。</p>
-<p>​        一、房屋买卖中房屋与土地的“主从”关系 </p>
-<p>​        城市房屋买卖中，遵循“地随房走”原则。这一理念在《<a href="http://www.64365.com/fagui/article-640318.aspx" target="_blank" rel="noopener">城市房地产管理法</a>》和《城市房屋<a href="http://www.64365.com/baike/cq/" target="_blank" rel="noopener">拆迁</a>管理条例》中观点明确。</p>
-<p>​        在我国的农村，土地是农村经济组织集体所有。根据我国土地管理法等相关规定，<a href="http://www.64365.com/baike/jttd/" target="_blank" rel="noopener">集体土地</a>未经征用，不得出让、转让。实践中，在对农村土地进行征用时，房屋是作为地上附着物予以补偿的，采取的是“房随地走”的原则。因此，基于此因素，笔者认为，农村房屋转让也应遵循“房随地走”的原则，以<a href="http://www.64365.com/baike/tdsyq/" target="_blank" rel="noopener">土地使用权</a>能否转移作为决定房屋转让效力的主要因素。</p>
-<p>​        二、现有法律规范中对农村房屋买卖问题的规定 </p>
-<p>​        《物权法》第152条至155条规定，<a href="http://www.64365.com/baike/zjdsyq/" target="_blank" rel="noopener">宅基地使用权</a>人依法对集体所有的土地享有占有和使用的权利，有权依法利用该土地建房，<a href="http://www.64365.com/zs/tdfc/zjd/" target="_blank" rel="noopener">宅基地</a>使用权的取得、行使和转让，适用土地管理法等法律和国家有关规定。</p>
-<p>​        《土地管理法》第62条第3款规定，“农村村民出卖、出租住房后，再申请宅基地的，不予批准。”</p>
-<p>​        《国务院关于深化改革严格土地管理的决定》(国发[2004]28号)规定，禁止城镇居民在农村购置宅基地。</p>
-<p>​        国务院办公厅《关于加强<a href="http://www.64365.com/baike/tdzr/" target="_blank" rel="noopener">土地转让</a>严禁炒卖土地的通知》(国办发[1999]39号)规定“农民的住宅不得向城市居民出售，也不得批准城市居民占用农民集体土地建住宅，有关部门不得为违法建造和购买的住宅发放<a href="http://www.64365.com/baike/tdsyz/" target="_blank" rel="noopener">土地使用证</a>和<a href="http://www.64365.com/baike/fcz/" target="_blank" rel="noopener">房产证</a>”。</p>
-<p>​        三、最高人民法院对农村房屋买卖效力的意见 </p>
-<p>​        最高院于1963年作出的《关于贯彻执行民事政策几个问题的意见》规定：“宅基地上的附着物如房屋、树木、厂棚、猪圈、厕所等永远归社员所有，社员有买卖或租赁房屋的权利。房屋出卖以后，宅基地的使用权即随之转移给新房主，但宅基地的所有权仍归生产队所有。”最高院于1984年作出的《关于贯彻执行民事政策法律若干问题的意见》第60条规定：“村镇公民之间由于买卖房屋转移宅基地使用权而发生的纠纷，应根据国务院《村镇建房用地管理条例》中规定的审查、批准手续办理。”可见，《土地管理法》施行前，最高院原则上是承认农村房屋买卖效力的。《土地管理法》施行后，国务院及有关部门对农村房屋和宅基地出台了严格管理政策，最高院未就此出台过新的规定，也没有发布典型案例，因此很难判断最高院对农村房屋买卖的态度是否发生改变。</p>
-<p>​        四、农村房屋买卖<a href="http://www.64365.com/baike/htdxl/" target="_blank" rel="noopener">合同的效力</a>认定 </p>
-<p>​        关于农村房屋<a href="http://www.64365.com/contract/mmht/" target="_blank" rel="noopener">买卖合同</a>的效力问题， 应当以<a href="http://www.64365.com/zs/818412.aspx" target="_blank" rel="noopener">合同法</a>规定的合同有效要件为标准，符合合同有效要件的合同为有效合同，欠缺任何一个有效要件的合同均为<a href="http://www.64365.com/baike/wxht/" target="_blank" rel="noopener">无效合同</a>。</p>
-<p>​        我国《合同法》规定的合同有效要件主要包括四个方面：一是合同当事人是具有民事权利能力和民事行为能力的自然人和法人，具备相应的权限。无民事行为能力人订立的<a href="http://www.64365.com/baike/htwx/" target="_blank" rel="noopener">合同无效</a>，限制民事行为能力人订立的与其年龄、智力状况不符的合同，其法定代理人不予追认的无效;无处分权的人订立的合同，权利人不予追认的无效;无代理权的人订立的合同，被代理人不予追认的无效;二是意思表示真实，因欺诈、胁迫而订立的合同为可撤销的合同，法院应根据受欺诈、胁迫方的请求撤销或者变更该合同;因重大误解而订立的合同，法院可根据任何一方当事人的请求撤销或者变更该合同;恶意串通，损害国家、集体或者第三人利益的合同无效;以合法形式掩盖非法目的的合同无效;三是内容不违背法律强制性规定和公序良俗。因欺诈、胁迫损害国家利益的合同无效;损害社会公共利益的合同无效;违反法律、行政法规的强制性规定的合同无效;显失公平的合同，应根据当事人任何一方的请求予以变更或者撤销;四是形式上符合法律规定的要求或者当事人的约定，法律规定或者当事人约定必须采用特定形式的，未采用特定形式的无效。</p>
+    <title>“我的第一篇博客”</title>
+    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
+    <content><![CDATA[<hr>
+<p>这还行来</p>
+ <a id="more"></a> 
+
+<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -144,6 +121,29 @@
 ]]></content>
   </entry>
   <entry>
+    <title>“精准蒲法”农村普法一体化平台 农村房屋买卖常见的法律问题有哪些?</title>
+    <url>/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<p>​        一、房屋买卖中房屋与土地的“主从”关系二、现有法律规范中对<a href="http://www.64365.com/baike/ncfwmm/" target="_blank" rel="noopener">农村房屋买卖</a>问题的规定三、最高人民法院对农村房屋买卖效力的意见四、<a href="http://www.64365.com/baike/ncfwmmht/" target="_blank" rel="noopener">农村房屋买卖合同</a>的效力认定。</p>
+<p><img src="/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89/ii.png" alt="ii"></p>
+<p>​        在农村的房屋买卖过程中，经常出现相关的买卖纠纷。大多数买卖双方由于不知道相关的法律规定，所以经常产生纠纷。那么，<a href="http://www.64365.com/baike/ncfwmm/" target="_blank" rel="noopener">农村房屋买卖</a>常见的法律问题有哪些？怎么避免相关的买卖纠纷？</p>
+<p>​        【农村<a href="http://www.64365.com/tuwen/wytxk/" target="_blank" rel="noopener">房屋过户</a>条件】关于农村房屋买卖相关法律问题的探讨</p>
+<p>​        随着社会主义新农村建设的不断推进，农村的房屋流转日益增多，由此而引发的房屋买卖纠纷逐年增加。由于现有房屋买卖的法律<a href="http://www.64365.com/fagui/" target="_blank" rel="noopener">法规</a>比较杂乱，难以理解和把握。《<a href="http://www.64365.com/fagui/article-640350.aspx" target="_blank" rel="noopener">物权法</a>》草案中曾对农村房屋转让作出过详细规定，但正式通过的法律文本中却因有争议删去了相关条款，导致目前农村房屋转让仍然缺少具有可操作性的法律依据。为了减少对涉及<a href="http://www.64365.com/baike/ncfwmmht/" target="_blank" rel="noopener">农村房屋买卖合同</a>效力认定问题的争议，更好地维护和促进社会主义新农村建设，本文试从法律应用层面上提出解决农村房屋买卖法律适用问题的个人见解。</p>
+<p>​        一、房屋买卖中房屋与土地的“主从”关系 </p>
+<p>​        城市房屋买卖中，遵循“地随房走”原则。这一理念在《<a href="http://www.64365.com/fagui/article-640318.aspx" target="_blank" rel="noopener">城市房地产管理法</a>》和《城市房屋<a href="http://www.64365.com/baike/cq/" target="_blank" rel="noopener">拆迁</a>管理条例》中观点明确。</p>
+<p>​        在我国的农村，土地是农村经济组织集体所有。根据我国土地管理法等相关规定，<a href="http://www.64365.com/baike/jttd/" target="_blank" rel="noopener">集体土地</a>未经征用，不得出让、转让。实践中，在对农村土地进行征用时，房屋是作为地上附着物予以补偿的，采取的是“房随地走”的原则。因此，基于此因素，笔者认为，农村房屋转让也应遵循“房随地走”的原则，以<a href="http://www.64365.com/baike/tdsyq/" target="_blank" rel="noopener">土地使用权</a>能否转移作为决定房屋转让效力的主要因素。</p>
+<p>​        二、现有法律规范中对农村房屋买卖问题的规定 </p>
+<p>​        《物权法》第152条至155条规定，<a href="http://www.64365.com/baike/zjdsyq/" target="_blank" rel="noopener">宅基地使用权</a>人依法对集体所有的土地享有占有和使用的权利，有权依法利用该土地建房，<a href="http://www.64365.com/zs/tdfc/zjd/" target="_blank" rel="noopener">宅基地</a>使用权的取得、行使和转让，适用土地管理法等法律和国家有关规定。</p>
+<p>​        《土地管理法》第62条第3款规定，“农村村民出卖、出租住房后，再申请宅基地的，不予批准。”</p>
+<p>​        《国务院关于深化改革严格土地管理的决定》(国发[2004]28号)规定，禁止城镇居民在农村购置宅基地。</p>
+<p>​        国务院办公厅《关于加强<a href="http://www.64365.com/baike/tdzr/" target="_blank" rel="noopener">土地转让</a>严禁炒卖土地的通知》(国办发[1999]39号)规定“农民的住宅不得向城市居民出售，也不得批准城市居民占用农民集体土地建住宅，有关部门不得为违法建造和购买的住宅发放<a href="http://www.64365.com/baike/tdsyz/" target="_blank" rel="noopener">土地使用证</a>和<a href="http://www.64365.com/baike/fcz/" target="_blank" rel="noopener">房产证</a>”。</p>
+<p>​        三、最高人民法院对农村房屋买卖效力的意见 </p>
+<p>​        最高院于1963年作出的《关于贯彻执行民事政策几个问题的意见》规定：“宅基地上的附着物如房屋、树木、厂棚、猪圈、厕所等永远归社员所有，社员有买卖或租赁房屋的权利。房屋出卖以后，宅基地的使用权即随之转移给新房主，但宅基地的所有权仍归生产队所有。”最高院于1984年作出的《关于贯彻执行民事政策法律若干问题的意见》第60条规定：“村镇公民之间由于买卖房屋转移宅基地使用权而发生的纠纷，应根据国务院《村镇建房用地管理条例》中规定的审查、批准手续办理。”可见，《土地管理法》施行前，最高院原则上是承认农村房屋买卖效力的。《土地管理法》施行后，国务院及有关部门对农村房屋和宅基地出台了严格管理政策，最高院未就此出台过新的规定，也没有发布典型案例，因此很难判断最高院对农村房屋买卖的态度是否发生改变。</p>
+<p>​        四、农村房屋买卖<a href="http://www.64365.com/baike/htdxl/" target="_blank" rel="noopener">合同的效力</a>认定 </p>
+<p>​        关于农村房屋<a href="http://www.64365.com/contract/mmht/" target="_blank" rel="noopener">买卖合同</a>的效力问题， 应当以<a href="http://www.64365.com/zs/818412.aspx" target="_blank" rel="noopener">合同法</a>规定的合同有效要件为标准，符合合同有效要件的合同为有效合同，欠缺任何一个有效要件的合同均为<a href="http://www.64365.com/baike/wxht/" target="_blank" rel="noopener">无效合同</a>。</p>
+<p>​        我国《合同法》规定的合同有效要件主要包括四个方面：一是合同当事人是具有民事权利能力和民事行为能力的自然人和法人，具备相应的权限。无民事行为能力人订立的<a href="http://www.64365.com/baike/htwx/" target="_blank" rel="noopener">合同无效</a>，限制民事行为能力人订立的与其年龄、智力状况不符的合同，其法定代理人不予追认的无效;无处分权的人订立的合同，权利人不予追认的无效;无代理权的人订立的合同，被代理人不予追认的无效;二是意思表示真实，因欺诈、胁迫而订立的合同为可撤销的合同，法院应根据受欺诈、胁迫方的请求撤销或者变更该合同;因重大误解而订立的合同，法院可根据任何一方当事人的请求撤销或者变更该合同;恶意串通，损害国家、集体或者第三人利益的合同无效;以合法形式掩盖非法目的的合同无效;三是内容不违背法律强制性规定和公序良俗。因欺诈、胁迫损害国家利益的合同无效;损害社会公共利益的合同无效;违反法律、行政法规的强制性规定的合同无效;显失公平的合同，应根据当事人任何一方的请求予以变更或者撤销;四是形式上符合法律规定的要求或者当事人的约定，法律规定或者当事人约定必须采用特定形式的，未采用特定形式的无效。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>“精准蒲法”农村普法一体化平台 农村房屋买卖合同的格式</title>
     <url>/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%B8%89%EF%BC%89/</url>
     <content><![CDATA[<p>​        出卖人(甲方)：买受人(乙方)：根据中华人民共和国有关法律、<a href="http://www.64365.com/fagui/" target="_blank" rel="noopener">法规</a>和本市有关规定，甲、乙双方遵循公平和诚实信用的原则，经协商一致订立本<a href="http://www.64365.com/zs/tdfc/fcmm/" target="_blank" rel="noopener">房产买卖</a>合同，以资共同遵守。1.房屋情况。2.付款金额和付款方式。3.约定<a href="http://www.64365.com/baike/weiyuejin/" target="_blank" rel="noopener">违约金</a>。4.双方签字。</p>
@@ -170,12 +170,6 @@
 <p>最高人民法院从未在公报案例中就宅基地上的房屋的禁止转让问题发布过案例。因此笔者认为，要活跃农村房产市场，对农村房屋买卖中的买受人不应有所限制。因为如果仅在农民所在集体内符合<a href="http://www.64365.com/baike/zjdsyq/" target="_blank" rel="noopener">宅基地使用权</a>分配条件的农户间流转，无法形成有效的市场，无法体现房屋的实际价值，反而会损害出卖人农民的利益。</p>
 <p>虽然有个别地方的地方政府规章限制进行农村房屋买卖，但是我国并没有明确的禁止性规定，所以，农村房屋在一定的规定下还是可以进行转让的，那么，农村房屋买卖的协议格式是怎样的呢?下面是小编为您提供的简易版</p>
 <p>综上所述，农村房屋买卖还是会存在的。虽然有个别地方对农村房屋买卖作了相关限制，但是我国法律并没有明确的禁止性规定。所以，农村房屋在一定的规定下还是可以进行转让的。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的第二篇博客</title>
-    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>#冲冲冲！</p>
 ]]></content>
   </entry>
   <entry>
@@ -247,6 +241,52 @@
 ]]></content>
   </entry>
   <entry>
+    <title>第一章Java程序概述（三）</title>
+    <url>/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+    <content><![CDATA[<p><img src="/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/a.jpg" alt="a"></p>
+<p>晒下我的桌面，拍照技术菜的一批。。。</p>
+<a id="more"></a> 
+
+<p>六、字符串</p>
+<p>1String a=””; //空字符串</p>
+<p>String b=”sdfdsfg”;</p>
+<p>每个用双引号括起来的字符串都是String类型的一个示例（对象）。</p>
+<p>2提取一个子串</p>
+<p>String类里的substring方法可以从一个较大的字符串里提取一个子串，如：</p>
+<p>String greeting=”Hello”;</p>
+<p>String s=greeting.substring(0,3);//即Hel，这里复制位置0，1，2的字符，从0开始，到3截止但不包括3</p>
+<p>Java字符串中的代码单元和代码点从0开始计数。</p>
+<p>substring的优点：容易计算子串的长度，如字符串s.substring(a,b)的长度是b-a。</p>
+<p>3拼接字符串</p>
+<p>3.1Java语言可以用+号按顺序拼接字符串。</p>
+<p>String a=”asdaf “;<br>String b=”dsfrg”;<br>System.out.println(a+b);控制台输出asdaf dsfrg，因为a字符串有个空格</p>
+<p>3.2任何一个Java对象都可以转换成一个字符串，当字符串和一个非字符串（前提是一个对象）的值进行拼接时非字符串会转换成字符串，如：</p>
+<p>String a = “The answer is “;<br>String b = 16 + a;//16被当作了一个对象<br>System.out.println(b);//控制台输出The answer is 16<br>System.out.println(“The answer is “ + www);//www被当作了一个变量，所以编译出错</p>
+<p>这种特性通常用在输出语句中。</p>
+<p>3.3如果需要将多个字符串拼接起来，且各个字符串之间用界定符分隔，可以使用静态join方法，如：</p>
+<p>String abc=String.join(<strong>“/“,”S”,”M”,”L”,”K”</strong>)<strong>;//这里充当界定符的/也可以换成其他<br>System.</strong>out<strong>.println</strong>(<strong>abc</strong>);//控制台输出S/M/L/K，/被当作界定符使用</p>
+<p>3.4Java11中还提供了一个repeat方法：</p>
+<p>String def=”java”.repeat<strong>(</strong>3<strong>)</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>def<strong>)</strong>;//控制台输出javajavajava</p>
+<p>4字符串是不可变的</p>
+<p>4.1String类中没有提供修改字符串中某个字符的方法。</p>
+<p>4.2String s=”Hello”;</p>
+<p>如果想将字符串s里最后两个位置的字符修改成p和！，可以提取字符串s中想保留的子串，再与想替换的字符拼接：</p>
+<p>s=s.substring(0,3)+”p!”;//但是这种先提取再拼接的效率并不高</p>
+<p>4.3在Java中不能修改字符串里的单个字符，即”Hello”永远包含H，e,l,l,o这几个字符。但是可以改变其引用变量s,即让s引用另一个字符串：</p>
+<p>String a=”aaa”;//创建的对象aaa赋给引用变量a<br>a=”abc”;//又新创建了另一个对象abc,并赋给引用变量a(即不再建立引用变量a和对象aaa之间的联系)，并没有改变对象aaa的内容<br>System.out.println(a);//控制台输出abc</p>
+<p>可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆）。</p>
+<p>如果：</p>
+<p>String a=”sss”;</p>
+<p>String b=”sss”;//表示引用变量a和b都指向存放字符串sss的位置</p>
+<p>4.3的效率要高于4.2。</p>
+<p>4.4</p>
+<p>String a=”aaa”;</p>
+<p>String a=”bbb”;</p>
+<p>此时String类型的对象aaa不再被使用，系统最终会自动将其回收，因此不会产生内存泄露，即垃圾回收机制。</p>
+<p>注意：在Java中不能修改字符串里的单个字符，但是在C++中可以，Java和C++都有上述的垃圾回收机制。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>第一章Java程序概述（七）</title>
     <url>/2020/06/18/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%83%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -312,52 +352,6 @@
 <p><code>int[] temp=a[i];</code></p>
 <p><code>a[i]=a[i+1];</code></p>
 <p><code>a[i+1]=temp;</code></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一章Java程序概述（三）</title>
-    <url>/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/</url>
-    <content><![CDATA[<p><img src="/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/a.jpg" alt="a"></p>
-<p>晒下我的桌面，拍照技术菜的一批。。。</p>
-<a id="more"></a> 
-
-<p>六、字符串</p>
-<p>1String a=””; //空字符串</p>
-<p>String b=”sdfdsfg”;</p>
-<p>每个用双引号括起来的字符串都是String类型的一个示例（对象）。</p>
-<p>2提取一个子串</p>
-<p>String类里的substring方法可以从一个较大的字符串里提取一个子串，如：</p>
-<p>String greeting=”Hello”;</p>
-<p>String s=greeting.substring(0,3);//即Hel，这里复制位置0，1，2的字符，从0开始，到3截止但不包括3</p>
-<p>Java字符串中的代码单元和代码点从0开始计数。</p>
-<p>substring的优点：容易计算子串的长度，如字符串s.substring(a,b)的长度是b-a。</p>
-<p>3拼接字符串</p>
-<p>3.1Java语言可以用+号按顺序拼接字符串。</p>
-<p>String a=”asdaf “;<br>String b=”dsfrg”;<br>System.out.println(a+b);控制台输出asdaf dsfrg，因为a字符串有个空格</p>
-<p>3.2任何一个Java对象都可以转换成一个字符串，当字符串和一个非字符串（前提是一个对象）的值进行拼接时非字符串会转换成字符串，如：</p>
-<p>String a = “The answer is “;<br>String b = 16 + a;//16被当作了一个对象<br>System.out.println(b);//控制台输出The answer is 16<br>System.out.println(“The answer is “ + www);//www被当作了一个变量，所以编译出错</p>
-<p>这种特性通常用在输出语句中。</p>
-<p>3.3如果需要将多个字符串拼接起来，且各个字符串之间用界定符分隔，可以使用静态join方法，如：</p>
-<p>String abc=String.join(<strong>“/“,”S”,”M”,”L”,”K”</strong>)<strong>;//这里充当界定符的/也可以换成其他<br>System.</strong>out<strong>.println</strong>(<strong>abc</strong>);//控制台输出S/M/L/K，/被当作界定符使用</p>
-<p>3.4Java11中还提供了一个repeat方法：</p>
-<p>String def=”java”.repeat<strong>(</strong>3<strong>)</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>def<strong>)</strong>;//控制台输出javajavajava</p>
-<p>4字符串是不可变的</p>
-<p>4.1String类中没有提供修改字符串中某个字符的方法。</p>
-<p>4.2String s=”Hello”;</p>
-<p>如果想将字符串s里最后两个位置的字符修改成p和！，可以提取字符串s中想保留的子串，再与想替换的字符拼接：</p>
-<p>s=s.substring(0,3)+”p!”;//但是这种先提取再拼接的效率并不高</p>
-<p>4.3在Java中不能修改字符串里的单个字符，即”Hello”永远包含H，e,l,l,o这几个字符。但是可以改变其引用变量s,即让s引用另一个字符串：</p>
-<p>String a=”aaa”;//创建的对象aaa赋给引用变量a<br>a=”abc”;//又新创建了另一个对象abc,并赋给引用变量a(即不再建立引用变量a和对象aaa之间的联系)，并没有改变对象aaa的内容<br>System.out.println(a);//控制台输出abc</p>
-<p>可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆）。</p>
-<p>如果：</p>
-<p>String a=”sss”;</p>
-<p>String b=”sss”;//表示引用变量a和b都指向存放字符串sss的位置</p>
-<p>4.3的效率要高于4.2。</p>
-<p>4.4</p>
-<p>String a=”aaa”;</p>
-<p>String a=”bbb”;</p>
-<p>此时String类型的对象aaa不再被使用，系统最终会自动将其回收，因此不会产生内存泄露，即垃圾回收机制。</p>
-<p>注意：在Java中不能修改字符串里的单个字符，但是在C++中可以，Java和C++都有上述的垃圾回收机制。</p>
 ]]></content>
   </entry>
   <entry>
@@ -771,6 +765,12 @@
 <p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/e.jpg" alt="e"></p>
 <p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/f.jpg" alt="f"></p>
 <p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/g.jpg" alt="g"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第二篇博客</title>
+    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>#冲冲冲！</p>
 ]]></content>
   </entry>
 </search>
