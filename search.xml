@@ -90,9 +90,71 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我的第二篇博客</title>
-    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>#冲冲冲！</p>
+    <title>第一章Java程序概述（一）</title>
+    <url>/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0/</url>
+    <content><![CDATA[<hr>
+<p>第一章Java的基本程序设计结构</p>
+<p>软件安装：安装JDK</p>
+<p>微信公众号“唠码客”往期文章</p>
+<p>安装IDEA</p>
+<p>微信公众号“唠码客”往期文章</p>
+<p>创建第一个Java程序参考链接： <a href="https://www.cnblogs.com/hanwen1014/p/9053492.html" target="_blank" rel="noopener">https://www.cnblogs.com/hanwen1014/p/9053492.html</a> </p>
+ <a id="more"></a> 
+
+<p>一、一个简单的Java应用程序</p>
+<p>1类名的标准命名规则：类名以大写字母做开头，后面可以是数字或字母，若类名由多个单词构成则每个单词的首字母应大写。</p>
+<p>例：CamelCase</p>
+<p>2一个Java文件只能有一个public类，且公共类名（HelloWord）必须与java源文件名（如HelloWord.java）相同。一个程序可以有多个类但只能有一个public类，也只允许有一个起点即一个main方法。</p>
+<p>3main方法：Java的源文件里必须包含一个main方法。main方法是Java程序运行的起点。Java语言规范：mian方法必须声明为public，必须是静态的。</p>
+<p>4块：Java中用{}划分程序的各个部分，通常称为块。以“{”开始，以“}”结束。一般习惯把匹配的大括号上下对齐。</p>
+<p>5Java中每个语句必须以分号结束，回车不是一条语句的结束标志，因此，如果需要，可以将一条语句写在多行。</p>
+<p>6System.out.print(“aSdafa”);//使用System.out对象的print方法。</p>
+<p>7参数：有的程序员也把参数叫做实参。</p>
+<p>二、注释</p>
+<p>1Java有三种注释形式。</p>
+<p>1.1//：注释内容从//到本行结束</p>
+<p>1.2多行注释：/<em><em>/，注释内容从/</em>开始到</em>/结束。</p>
+<p>这种多行注释不能嵌套注释，/<em><em>/是从第一个/</em>开始到第一个</em>/结束：</p>
+<p>/<em>/</em>System.out.println(“qwe<em>/“);</em>/</p>
+<p>1.3文档化注释（在第二章详细介绍）：/<strong>注释部分*/，这种注释可以用来自动的生成文档。也可以用来注释多行，由/</strong>开始到*/结束。</p>
+<p>三、数据类型</p>
+<p>1.1一共8种基本数据类型:四种整型分别是int,short,long,byte;两种浮点类型分别是float,double;一种字符类型char;一种用于表示真值的boolean类型。</p>
+<p>1.2表示长整型(long)需要后缀一个L或l,如：40000L；表示十六进制要有前缀0x或0X.如：0x10表示十进制16；表示八进制要有前缀0.如：010表示十进制8；表示二进制要有前缀0b或0B.如：0b10表示十进制2。</p>
+<p>1.3可以在数的中间加下划线，如：2_000_000表示2000000，下划线是为了让人们更易读，编译时Java编译器会除去这些下划线。</p>
+<p>1.4浮点类型</p>
+<p>1.4.1单精度类型float：有效位数为6~7位。如float a=2.4;</p>
+<p>float类型的数值需要加一个后缀F或f,如3.14F.没有后缀F或f的浮点数会默认为double类型，当然浮点数也可以后缀D或d,如3.14D。</p>
+<p>双精度类型double:有效位数位15位。</p>
+<p>1.4.2可以使用十六进制表示浮点数，如十进制0.125用十六进制表示为0x1.0p-3：即1.0*2的-3次方。其中1.0这里用十六进制表示，表示指数，指数的基数为2，-3这里用十进制表示。</p>
+<p>1.4.3用于表示溢出和出错情况的三个特殊的浮点值：</p>
+<p>正无穷大：Double.POSITIVE_INFINITY</p>
+<p>负无穷大：Double.NEGATIVE_INFINITY</p>
+<p>NaN:不是一个数字</p>
+<p>例如一个正的浮点数除以0的结果为正无穷大，计算0.0/0或负数的平方根的结果为NaN。</p>
+<p>double a = 0.0 / 0;//此时a并不是一个数<br>if <strong>(</strong>Double.<strong>isNaN**</strong>(<strong>a</strong>)) {<strong>//检验a是否是一个数值<br>  System.</strong>out<strong>.println</strong>(<strong>“a不是一个数值”</strong>)<strong>;<br>  System.</strong>out<strong>.println</strong>(<strong>a</strong>)<strong>;//控制台输出NaN<br>**}</strong> else <strong>{**</strong><br>**  System.<strong>out</strong>.println<strong>(</strong>“a的数值是：”+a<strong>)</strong>;<br><strong>}</strong> ;</p>
+<p>1.4.4浮点数不适用于无法接收舍入误差的金融计算</p>
+<p>浮点数值采用二进制系统表示，即只能精确到0.5（此0.5是十进制）而二进制系统无法精确到1/10，，就好像十进制无法精确表示1/3，所以:</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>2.0-1.1<strong>)</strong>;//控制台输出：0.8999999999999999</p>
+<p>如果数值计算中不允许有任何舍入误差，就应该使用BigDecimal类，本章稍后讲。</p>
+<p>1.5char类型</p>
+<p>‘A’是编码值为65的字符常量，它与“A”不同，“A”是包含一个字符A的字符串，char类型的值还可以表示为十六进制，其范围从\u0000到\uFFFF。Unicode字符可以用一个char值描述或者两个char值描述。以下为部分特殊字符的转义序列：</p>
+<p>转义序列        名称        Unicode值</p>
+<p>\t                制表        \u0009</p>
+<p>\n                换行        \u000a</p>
+<p>\r                回车        \u000d</p>
+<p>\”                双引号    \u0022</p>
+<p>所有的转义序列都可以出现在字符中或字符串中，如：</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\u0009”+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\t”+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\t’+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\0009’+”d”<strong>)</strong>;//输出a    d</p>
+<p>Unicode转义序列会在解析代码之前得到处理，如：”\u0022+\u0022”在编译前\u0022会先转换成”，因此编译后会得到””+””,也就是一个空字符串。更为隐秘的是在注释中出现：// \u000a。。。。。，编译时会有语法错误，在编译代码前会先把 \u000a替换成一个换行符，此时等效于：</p>
+<p>//（换行了）</p>
+<p>。。。。。</p>
+<p>能用字符串类型表示就不要用字符类型。</p>
+<p>1.6布尔型</p>
+<p>在Java中整型值和布尔值无法相互转换。如下情况会发生编译错误：</p>
+<p>int i = 0;<br>if (i = 0) {<br>  System.out.println(“sdfsf”);<br>}</p>
 ]]></content>
   </entry>
   <entry>
@@ -164,173 +226,86 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（四）</title>
-    <url>/2020/06/14/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
-    <content><![CDATA[<p>字符串池：可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆），存放在池子里的这些字符串可以被多个引用变量共享。</p>
-<a id="more"></a>
-
-<p>5检测字符串是否相等</p>
-<p>5.1equals方法：只检测的是字符串字面量即字符串的内容是否相等。</p>
-<p>//全部输出true<br>String a = “He”;<br>String b = “He”;<br>//字符串字面量是指双引号引住的一系列字符，双引号中可以没有字符，可以只有一个字符，也可以有很多个字符。<br>System.out.println(a.equals(b));//equals方法两侧可以是字符串变量如：a，也可以是字符串字面量如：He<br>System.out.println(a.equals(“He”));<br>System.out.println(“He”.equals(b));</p>
-<p>5.2equalsIgnoreCase方法：在不区分字符串大小写情况下，只检测字符串字面量即字符串的内容是否相等。</p>
-<p>equalsIgnoreCase方法两侧可以是字符串变量也可以是字符串字面量<br> System.out.println(“Hello”.equalsIgnoreCase(“hello”));//输出true<br> String a = “He”;<br> String b = “He”;<br> System.out.println(a.equalsIgnoreCase(b));//输出true</p>
-<p>5.3==：一定不要使用==运算符检测两个字符串是否相等，只检测的是字符串字面量存储的位置是否相同，并不检测字符串字面量即内容是否相同。</p>
-<p>用subtring方法操作的字符串并不会被共享。</p>
-<p>//==比较的是字符串的存储位置<br> String greeting = “Hello”;<br> System.out.println(greeting == “Hello”);//这里字符串字面量Hello是共享的（即只有一个字符串字面量Hello）,输出true<br> System.out.println(greeting.substring(0, 3) == “Hel”);//控制台输出false，创建了两个相同的字符串字面量Hel，即两个字符串内容相同但存储位置不同，这里字符串字面量Hel是不共享的<br> String c = “a” + “b”;<br> String d=”ab”;<br> System.out.println(c == d);//控制台输出true,用+创建的字符串字面量可以共享</p>
-<p>5.4compareTo方法：只检测的是字符串字面量即字符串的内容是否相等，若相等则输出0，不相等则输出1。</p>
-<p>String greeting = “Hello”;<br>String a = greeting.substring(0, 3);//Hel不共享<br>System.out.println(a == “Hel”);//在这里又创建了新的字符串字面量Hel，输出false,即两个字符串字面量相同但存储位置不同，==比较的是存储位置<br>System.out.println(a.compareTo(“Hel”));//输出0，compareTo方法：如果两个字符串相等则输出0否则输出1，比较的是两个字符串字面量即内容是否相同（不比较存储位置）<br>System.out.println(a.equals(“Hel”));//控制台输出true,equals方法比较的是字符串字面量即内容<br>System.out.println(a.equalsIgnoreCase(“Hel”));//控制台输出true，equalsIgnoreCase方法比较的是字符串字面量即内容</p>
+    <title>“精准蒲法”农村普法一体化平台 2020年 农村宅基地继承新政策</title>
+    <url>/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<p>​        在农村，每家每户都有国家分配下来的一块宅基地，农民拥有终生的使用权，并且宅基地买卖与继承问题始终是农村村民关心的热点问题。2020年，我国又出了农村宅基地的继承新政策，相关内容将在下面详细介绍。</p>
+<p><img src="/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89/i.png" alt="i"></p>
+<p>农村宅基地继承新政策：</p>
+<p>1、根据《土地管理法》第六十二条第四款规定：“农村村民出卖、出租住房后，再申请宅基地的，不予批准”，该规定表明法律并未禁止农民出租、出卖住房，而是在农村村民出卖住宅以后，农民丧失了再申请宅基地的权利。</p>
+<p>2、根据《物权法》第一百五十五条规定“已经登记的宅基地使用权转让或消灭时，应及时办理变更登记或注销登记手续”，该条款也表明了宅基地是可以转让的。</p>
+<p>3、我国的基本法没有禁止农村房屋的买卖。而且从法律的效力上看，《物权法》和《土地管理法》是基本法，属于上位法。二者均未明确禁止农村房屋买卖的的问题，因此农村房屋买卖是可以按照相关程序，合法进行的。</p>
+<p>4、实践中，城市郊区集体土地上的农村房子买卖很多，也没有办理过户，拆迁时，也会给与相应补偿，不过价格相对较低一些。</p>
+<p><img src="/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89/o.png" alt="o"></p>
+<p>宅基地使用权作为土地使用权的一部分，归当地的农村经济组织(村委会)所有，但公民可以依法取得对宅基地的使用权。同时，我国农村宅基地还有一定的福利性质，农民一般无偿取得宅基地使用权，在取得宅基地使用权后，享有长期占有、使用的权利。</p>
+<p>法律规定宅基地由村民按户申请使用，一户只能拥有一处宅基地，宅基地使用权应属于村民户内家庭成员共同共有，农村建设用地使用权证登记的宅基地使用权人只是家庭的代表人，其并不能独占宅基地使用权。</p>
+<p>家庭成员对宅基地使用权享有平等的权利、承担平等的义务，家庭成员之间对宅基地使用权没有份额的划分。在以户为单位的家庭关系存续期间，家庭成员不得请求分割宅基地使用权。家庭个别成员的死亡，并不必然导致户的消灭，也就不会产生宅基地使用权的分割问题，无法形成死亡人对宅基地使用权的个人份额。被继承人死亡前，宅基地使用权并非其个人财产。宅基地使用权并非个人财产，因此不能作为遗产继承。</p>
+<p><img src="/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89/p.png" alt="p"></p>
+<p><img src="/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%B8%80%EF%BC%89/l.png" alt="l"></p>
+<p>引用法条：</p>
+<p>[1]《土地管理法》第六十二条</p>
+<p>[2]《土地管理法》第六十三条</p>
+<p>[3]《中华人民共和国物权法》第一百五十二条</p>
+<p>[4]《中华人民共和国物权法》第一百五十三条</p>
+<p>[5]《中华人民共和国物权法》第一百五十五条</p>
+<p>《中华人民共和国民法典》关于宅基地使用权的相关最新规定：</p>
+<p>第十三章　宅基地使用权</p>
+<p>第三百六十二条　【宅基地使用权的定义】宅基地使用权人依法对集体所有的土地享有占有和使用的权利,有权依法利用该土地建造住宅及其附属设施。</p>
+<p>第三百六十三条　【宅基地使用权取得、行使和转让的法律适用】宅基地使用权的取得、行使和转让,适用土地管理的法律和国家有关规定。</p>
+<p>第三百六十四条　【宅基地的灭失和重新分配】宅基地因自然灾害等原因灭失的,宅基地使用权消灭。对失去宅基地的村民,应当依法重新分配宅基地。</p>
+<p>第三百六十五条　【宅基地使用权变更和注销登记】已经登记的宅基地使用权转让或者消灭的,应当及时办理变更登记或者注销登记。</p>
+<p>  文章将持续更新，更多相关内容请关注微信公众号: 精准蒲法</p>
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（二）</title>
-    <url>/2020/06/12/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<p>四、变量和常量</p>
-<p>1变量</p>
-<p>1.1int i,j;不提倡一行声明多个变量这种风格，逐一声明每个变量可以提高程序的可读性。在Java中变量的声明尽可能靠近变量第一次使用的地方。</p>
-<p>1.2从Java10开始，如果从变量的初始值就可以推断出它的类型，就不再需要声明类型，只需要使用关键字var而无需指定类型：</p>
-<p>var i = 0;</p>
- <a id="more"></a> 
-
-<p>1.3在C和C++中，区分变量的声明和定义，如：</p>
-<p>int i;//声明</p>
-<p>int i=10;定义</p>
-<p>在Java中并不区分变量的声明和定义。</p>
-<p>2常量</p>
-<p>2.1</p>
-<p>用关键字final表示常量，如：final ABC=0;</p>
-<p>关键词final表示这个变量只能被赋值一次，一旦被赋值之后就不能再更改，习惯上常量名全部大写。</p>
-<p>2.2类常量</p>
-<p>类常量：Java中经常希望某个常量可以在一个类的多个方法中使用，可以使用static final设置一个类常量，如：</p>
-<p>public class HelloHa {</p>
-<p>  public static final int <strong>ABC</strong> = 0;</p>
-<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
-<p>}</p>
-<p>public void aaa(){</p>
-<p>}</p>
-<p>}</p>
-<p>注意：类常量的定义在类的方法的外部。因此在同一个类的其他方法里也可以使用此常量。</p>
-<p>3如果一个常量被声明为public，那么其他类的方法也可以使用这个常量。</p>
-<p>CSDN：把其他类的变量设置为public static，即静态公共变量，直接用类名.变量名获取（不可以只写变量名）。但是这个方法最好只用于基础数据变量（int/long/boolean/double/byte等），否则会造成内存泄漏。例：</p>
-<p>class Aaa {<br>  public static final int <strong>q</strong> = 0;<br>  void aaa() {</p>
-<p>}<br>}</p>
-<p>public class HelloHa {</p>
-<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {<br>   System.<strong>out</strong>.println<strong>(</strong>Aaa.<strong>q)</strong>;<br>      }</p>
-<p>}</p>
-<p>4枚举类型（详细内容在第三章介绍）</p>
-<p>enum Size <strong>{S</strong>, <strong>M</strong>, <strong>L</strong>, <strong>X}</strong>//定义枚举类型</p>
-<p>public class HelloHa {</p>
-<p>   public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
-<p>​      Size s = Size.<strong>S</strong>;//声明枚举类型的变量，Size类型的变量只能存储这个类型声明中给定的某个枚举值或者特殊值null,null表示这个变量没有设置任何值</p>
-<p> }</p>
-<p>}</p>
-<p>五、运算符</p>
-<p>1算数运算符，如：+，-，*，/，%（求余又称取模）</p>
-<p>整数被零除（5.0/0）会产生一个异常，而浮点数被零除会得到无穷大或NaN结果。</p>
-<p>若表达式a/b的商为负数，则商会向0取整；a%b的余数的定义是（a/b）*b+a%b的值恒等于a。例如：-14/3和14/-3的商都是-4，但-14%3是-2，而14%-3是2。</p>
-<p>2数值类型的转换</p>
-<p>2.1自动转换（隐式的）</p>
-<p>当用一个二元运算符连接两个值时，会先自动将两个操作数转换成同一种类型，然后再进行计算：</p>
-<p>如果两个操作数中有一个是double类型，另一个操作数就会转换成double类型。</p>
-<p>否则，如果其中一个操作数是float类型，另一个操作数就会转换成float类型。</p>
-<p>否则，如果其中一个操作数是long类型，另一个操作数就会转换成long类型。</p>
-<p>否则，如果其中一个操作数是int类型，另一个操作数就会转换成int类型。</p>
-<p>2.2强制类型转换（显式的）</p>
-<p>强制类型转换：如有时需要将double类型转换成int类型，且有可能有时会丢掉一些信息。</p>
-<p>强制类型转换的语法格式是在圆括号中给出想要转换的目标类型，后面紧跟带转换的变量名，如：</p>
-<p>double i=9.999;</p>
-<p>int j=(int)i;//j是9</p>
-<p>j的值是9，因为强制类型转换是通过截断小数点部分将浮点值转换成整型。</p>
-<p>如果想对浮点数进行舍入运算，以便得到最接近的整数（很多情况下这种操作更有用），那就需要使用Math.round方法：</p>
-<p>double i=9.999;</p>
-<p>int j=(int)Math.round(i);//j是10</p>
-<p>当调用round方法时，仍然需要使用显式的强制类型转换，因为round方法返回的结果是long类型，由于存在信息丢失的可能性，所以只有使用显式的强制类型转换才能将long类型转换成int类型。</p>
-<p>警告：如果试图将一个数值强制转换成另一种类型时，这个数值超出了目标类型的表示范围，结果就会截断成一个完全不同的值，如：</p>
-<p>(byte)300;//实际输出值为44</p>
-<p>3结合赋值和运算符</p>
-<p>在赋值中使用运算符的简写形式：x+=1;//等效于x=x+1</p>
-<p>如果右侧操作数的类型和左侧操作数的类型不同，就会发生自动的发生强制转换（运算符简写形式下，不写强制类型的语法格式也是合法的）或自动转换，如：</p>
-<p>int x = 1;<br>x += 1.5;//将double强制转换成int，先(int)(x+1.5)<br>System.<strong>out</strong>.println<strong>(</strong>x<strong>)</strong>;//输出2</p>
-<p>4自增和自减运算符</p>
-<p>i++或++i，自增和自减运算符改变的变量的值，不能作用于数值的本身，即不能：6++</p>
-<p>5关系运算符和boolean运算符</p>
-<p>&amp;&amp;和||运算符是按照”短路”方式求值的：若第通过一个操作数就能确定表达式的值，则不会再判断第二个操作数的值。</p>
-<p>&amp;和|不遵循短路求值</p>
-<p>三元运算符：x&lt;y?x:y//如果x&lt;y则返回x</p>
+    <title>我的第二篇博客</title>
+    <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>#冲冲冲！</p>
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（一）</title>
-    <url>/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0/</url>
-    <content><![CDATA[<hr>
-<p>第一章Java的基本程序设计结构</p>
-<p>软件安装：安装JDK</p>
-<p>微信公众号“唠码客”往期文章</p>
-<p>安装IDEA</p>
-<p>微信公众号“唠码客”往期文章</p>
-<p>创建第一个Java程序参考链接： <a href="https://www.cnblogs.com/hanwen1014/p/9053492.html" target="_blank" rel="noopener">https://www.cnblogs.com/hanwen1014/p/9053492.html</a> </p>
- <a id="more"></a> 
+    <title>第一章Java程序概述（三）</title>
+    <url>/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+    <content><![CDATA[<p><img src="/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/a.jpg" alt="a"></p>
+<p>晒下我的桌面，拍照技术菜的一批。。。</p>
+<a id="more"></a> 
 
-<p>一、一个简单的Java应用程序</p>
-<p>1类名的标准命名规则：类名以大写字母做开头，后面可以是数字或字母，若类名由多个单词构成则每个单词的首字母应大写。</p>
-<p>例：CamelCase</p>
-<p>2一个Java文件只能有一个public类，且公共类名（HelloWord）必须与java源文件名（如HelloWord.java）相同。一个程序可以有多个类但只能有一个public类，也只允许有一个起点即一个main方法。</p>
-<p>3main方法：Java的源文件里必须包含一个main方法。main方法是Java程序运行的起点。Java语言规范：mian方法必须声明为public，必须是静态的。</p>
-<p>4块：Java中用{}划分程序的各个部分，通常称为块。以“{”开始，以“}”结束。一般习惯把匹配的大括号上下对齐。</p>
-<p>5Java中每个语句必须以分号结束，回车不是一条语句的结束标志，因此，如果需要，可以将一条语句写在多行。</p>
-<p>6System.out.print(“aSdafa”);//使用System.out对象的print方法。</p>
-<p>7参数：有的程序员也把参数叫做实参。</p>
-<p>二、注释</p>
-<p>1Java有三种注释形式。</p>
-<p>1.1//：注释内容从//到本行结束</p>
-<p>1.2多行注释：/<em><em>/，注释内容从/</em>开始到</em>/结束。</p>
-<p>这种多行注释不能嵌套注释，/<em><em>/是从第一个/</em>开始到第一个</em>/结束：</p>
-<p>/<em>/</em>System.out.println(“qwe<em>/“);</em>/</p>
-<p>1.3文档化注释（在第二章详细介绍）：/<strong>注释部分*/，这种注释可以用来自动的生成文档。也可以用来注释多行，由/</strong>开始到*/结束。</p>
-<p>三、数据类型</p>
-<p>1.1一共8种基本数据类型:四种整型分别是int,short,long,byte;两种浮点类型分别是float,double;一种字符类型char;一种用于表示真值的boolean类型。</p>
-<p>1.2表示长整型(long)需要后缀一个L或l,如：40000L；表示十六进制要有前缀0x或0X.如：0x10表示十进制16；表示八进制要有前缀0.如：010表示十进制8；表示二进制要有前缀0b或0B.如：0b10表示十进制2。</p>
-<p>1.3可以在数的中间加下划线，如：2_000_000表示2000000，下划线是为了让人们更易读，编译时Java编译器会除去这些下划线。</p>
-<p>1.4浮点类型</p>
-<p>1.4.1单精度类型float：有效位数为6~7位。如float a=2.4;</p>
-<p>float类型的数值需要加一个后缀F或f,如3.14F.没有后缀F或f的浮点数会默认为double类型，当然浮点数也可以后缀D或d,如3.14D。</p>
-<p>双精度类型double:有效位数位15位。</p>
-<p>1.4.2可以使用十六进制表示浮点数，如十进制0.125用十六进制表示为0x1.0p-3：即1.0*2的-3次方。其中1.0这里用十六进制表示，表示指数，指数的基数为2，-3这里用十进制表示。</p>
-<p>1.4.3用于表示溢出和出错情况的三个特殊的浮点值：</p>
-<p>正无穷大：Double.POSITIVE_INFINITY</p>
-<p>负无穷大：Double.NEGATIVE_INFINITY</p>
-<p>NaN:不是一个数字</p>
-<p>例如一个正的浮点数除以0的结果为正无穷大，计算0.0/0或负数的平方根的结果为NaN。</p>
-<p>double a = 0.0 / 0;//此时a并不是一个数<br>if <strong>(</strong>Double.<strong>isNaN**</strong>(<strong>a</strong>)) {<strong>//检验a是否是一个数值<br>  System.</strong>out<strong>.println</strong>(<strong>“a不是一个数值”</strong>)<strong>;<br>  System.</strong>out<strong>.println</strong>(<strong>a</strong>)<strong>;//控制台输出NaN<br>**}</strong> else <strong>{**</strong><br>**  System.<strong>out</strong>.println<strong>(</strong>“a的数值是：”+a<strong>)</strong>;<br><strong>}</strong> ;</p>
-<p>1.4.4浮点数不适用于无法接收舍入误差的金融计算</p>
-<p>浮点数值采用二进制系统表示，即只能精确到0.5（此0.5是十进制）而二进制系统无法精确到1/10，，就好像十进制无法精确表示1/3，所以:</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>2.0-1.1<strong>)</strong>;//控制台输出：0.8999999999999999</p>
-<p>如果数值计算中不允许有任何舍入误差，就应该使用BigDecimal类，本章稍后讲。</p>
-<p>1.5char类型</p>
-<p>‘A’是编码值为65的字符常量，它与“A”不同，“A”是包含一个字符A的字符串，char类型的值还可以表示为十六进制，其范围从\u0000到\uFFFF。Unicode字符可以用一个char值描述或者两个char值描述。以下为部分特殊字符的转义序列：</p>
-<p>转义序列        名称        Unicode值</p>
-<p>\t                制表        \u0009</p>
-<p>\n                换行        \u000a</p>
-<p>\r                回车        \u000d</p>
-<p>\”                双引号    \u0022</p>
-<p>所有的转义序列都可以出现在字符中或字符串中，如：</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\u0009”+”d”<strong>)</strong>;//输出a    d</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\t”+”d”<strong>)</strong>;//输出a    d</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\t’+”d”<strong>)</strong>;//输出a    d</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\0009’+”d”<strong>)</strong>;//输出a    d</p>
-<p>Unicode转义序列会在解析代码之前得到处理，如：”\u0022+\u0022”在编译前\u0022会先转换成”，因此编译后会得到””+””,也就是一个空字符串。更为隐秘的是在注释中出现：// \u000a。。。。。，编译时会有语法错误，在编译代码前会先把 \u000a替换成一个换行符，此时等效于：</p>
-<p>//（换行了）</p>
-<p>。。。。。</p>
-<p>能用字符串类型表示就不要用字符类型。</p>
-<p>1.6布尔型</p>
-<p>在Java中整型值和布尔值无法相互转换。如下情况会发生编译错误：</p>
-<p>int i = 0;<br>if (i = 0) {<br>  System.out.println(“sdfsf”);<br>}</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Happy Every Day</title>
-    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
+<p>六、字符串</p>
+<p>1String a=””; //空字符串</p>
+<p>String b=”sdfdsfg”;</p>
+<p>每个用双引号括起来的字符串都是String类型的一个示例（对象）。</p>
+<p>2提取一个子串</p>
+<p>String类里的substring方法可以从一个较大的字符串里提取一个子串，如：</p>
+<p>String greeting=”Hello”;</p>
+<p>String s=greeting.substring(0,3);//即Hel，这里复制位置0，1，2的字符，从0开始，到3截止但不包括3</p>
+<p>Java字符串中的代码单元和代码点从0开始计数。</p>
+<p>substring的优点：容易计算子串的长度，如字符串s.substring(a,b)的长度是b-a。</p>
+<p>3拼接字符串</p>
+<p>3.1Java语言可以用+号按顺序拼接字符串。</p>
+<p>String a=”asdaf “;<br>String b=”dsfrg”;<br>System.out.println(a+b);控制台输出asdaf dsfrg，因为a字符串有个空格</p>
+<p>3.2任何一个Java对象都可以转换成一个字符串，当字符串和一个非字符串（前提是一个对象）的值进行拼接时非字符串会转换成字符串，如：</p>
+<p>String a = “The answer is “;<br>String b = 16 + a;//16被当作了一个对象<br>System.out.println(b);//控制台输出The answer is 16<br>System.out.println(“The answer is “ + www);//www被当作了一个变量，所以编译出错</p>
+<p>这种特性通常用在输出语句中。</p>
+<p>3.3如果需要将多个字符串拼接起来，且各个字符串之间用界定符分隔，可以使用静态join方法，如：</p>
+<p>String abc=String.join(<strong>“/“,”S”,”M”,”L”,”K”</strong>)<strong>;//这里充当界定符的/也可以换成其他<br>System.</strong>out<strong>.println</strong>(<strong>abc</strong>);//控制台输出S/M/L/K，/被当作界定符使用</p>
+<p>3.4Java11中还提供了一个repeat方法：</p>
+<p>String def=”java”.repeat<strong>(</strong>3<strong>)</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>def<strong>)</strong>;//控制台输出javajavajava</p>
+<p>4字符串是不可变的</p>
+<p>4.1String类中没有提供修改字符串中某个字符的方法。</p>
+<p>4.2String s=”Hello”;</p>
+<p>如果想将字符串s里最后两个位置的字符修改成p和！，可以提取字符串s中想保留的子串，再与想替换的字符拼接：</p>
+<p>s=s.substring(0,3)+”p!”;//但是这种先提取再拼接的效率并不高</p>
+<p>4.3在Java中不能修改字符串里的单个字符，即”Hello”永远包含H，e,l,l,o这几个字符。但是可以改变其引用变量s,即让s引用另一个字符串：</p>
+<p>String a=”aaa”;//创建的对象aaa赋给引用变量a<br>a=”abc”;//又新创建了另一个对象abc,并赋给引用变量a(即不再建立引用变量a和对象aaa之间的联系)，并没有改变对象aaa的内容<br>System.out.println(a);//控制台输出abc</p>
+<p>可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆）。</p>
+<p>如果：</p>
+<p>String a=”sss”;</p>
+<p>String b=”sss”;//表示引用变量a和b都指向存放字符串sss的位置</p>
+<p>4.3的效率要高于4.2。</p>
+<p>4.4</p>
+<p>String a=”aaa”;</p>
+<p>String a=”bbb”;</p>
+<p>此时String类型的对象aaa不再被使用，系统最终会自动将其回收，因此不会产生内存泄露，即垃圾回收机制。</p>
+<p>注意：在Java中不能修改字符串里的单个字符，但是在C++中可以，Java和C++都有上述的垃圾回收机制。</p>
 ]]></content>
   </entry>
   <entry>
@@ -379,6 +354,24 @@
 <p>2.3可以为printf提供多个参数</p>
 <p>//可以为printf提供多个参数<br>String name=”小黑”;<br>int age=20;<br>System.out.printf(“嗨，%s。今年你%d岁啦”,name,age);<br>double c = 10.0 / 3;<br>System.out.printf(“%f”, c);</p>
 <p>格式说明符：以%开头，后面加上字母。即每一个以%开始的格式说明符都用相应的参数替换掉，格式说明符尾部的转换符表明要格式化的数值的类型：f表示浮点数，s表示字符串，d表示十进制整数，等等。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（四）</title>
+    <url>/2020/06/14/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%9B%9B%EF%BC%89/</url>
+    <content><![CDATA[<p>字符串池：可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆），存放在池子里的这些字符串可以被多个引用变量共享。</p>
+<a id="more"></a>
+
+<p>5检测字符串是否相等</p>
+<p>5.1equals方法：只检测的是字符串字面量即字符串的内容是否相等。</p>
+<p>//全部输出true<br>String a = “He”;<br>String b = “He”;<br>//字符串字面量是指双引号引住的一系列字符，双引号中可以没有字符，可以只有一个字符，也可以有很多个字符。<br>System.out.println(a.equals(b));//equals方法两侧可以是字符串变量如：a，也可以是字符串字面量如：He<br>System.out.println(a.equals(“He”));<br>System.out.println(“He”.equals(b));</p>
+<p>5.2equalsIgnoreCase方法：在不区分字符串大小写情况下，只检测字符串字面量即字符串的内容是否相等。</p>
+<p>equalsIgnoreCase方法两侧可以是字符串变量也可以是字符串字面量<br> System.out.println(“Hello”.equalsIgnoreCase(“hello”));//输出true<br> String a = “He”;<br> String b = “He”;<br> System.out.println(a.equalsIgnoreCase(b));//输出true</p>
+<p>5.3==：一定不要使用==运算符检测两个字符串是否相等，只检测的是字符串字面量存储的位置是否相同，并不检测字符串字面量即内容是否相同。</p>
+<p>用subtring方法操作的字符串并不会被共享。</p>
+<p>//==比较的是字符串的存储位置<br> String greeting = “Hello”;<br> System.out.println(greeting == “Hello”);//这里字符串字面量Hello是共享的（即只有一个字符串字面量Hello）,输出true<br> System.out.println(greeting.substring(0, 3) == “Hel”);//控制台输出false，创建了两个相同的字符串字面量Hel，即两个字符串内容相同但存储位置不同，这里字符串字面量Hel是不共享的<br> String c = “a” + “b”;<br> String d=”ab”;<br> System.out.println(c == d);//控制台输出true,用+创建的字符串字面量可以共享</p>
+<p>5.4compareTo方法：只检测的是字符串字面量即字符串的内容是否相等，若相等则输出0，不相等则输出1。</p>
+<p>String greeting = “Hello”;<br>String a = greeting.substring(0, 3);//Hel不共享<br>System.out.println(a == “Hel”);//在这里又创建了新的字符串字面量Hel，输出false,即两个字符串字面量相同但存储位置不同，==比较的是存储位置<br>System.out.println(a.compareTo(“Hel”));//输出0，compareTo方法：如果两个字符串相等则输出0否则输出1，比较的是两个字符串字面量即内容是否相同（不比较存储位置）<br>System.out.println(a.equals(“Hel”));//控制台输出true,equals方法比较的是字符串字面量即内容<br>System.out.println(a.equalsIgnoreCase(“Hel”));//控制台输出true，equalsIgnoreCase方法比较的是字符串字面量即内容</p>
 ]]></content>
   </entry>
   <entry>
@@ -475,130 +468,87 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（三）</title>
-    <url>/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/</url>
-    <content><![CDATA[<p><img src="/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/a.jpg" alt="a"></p>
-<p>晒下我的桌面，拍照技术菜的一批。。。</p>
-<a id="more"></a> 
-
-<p>六、字符串</p>
-<p>1String a=””; //空字符串</p>
-<p>String b=”sdfdsfg”;</p>
-<p>每个用双引号括起来的字符串都是String类型的一个示例（对象）。</p>
-<p>2提取一个子串</p>
-<p>String类里的substring方法可以从一个较大的字符串里提取一个子串，如：</p>
-<p>String greeting=”Hello”;</p>
-<p>String s=greeting.substring(0,3);//即Hel，这里复制位置0，1，2的字符，从0开始，到3截止但不包括3</p>
-<p>Java字符串中的代码单元和代码点从0开始计数。</p>
-<p>substring的优点：容易计算子串的长度，如字符串s.substring(a,b)的长度是b-a。</p>
-<p>3拼接字符串</p>
-<p>3.1Java语言可以用+号按顺序拼接字符串。</p>
-<p>String a=”asdaf “;<br>String b=”dsfrg”;<br>System.out.println(a+b);控制台输出asdaf dsfrg，因为a字符串有个空格</p>
-<p>3.2任何一个Java对象都可以转换成一个字符串，当字符串和一个非字符串（前提是一个对象）的值进行拼接时非字符串会转换成字符串，如：</p>
-<p>String a = “The answer is “;<br>String b = 16 + a;//16被当作了一个对象<br>System.out.println(b);//控制台输出The answer is 16<br>System.out.println(“The answer is “ + www);//www被当作了一个变量，所以编译出错</p>
-<p>这种特性通常用在输出语句中。</p>
-<p>3.3如果需要将多个字符串拼接起来，且各个字符串之间用界定符分隔，可以使用静态join方法，如：</p>
-<p>String abc=String.join(<strong>“/“,”S”,”M”,”L”,”K”</strong>)<strong>;//这里充当界定符的/也可以换成其他<br>System.</strong>out<strong>.println</strong>(<strong>abc</strong>);//控制台输出S/M/L/K，/被当作界定符使用</p>
-<p>3.4Java11中还提供了一个repeat方法：</p>
-<p>String def=”java”.repeat<strong>(</strong>3<strong>)</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>def<strong>)</strong>;//控制台输出javajavajava</p>
-<p>4字符串是不可变的</p>
-<p>4.1String类中没有提供修改字符串中某个字符的方法。</p>
-<p>4.2String s=”Hello”;</p>
-<p>如果想将字符串s里最后两个位置的字符修改成p和！，可以提取字符串s中想保留的子串，再与想替换的字符拼接：</p>
-<p>s=s.substring(0,3)+”p!”;//但是这种先提取再拼接的效率并不高</p>
-<p>4.3在Java中不能修改字符串里的单个字符，即”Hello”永远包含H，e,l,l,o这几个字符。但是可以改变其引用变量s,即让s引用另一个字符串：</p>
-<p>String a=”aaa”;//创建的对象aaa赋给引用变量a<br>a=”abc”;//又新创建了另一个对象abc,并赋给引用变量a(即不再建立引用变量a和对象aaa之间的联系)，并没有改变对象aaa的内容<br>System.out.println(a);//控制台输出abc</p>
-<p>可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆）。</p>
-<p>如果：</p>
-<p>String a=”sss”;</p>
-<p>String b=”sss”;//表示引用变量a和b都指向存放字符串sss的位置</p>
-<p>4.3的效率要高于4.2。</p>
-<p>4.4</p>
-<p>String a=”aaa”;</p>
-<p>String a=”bbb”;</p>
-<p>此时String类型的对象aaa不再被使用，系统最终会自动将其回收，因此不会产生内存泄露，即垃圾回收机制。</p>
-<p>注意：在Java中不能修改字符串里的单个字符，但是在C++中可以，Java和C++都有上述的垃圾回收机制。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第二章对象与类（二）</title>
-    <url>/2020/06/20/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <title>第一章Java程序概述（二）</title>
+    <url>/2020/06/12/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
     <content><![CDATA[<hr>
-<p>今天考试，更新的比较少。</p>
-<a id="more"></a> 
-
-<p>1.2在Java标准库里有一个Date类，它可以实时描述现在的时间点。</p>
-<p>构造器的名字应该与类名相同，构造对象时在前面加new操作符：</p>
-<p>new Date<strong>()</strong>;</p>
-<p>如果需要的话，也可以将这个对象传递给一个方法：</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>new Date<strong>())</strong>;//输出Sat Jun 20 21:43:37 CST 2020</p>
-<p>或者，也可以对刚刚创建的对象应用一个方法，Date类中有一个toString方法，可以将返回的日期以字符串描述：</p>
-<p>String s = new Date<strong>()</strong>.toString<strong>()</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>s<strong>)</strong>;//Sat Jun 20 21:47:52 CST 2020</p>
-<p>1.3对象变量不是对象。</p>
-<p>定义（声明）一个对象变量：</p>
-<p>Date deadline;</p>
-<p>此时还没有引用任何对象，还不能在这个变量上使用任何Date类的方法。即String s=deadline.toString()是无法编译成功的。</p>
-<p>1.4初始化对象变量</p>
-<p>Date deadline=new Date();//deadline引用了一个新构造的对象</p>
-<p>或者两个变量引用同一个对象：</p>
-<p>Date date1= new Date<strong>()</strong>;<br>Date date2=date1;<br>System.<strong>out</strong>.println<strong>(</strong>date1==date2<strong>)</strong>;//输出true,两个变量引用同一位置的对象</p>
-<p>1.5对象变量只是引用一个对象，并不是包含对象。任何对象变量的值都是对存储在另一个地方的某个对象的引用。</p>
-<p>1.6new操作符的返回值也是一个引用。</p>
-<p>Date deadline=new Date()</p>
-<p>new Date()构造了一个Date类型的对象，它的值是对新创建对象的一个引用，这个引用存储在对象变量deadline中。</p>
-<p>1.6可以将对象变量设置为null,即这个对象变量目前没有存储任何对象。</p>
-<p>1.7所有的额Java对象都存储在堆中。</p>
-<p>当一个对象包含另一个对象变量时，它只是包含着另一个堆对象的指针（或者说这个对象只包含着对另一个堆对象的引用）。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>莒南县法治调研实践</title>
-    <url>/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/</url>
-    <content><![CDATA[<hr>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/a.jpg" alt="a"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/b.jpg" alt="b"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/c.jpg" alt="c"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/d.jpg" alt="d"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/e.jpg" alt="e"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/f.jpg" alt="f"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/g.jpg" alt="g"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第二章对象与类（一）</title>
-    <url>/2020/06/19/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<hr>
-<p>今天这篇博客如果看起来很吃力的话大家评论留言一下，我会考虑再出一篇更易理解的。</p>
+<p>四、变量和常量</p>
+<p>1变量</p>
+<p>1.1int i,j;不提倡一行声明多个变量这种风格，逐一声明每个变量可以提高程序的可读性。在Java中变量的声明尽可能靠近变量第一次使用的地方。</p>
+<p>1.2从Java10开始，如果从变量的初始值就可以推断出它的类型，就不再需要声明类型，只需要使用关键字var而无需指定类型：</p>
+<p>var i = 0;</p>
  <a id="more"></a> 
 
-<p>第二章、对象与类</p>
-<p>一、面向对象程序设计简称OOP。</p>
-<p>1类</p>
-<p>由类构造对象的过程称为创建类的实例。</p>
-<p>封装(有时称为数据隐藏)：就是将数据和行为组合在一个包中，并对对象的使用者隐藏具体的实现方式。</p>
-<p>对象中的数据称为实例字段。</p>
-<p>操作数据的过程称为方法。</p>
-<p>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。无论何时，只要在对象上调用一个方法，它的状态就有可能发生改变。</p>
-<p>实现封装的关键在于，绝对不能让类中的方法直接访问其他类的实例字段。程序只能通过对象的方法与对象数据进行交互。</p>
-<p>在Java中，所有的都源自一个“超类”，即Object类。</p>
-<p>通过扩展一个类（父）来建立另一个类（子）的过程的过程被称为继承。</p>
-<p>2对象</p>
-<p>对象的三个主要特性：</p>
-<p>（1）对象的行为：对象的行为是用可调用的方法来定义的。</p>
-<p>（2）对象的状态：每个对象都保存着描述当前状况的信息，这就是对象的状态。（但是对象的状态不能完全描述一个对象）</p>
-<p>（3）对象的标识：每个对象都有一个唯一的标识（或称身份），如：在一个订单处理系统中，任何两个订单都存在着不同之处，即使所订购的货物完全相同，它们也是不同的订单。注意：作为同一个类的实例，每个对象的标识符的总是不同的，状态也往往存在着差异。</p>
-<p>3类之间的关系</p>
-<p>依赖：如果一个类的方法使用或操纵另一个类的对象，我们就说一个类依赖于另一个类。</p>
-<p>应该尽可能地将相互依赖的类减至最少。因为如果类A不知道类B的存在，它就不会关心类B的任何改变（这意味着B的改变不会导致A产生任何bug），用软件工程的术语说，就是尽可能减少类之间的耦合。</p>
-<p>聚合（包容）：类A的对象包含类B的对象。</p>
-<p>还有关联关系等。</p>
-<p>继承：表示一个更特殊类与一个更一般的类之间的关系。如果类A扩展类B，类A不但包含从类B继承的方法等，还会有一些额外的功能。</p>
-<p>很多采用UML（统一建模语言）绘制类图，用来描述类之间的关系。</p>
-<p>二、使用预定义类</p>
-<p>并不是所有的类都表现出面向对象的典型特征。例如，Math类。可以直接使用Math类的方法，如Math.random,而不必了解它具体是如何实现的，你只需要知道方法名和参数(如果有的话）。这正是封装的关键所在，当然所有类都是这样。 但Math类只封装了功能，它也不必隐藏数据。由于没有数招，因此也不必专虑创建对象和初始化它们的实例字段，因为根本没有实例字段。</p>
-<p>1对象与对象变量</p>
-<p>在Java中要使用构造器（或称构造函数）构造新实例，构造器是一种特殊的方法，用来构造并初始化对象。</p>
+<p>1.3在C和C++中，区分变量的声明和定义，如：</p>
+<p>int i;//声明</p>
+<p>int i=10;定义</p>
+<p>在Java中并不区分变量的声明和定义。</p>
+<p>2常量</p>
+<p>2.1</p>
+<p>用关键字final表示常量，如：final ABC=0;</p>
+<p>关键词final表示这个变量只能被赋值一次，一旦被赋值之后就不能再更改，习惯上常量名全部大写。</p>
+<p>2.2类常量</p>
+<p>类常量：Java中经常希望某个常量可以在一个类的多个方法中使用，可以使用static final设置一个类常量，如：</p>
+<p>public class HelloHa {</p>
+<p>  public static final int <strong>ABC</strong> = 0;</p>
+<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
+<p>}</p>
+<p>public void aaa(){</p>
+<p>}</p>
+<p>}</p>
+<p>注意：类常量的定义在类的方法的外部。因此在同一个类的其他方法里也可以使用此常量。</p>
+<p>3如果一个常量被声明为public，那么其他类的方法也可以使用这个常量。</p>
+<p>CSDN：把其他类的变量设置为public static，即静态公共变量，直接用类名.变量名获取（不可以只写变量名）。但是这个方法最好只用于基础数据变量（int/long/boolean/double/byte等），否则会造成内存泄漏。例：</p>
+<p>class Aaa {<br>  public static final int <strong>q</strong> = 0;<br>  void aaa() {</p>
+<p>}<br>}</p>
+<p>public class HelloHa {</p>
+<p>  public static void main<strong>(</strong>String<strong>[]</strong> args) {<br>   System.<strong>out</strong>.println<strong>(</strong>Aaa.<strong>q)</strong>;<br>      }</p>
+<p>}</p>
+<p>4枚举类型（详细内容在第三章介绍）</p>
+<p>enum Size <strong>{S</strong>, <strong>M</strong>, <strong>L</strong>, <strong>X}</strong>//定义枚举类型</p>
+<p>public class HelloHa {</p>
+<p>   public static void main<strong>(</strong>String<strong>[]</strong> args) {</p>
+<p>​      Size s = Size.<strong>S</strong>;//声明枚举类型的变量，Size类型的变量只能存储这个类型声明中给定的某个枚举值或者特殊值null,null表示这个变量没有设置任何值</p>
+<p> }</p>
+<p>}</p>
+<p>五、运算符</p>
+<p>1算数运算符，如：+，-，*，/，%（求余又称取模）</p>
+<p>整数被零除（5.0/0）会产生一个异常，而浮点数被零除会得到无穷大或NaN结果。</p>
+<p>若表达式a/b的商为负数，则商会向0取整；a%b的余数的定义是（a/b）*b+a%b的值恒等于a。例如：-14/3和14/-3的商都是-4，但-14%3是-2，而14%-3是2。</p>
+<p>2数值类型的转换</p>
+<p>2.1自动转换（隐式的）</p>
+<p>当用一个二元运算符连接两个值时，会先自动将两个操作数转换成同一种类型，然后再进行计算：</p>
+<p>如果两个操作数中有一个是double类型，另一个操作数就会转换成double类型。</p>
+<p>否则，如果其中一个操作数是float类型，另一个操作数就会转换成float类型。</p>
+<p>否则，如果其中一个操作数是long类型，另一个操作数就会转换成long类型。</p>
+<p>否则，如果其中一个操作数是int类型，另一个操作数就会转换成int类型。</p>
+<p>2.2强制类型转换（显式的）</p>
+<p>强制类型转换：如有时需要将double类型转换成int类型，且有可能有时会丢掉一些信息。</p>
+<p>强制类型转换的语法格式是在圆括号中给出想要转换的目标类型，后面紧跟带转换的变量名，如：</p>
+<p>double i=9.999;</p>
+<p>int j=(int)i;//j是9</p>
+<p>j的值是9，因为强制类型转换是通过截断小数点部分将浮点值转换成整型。</p>
+<p>如果想对浮点数进行舍入运算，以便得到最接近的整数（很多情况下这种操作更有用），那就需要使用Math.round方法：</p>
+<p>double i=9.999;</p>
+<p>int j=(int)Math.round(i);//j是10</p>
+<p>当调用round方法时，仍然需要使用显式的强制类型转换，因为round方法返回的结果是long类型，由于存在信息丢失的可能性，所以只有使用显式的强制类型转换才能将long类型转换成int类型。</p>
+<p>警告：如果试图将一个数值强制转换成另一种类型时，这个数值超出了目标类型的表示范围，结果就会截断成一个完全不同的值，如：</p>
+<p>(byte)300;//实际输出值为44</p>
+<p>3结合赋值和运算符</p>
+<p>在赋值中使用运算符的简写形式：x+=1;//等效于x=x+1</p>
+<p>如果右侧操作数的类型和左侧操作数的类型不同，就会发生自动的发生强制转换（运算符简写形式下，不写强制类型的语法格式也是合法的）或自动转换，如：</p>
+<p>int x = 1;<br>x += 1.5;//将double强制转换成int，先(int)(x+1.5)<br>System.<strong>out</strong>.println<strong>(</strong>x<strong>)</strong>;//输出2</p>
+<p>4自增和自减运算符</p>
+<p>i++或++i，自增和自减运算符改变的变量的值，不能作用于数值的本身，即不能：6++</p>
+<p>5关系运算符和boolean运算符</p>
+<p>&amp;&amp;和||运算符是按照”短路”方式求值的：若第通过一个操作数就能确定表达式的值，则不会再判断第二个操作数的值。</p>
+<p>&amp;和|不遵循短路求值</p>
+<p>三元运算符：x&lt;y?x:y//如果x&lt;y则返回x</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Happy Every Day</title>
+    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
 ]]></content>
   </entry>
   <entry>
@@ -688,6 +638,87 @@
 <p>使用null时要非常小心：如果对null值应用一个方法，会产生一个NullPointException异常，如果程序没有捕获异常，程序就会终止。正常情况下，程序并不捕获这些异常，而是依赖于程序员从一开始就不要带来异常。</p>
 <p>LocalDate bir=null;</p>
 <p>Sreing s=bir.toString();//产生NullPointException异常</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第二章对象与类（二）</title>
+    <url>/2020/06/20/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<p>今天考试，更新的比较少。</p>
+<a id="more"></a> 
+
+<p>1.2在Java标准库里有一个Date类，它可以实时描述现在的时间点。</p>
+<p>构造器的名字应该与类名相同，构造对象时在前面加new操作符：</p>
+<p>new Date<strong>()</strong>;</p>
+<p>如果需要的话，也可以将这个对象传递给一个方法：</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>new Date<strong>())</strong>;//输出Sat Jun 20 21:43:37 CST 2020</p>
+<p>或者，也可以对刚刚创建的对象应用一个方法，Date类中有一个toString方法，可以将返回的日期以字符串描述：</p>
+<p>String s = new Date<strong>()</strong>.toString<strong>()</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>s<strong>)</strong>;//Sat Jun 20 21:47:52 CST 2020</p>
+<p>1.3对象变量不是对象。</p>
+<p>定义（声明）一个对象变量：</p>
+<p>Date deadline;</p>
+<p>此时还没有引用任何对象，还不能在这个变量上使用任何Date类的方法。即String s=deadline.toString()是无法编译成功的。</p>
+<p>1.4初始化对象变量</p>
+<p>Date deadline=new Date();//deadline引用了一个新构造的对象</p>
+<p>或者两个变量引用同一个对象：</p>
+<p>Date date1= new Date<strong>()</strong>;<br>Date date2=date1;<br>System.<strong>out</strong>.println<strong>(</strong>date1==date2<strong>)</strong>;//输出true,两个变量引用同一位置的对象</p>
+<p>1.5对象变量只是引用一个对象，并不是包含对象。任何对象变量的值都是对存储在另一个地方的某个对象的引用。</p>
+<p>1.6new操作符的返回值也是一个引用。</p>
+<p>Date deadline=new Date()</p>
+<p>new Date()构造了一个Date类型的对象，它的值是对新创建对象的一个引用，这个引用存储在对象变量deadline中。</p>
+<p>1.6可以将对象变量设置为null,即这个对象变量目前没有存储任何对象。</p>
+<p>1.7所有的额Java对象都存储在堆中。</p>
+<p>当一个对象包含另一个对象变量时，它只是包含着另一个堆对象的指针（或者说这个对象只包含着对另一个堆对象的引用）。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第二章对象与类（一）</title>
+    <url>/2020/06/19/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<hr>
+<p>今天这篇博客如果看起来很吃力的话大家评论留言一下，我会考虑再出一篇更易理解的。</p>
+ <a id="more"></a> 
+
+<p>第二章、对象与类</p>
+<p>一、面向对象程序设计简称OOP。</p>
+<p>1类</p>
+<p>由类构造对象的过程称为创建类的实例。</p>
+<p>封装(有时称为数据隐藏)：就是将数据和行为组合在一个包中，并对对象的使用者隐藏具体的实现方式。</p>
+<p>对象中的数据称为实例字段。</p>
+<p>操作数据的过程称为方法。</p>
+<p>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。无论何时，只要在对象上调用一个方法，它的状态就有可能发生改变。</p>
+<p>实现封装的关键在于，绝对不能让类中的方法直接访问其他类的实例字段。程序只能通过对象的方法与对象数据进行交互。</p>
+<p>在Java中，所有的都源自一个“超类”，即Object类。</p>
+<p>通过扩展一个类（父）来建立另一个类（子）的过程的过程被称为继承。</p>
+<p>2对象</p>
+<p>对象的三个主要特性：</p>
+<p>（1）对象的行为：对象的行为是用可调用的方法来定义的。</p>
+<p>（2）对象的状态：每个对象都保存着描述当前状况的信息，这就是对象的状态。（但是对象的状态不能完全描述一个对象）</p>
+<p>（3）对象的标识：每个对象都有一个唯一的标识（或称身份），如：在一个订单处理系统中，任何两个订单都存在着不同之处，即使所订购的货物完全相同，它们也是不同的订单。注意：作为同一个类的实例，每个对象的标识符的总是不同的，状态也往往存在着差异。</p>
+<p>3类之间的关系</p>
+<p>依赖：如果一个类的方法使用或操纵另一个类的对象，我们就说一个类依赖于另一个类。</p>
+<p>应该尽可能地将相互依赖的类减至最少。因为如果类A不知道类B的存在，它就不会关心类B的任何改变（这意味着B的改变不会导致A产生任何bug），用软件工程的术语说，就是尽可能减少类之间的耦合。</p>
+<p>聚合（包容）：类A的对象包含类B的对象。</p>
+<p>还有关联关系等。</p>
+<p>继承：表示一个更特殊类与一个更一般的类之间的关系。如果类A扩展类B，类A不但包含从类B继承的方法等，还会有一些额外的功能。</p>
+<p>很多采用UML（统一建模语言）绘制类图，用来描述类之间的关系。</p>
+<p>二、使用预定义类</p>
+<p>并不是所有的类都表现出面向对象的典型特征。例如，Math类。可以直接使用Math类的方法，如Math.random,而不必了解它具体是如何实现的，你只需要知道方法名和参数(如果有的话）。这正是封装的关键所在，当然所有类都是这样。 但Math类只封装了功能，它也不必隐藏数据。由于没有数招，因此也不必专虑创建对象和初始化它们的实例字段，因为根本没有实例字段。</p>
+<p>1对象与对象变量</p>
+<p>在Java中要使用构造器（或称构造函数）构造新实例，构造器是一种特殊的方法，用来构造并初始化对象。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>莒南县法治调研实践</title>
+    <url>/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/</url>
+    <content><![CDATA[<hr>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/a.jpg" alt="a"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/b.jpg" alt="b"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/c.jpg" alt="c"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/d.jpg" alt="d"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/e.jpg" alt="e"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/f.jpg" alt="f"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/g.jpg" alt="g"></p>
 ]]></content>
   </entry>
 </search>
