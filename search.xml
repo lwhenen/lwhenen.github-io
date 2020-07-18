@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>“我的第一篇博客”</title>
-    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
-    <content><![CDATA[<hr>
-<p>这还行来</p>
- <a id="more"></a> 
-
-<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2020/06/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -29,12 +19,11 @@
 ]]></content>
   </entry>
   <entry>
-    <title>“法动机”农村普法一体化平台 关于民间借贷的九大注意事项</title>
+    <title>“精准蒲法”农村普法一体化平台 关于民间借贷的九大注意事项</title>
     <url>/2020/07/15/%E5%85%B3%E4%BA%8E%E6%B0%91%E9%97%B4%E5%80%9F%E8%B4%B7%E7%9A%84%E4%B9%9D%E5%A4%A7%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
     <content><![CDATA[  
 
  <iframe src="//player.bilibili.com/player.html?aid=21359899&bvid=BV1AW411u7kQ&cid=35125782&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
  
 
 <p>关于民间借贷的九大注意事项：</p>
@@ -91,49 +80,13 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（三）</title>
-    <url>/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/</url>
-    <content><![CDATA[<p><img src="/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/a.jpg" alt="a"></p>
-<p>晒下我的桌面，拍照技术菜的一批。。。</p>
-<a id="more"></a> 
+    <title>“我的第一篇博客”</title>
+    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
+    <content><![CDATA[<hr>
+<p>这还行来</p>
+ <a id="more"></a> 
 
-<p>六、字符串</p>
-<p>1String a=””; //空字符串</p>
-<p>String b=”sdfdsfg”;</p>
-<p>每个用双引号括起来的字符串都是String类型的一个示例（对象）。</p>
-<p>2提取一个子串</p>
-<p>String类里的substring方法可以从一个较大的字符串里提取一个子串，如：</p>
-<p>String greeting=”Hello”;</p>
-<p>String s=greeting.substring(0,3);//即Hel，这里复制位置0，1，2的字符，从0开始，到3截止但不包括3</p>
-<p>Java字符串中的代码单元和代码点从0开始计数。</p>
-<p>substring的优点：容易计算子串的长度，如字符串s.substring(a,b)的长度是b-a。</p>
-<p>3拼接字符串</p>
-<p>3.1Java语言可以用+号按顺序拼接字符串。</p>
-<p>String a=”asdaf “;<br>String b=”dsfrg”;<br>System.out.println(a+b);控制台输出asdaf dsfrg，因为a字符串有个空格</p>
-<p>3.2任何一个Java对象都可以转换成一个字符串，当字符串和一个非字符串（前提是一个对象）的值进行拼接时非字符串会转换成字符串，如：</p>
-<p>String a = “The answer is “;<br>String b = 16 + a;//16被当作了一个对象<br>System.out.println(b);//控制台输出The answer is 16<br>System.out.println(“The answer is “ + www);//www被当作了一个变量，所以编译出错</p>
-<p>这种特性通常用在输出语句中。</p>
-<p>3.3如果需要将多个字符串拼接起来，且各个字符串之间用界定符分隔，可以使用静态join方法，如：</p>
-<p>String abc=String.join(<strong>“/“,”S”,”M”,”L”,”K”</strong>)<strong>;//这里充当界定符的/也可以换成其他<br>System.</strong>out<strong>.println</strong>(<strong>abc</strong>);//控制台输出S/M/L/K，/被当作界定符使用</p>
-<p>3.4Java11中还提供了一个repeat方法：</p>
-<p>String def=”java”.repeat<strong>(</strong>3<strong>)</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>def<strong>)</strong>;//控制台输出javajavajava</p>
-<p>4字符串是不可变的</p>
-<p>4.1String类中没有提供修改字符串中某个字符的方法。</p>
-<p>4.2String s=”Hello”;</p>
-<p>如果想将字符串s里最后两个位置的字符修改成p和！，可以提取字符串s中想保留的子串，再与想替换的字符拼接：</p>
-<p>s=s.substring(0,3)+”p!”;//但是这种先提取再拼接的效率并不高</p>
-<p>4.3在Java中不能修改字符串里的单个字符，即”Hello”永远包含H，e,l,l,o这几个字符。但是可以改变其引用变量s,即让s引用另一个字符串：</p>
-<p>String a=”aaa”;//创建的对象aaa赋给引用变量a<br>a=”abc”;//又新创建了另一个对象abc,并赋给引用变量a(即不再建立引用变量a和对象aaa之间的联系)，并没有改变对象aaa的内容<br>System.out.println(a);//控制台输出abc</p>
-<p>可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆）。</p>
-<p>如果：</p>
-<p>String a=”sss”;</p>
-<p>String b=”sss”;//表示引用变量a和b都指向存放字符串sss的位置</p>
-<p>4.3的效率要高于4.2。</p>
-<p>4.4</p>
-<p>String a=”aaa”;</p>
-<p>String a=”bbb”;</p>
-<p>此时String类型的对象aaa不再被使用，系统最终会自动将其回收，因此不会产生内存泄露，即垃圾回收机制。</p>
-<p>注意：在Java中不能修改字符串里的单个字符，但是在C++中可以，Java和C++都有上述的垃圾回收机制。</p>
+<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
 ]]></content>
   </entry>
   <entry>
@@ -143,77 +96,71 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（一）</title>
-    <url>/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0/</url>
+    <title>第一章Java程序概述（七）</title>
+    <url>/2020/06/18/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%83%EF%BC%89/</url>
     <content><![CDATA[<hr>
-<p>第一章Java的基本程序设计结构</p>
-<p>软件安装：安装JDK</p>
-<p>微信公众号“唠码客”往期文章</p>
-<p>安装IDEA</p>
-<p>微信公众号“唠码客”往期文章</p>
-<p>创建第一个Java程序参考链接： <a href="https://www.cnblogs.com/hanwen1014/p/9053492.html" target="_blank" rel="noopener">https://www.cnblogs.com/hanwen1014/p/9053492.html</a> </p>
- <a id="more"></a> 
+<p>这是第一章的最后一篇博客啦，从明天开始进入第二章类和对象。</p>
+<a id="more"></a>
 
-<p>一、一个简单的Java应用程序</p>
-<p>1类名的标准命名规则：类名以大写字母做开头，后面可以是数字或字母，若类名由多个单词构成则每个单词的首字母应大写。</p>
-<p>例：CamelCase</p>
-<p>2一个Java文件只能有一个public类，且公共类名（HelloWord）必须与java源文件名（如HelloWord.java）相同。一个程序可以有多个类但只能有一个public类，也只允许有一个起点即一个main方法。</p>
-<p>3main方法：Java的源文件里必须包含一个main方法。main方法是Java程序运行的起点。Java语言规范：mian方法必须声明为public，必须是静态的。</p>
-<p>4块：Java中用{}划分程序的各个部分，通常称为块。以“{”开始，以“}”结束。一般习惯把匹配的大括号上下对齐。</p>
-<p>5Java中每个语句必须以分号结束，回车不是一条语句的结束标志，因此，如果需要，可以将一条语句写在多行。</p>
-<p>6System.out.print(“aSdafa”);//使用System.out对象的print方法。</p>
-<p>7参数：有的程序员也把参数叫做实参。</p>
-<p>二、注释</p>
-<p>1Java有三种注释形式。</p>
-<p>1.1//：注释内容从//到本行结束</p>
-<p>1.2多行注释：/<em><em>/，注释内容从/</em>开始到</em>/结束。</p>
-<p>这种多行注释不能嵌套注释，/<em><em>/是从第一个/</em>开始到第一个</em>/结束：</p>
-<p>/<em>/</em>System.out.println(“qwe<em>/“);</em>/</p>
-<p>1.3文档化注释（在第二章详细介绍）：/<strong>注释部分*/，这种注释可以用来自动的生成文档。也可以用来注释多行，由/</strong>开始到*/结束。</p>
-<p>三、数据类型</p>
-<p>1.1一共8种基本数据类型:四种整型分别是int,short,long,byte;两种浮点类型分别是float,double;一种字符类型char;一种用于表示真值的boolean类型。</p>
-<p>1.2表示长整型(long)需要后缀一个L或l,如：40000L；表示十六进制要有前缀0x或0X.如：0x10表示十进制16；表示八进制要有前缀0.如：010表示十进制8；表示二进制要有前缀0b或0B.如：0b10表示十进制2。</p>
-<p>1.3可以在数的中间加下划线，如：2_000_000表示2000000，下划线是为了让人们更易读，编译时Java编译器会除去这些下划线。</p>
-<p>1.4浮点类型</p>
-<p>1.4.1单精度类型float：有效位数为6~7位。如float a=2.4;</p>
-<p>float类型的数值需要加一个后缀F或f,如3.14F.没有后缀F或f的浮点数会默认为double类型，当然浮点数也可以后缀D或d,如3.14D。</p>
-<p>双精度类型double:有效位数位15位。</p>
-<p>1.4.2可以使用十六进制表示浮点数，如十进制0.125用十六进制表示为0x1.0p-3：即1.0*2的-3次方。其中1.0这里用十六进制表示，表示指数，指数的基数为2，-3这里用十进制表示。</p>
-<p>1.4.3用于表示溢出和出错情况的三个特殊的浮点值：</p>
-<p>正无穷大：Double.POSITIVE_INFINITY</p>
-<p>负无穷大：Double.NEGATIVE_INFINITY</p>
-<p>NaN:不是一个数字</p>
-<p>例如一个正的浮点数除以0的结果为正无穷大，计算0.0/0或负数的平方根的结果为NaN。</p>
-<p>double a = 0.0 / 0;//此时a并不是一个数<br>if <strong>(</strong>Double.<strong>isNaN**</strong>(<strong>a</strong>)) {<strong>//检验a是否是一个数值<br>  System.</strong>out<strong>.println</strong>(<strong>“a不是一个数值”</strong>)<strong>;<br>  System.</strong>out<strong>.println</strong>(<strong>a</strong>)<strong>;//控制台输出NaN<br>**}</strong> else <strong>{**</strong><br>**  System.<strong>out</strong>.println<strong>(</strong>“a的数值是：”+a<strong>)</strong>;<br><strong>}</strong> ;</p>
-<p>1.4.4浮点数不适用于无法接收舍入误差的金融计算</p>
-<p>浮点数值采用二进制系统表示，即只能精确到0.5（此0.5是十进制）而二进制系统无法精确到1/10，，就好像十进制无法精确表示1/3，所以:</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>2.0-1.1<strong>)</strong>;//控制台输出：0.8999999999999999</p>
-<p>如果数值计算中不允许有任何舍入误差，就应该使用BigDecimal类，本章稍后讲。</p>
-<p>1.5char类型</p>
-<p>‘A’是编码值为65的字符常量，它与“A”不同，“A”是包含一个字符A的字符串，char类型的值还可以表示为十六进制，其范围从\u0000到\uFFFF。Unicode字符可以用一个char值描述或者两个char值描述。以下为部分特殊字符的转义序列：</p>
-<p>转义序列        名称        Unicode值</p>
-<p>\t                制表        \u0009</p>
-<p>\n                换行        \u000a</p>
-<p>\r                回车        \u000d</p>
-<p>\”                双引号    \u0022</p>
-<p>所有的转义序列都可以出现在字符中或字符串中，如：</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\u0009”+”d”<strong>)</strong>;//输出a    d</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\t”+”d”<strong>)</strong>;//输出a    d</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\t’+”d”<strong>)</strong>;//输出a    d</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\0009’+”d”<strong>)</strong>;//输出a    d</p>
-<p>Unicode转义序列会在解析代码之前得到处理，如：”\u0022+\u0022”在编译前\u0022会先转换成”，因此编译后会得到””+””,也就是一个空字符串。更为隐秘的是在注释中出现：// \u000a。。。。。，编译时会有语法错误，在编译代码前会先把 \u000a替换成一个换行符，此时等效于：</p>
-<p>//（换行了）</p>
-<p>。。。。。</p>
-<p>能用字符串类型表示就不要用字符类型。</p>
-<p>1.6布尔型</p>
-<p>在Java中整型值和布尔值无法相互转换。如下情况会发生编译错误：</p>
-<p>int i = 0;<br>if (i = 0) {<br>  System.out.println(“sdfsf”);<br>}</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Happy Every Day</title>
-    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
+<p>2在Java中允许长度为0的数组，</p>
+<p>//Java中允许有长度为0的数组，注意：长度为0的数组和null并不相同<br>int[] a = new int[0];<br>System.out.println(a.length);//输出0</p>
+<p>注意：长度为0和null并不相同。</p>
+<p>3访问数组元素</p>
+<p>创建一个数字数组时，所有元素都初始化为0；创建一个boolean数组时，元素全部初始化为false;对象数组的元素则初始化为null，，表示这些元素还未存储任何对象。</p>
+<p>int[] a = new int[3];<br>String[] b = new String[3];<br>for (int i = 0; i &lt; 3; i++) {<br>  System.out.println(a[i]);//输出0，0，0<br>  System.out.println(b[i]);//输出null，null.null<br>   }</p>
+<p>4for each循环</p>
+<p>3.1for each循环会自动遍历所有元素。这种增强得到for循环的语句格式为：</p>
+<p>for(variable:collection)statement</p>
+<p>它定义一个变量用于暂存集合中的每一个元素，并执行相应的语句（也可以是语句块）。collection这一集合表达式必须时一个数组或者是一个实现了Iterable接口的类对象（如：ArrayList）。</p>
+<p>int[] a=new int[3];<br>for(int b:a){<br>  System.out.println(b);//输出0,0,0<br>}</p>
+<p>3.2for each循环语句更加简介、更不易出错，因为你不必为下标的起始值和终止值而操心。</p>
+<p>fer each循环语句的循环变量将会遍历数组中的每个元素，而不是下标值。</p>
+<p>3.3还有一个更为简单的方式打印数组中得到所有值，即利用Arrays类的toString方法，返回一个包含数组元素的字符串，这些元素包围在中括号内，并用逗号分隔。</p>
+<p>int[] a=new int[3];<br>System.out.println(Arrays.toString(a));//输出[0, 0, 0]</p>
+<p>5数组拷贝</p>
+<p>5.1拷贝一个数组变量</p>
+<p>在Java中允许将一个数组变量拷贝到另一个数组变量，这时两个变量将引用同一个数组：</p>
+<p>//将一个数组变量拷贝到另一个数组变量</p>
+<p>int[] a={1,2,3};<br>int[] b=a;<br>for(int i=0;i&lt;3;i++) {<br>  System.out.println(b[i]);//依次输出1，2，3<br>}<br>System.out.println(a==b);//输出true,即表明两个数组变量a和b引用了同一个位置上的数组</p>
+<p>5.2</p>
+<p>如果希望将一个数组的所有值拷贝到另一个新的数组中去，就要使用Arrays类的copyOf方法：</p>
+<p>//将一个数组中的值拷贝到一个新的数组中<br>int[] a={1,2,3};<br>int[] b=Arrays.copyOf(a,a.length*2);<br>for(int i=0;i&lt;6;i++) {<br>  System.out.println(b[i]);//依次输出123000<br>}<br>System.out.println(a==b);//输出false，表明数组变量b引用的是另一个新的数组</p>
+<p>copyOf方法中的第二个参数是新数组的大小，这个方法通常用来增加数组的大小。</p>
+<p>新数组的长度大于原始数组时：如果数组元素是数值型，那么额外的元素将被赋值为0；如果数组元素为布尔型，则将数组元素赋值为false。</p>
+<p>新数组的长度小于原始数组时：则只拷贝前面的值：</p>
+<p>int<strong>[]</strong> a=<strong>{</strong>1,2,3<strong>}</strong>;<br>int<strong>[]</strong> b=Arrays.copyOf(a,2);<br>for<strong>(</strong>int i=0;i&lt;2;i++) {</p>
+<p>​    System.<strong>out</strong>.println<strong>(</strong>b<strong>[</strong>i<strong>])</strong>;//依次输出1，2<br>}</p>
+<p>6数组排序</p>
+<p>6.1要想对数值型数组进行排序，可以使用Arrays类的sort方法：</p>
+<p>int[] a={8,2,7,0};<br>Arrays.sort(a);<br>System.out.println(Arrays.toString(a));//输出[0, 2, 7, 8]</p>
+<p>这个方法使用了快速排序算法，快速排序算法对于大多数数据集合来说效率都是比较高的。</p>
+<p>6.2随机抽取</p>
+<p>Math.random方法将返回一个0到1之间（包含）不包含1）的随机浮点数，用n乘以这个浮点数，就可以得到从0到n-1之间的一个浮点数：</p>
+<p>System.out.println(Math.random());//[0,1)之间随机返回一个浮点数<br>int n = 8;<br>int r = (int) Math.random() * n;//r为在[0,n-1]中随机取一个数</p>
+<p>7多维数组</p>
+<p>7.1二维数组（或者说矩阵）</p>
+<p>简写形式：</p>
+<p><code>int[][] a = {</code><br>      <code>{1,2},</code><br>      <code>{3,4}</code><br><code>};</code><br><code>System.out.println(Arrays.deepToString(a));//输出[[1, 2], [3, 4]]</code><br><code>System.out.println(a[0][0]);//输出1</code><br><code>System.out.println(a[0][1]);//输出2</code></p>
+<p>声明数组：</p>
+<p>int[][] a;//a为数组变量，未初始化前不能使用</p>
+<p>声明并初始化：</p>
+<p><code>int [][] a=new int[3][3];</code>//此时才创建了一个数组</p>
+<p>7.2访问二维数组</p>
+<p>for each不能自动处理二维数组的每一个元素，它会循环处理行，而这些行本身就是一维数组。要想访问二维数组的所有元素，需要使用两个嵌套的for each循环：</p>
+<p>int[][] a = {<br>      {1, 2},<br>      {3, 4}<br>};<br>for (int[] b:a){<br>  for(int c:b){<br>    System.out.println(c);//依次输出1，2，3，4<br>  }<br>}</p>
+<p>7.3</p>
+<p>如果想快速得打印出一个二维数组元素列表，可以调用Arrays类的deepToString方法。</p>
+<p>int[][] a = {<br>    {1, 2},<br>    {3, 4}<br>};<br>System.out.println(Arrays.deepToString(a));//输出[[1, 2], [3, 4]]</p>
+<p>8不规则数组</p>
+<p>Java实际上没有多维数组，只有一维数组，多维数组被解释为“数组的数组”。</p>
+<p><code>int [][] a=new int[3][3]；</code></p>
+<p>int[i]表示引用第i个子数组，int[i][j]表示引用这个子数组里的第j个元素。</p>
+<p>由于可以单独的访问数组的某一行(即某个子数组)，所以可以让两行进行交换。</p>
+<p><code>int [][] a=new int[3][3];</code></p>
+<p><code>int i=1;</code></p>
+<p><code>int[] temp=a[i];</code></p>
+<p><code>a[i]=a[i+1];</code></p>
+<p><code>a[i+1]=temp;</code></p>
 ]]></content>
   </entry>
   <entry>
@@ -313,6 +260,128 @@
 ]]></content>
   </entry>
   <entry>
+    <title>第一章Java程序概述（一）</title>
+    <url>/2020/06/11/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0/</url>
+    <content><![CDATA[<hr>
+<p>第一章Java的基本程序设计结构</p>
+<p>软件安装：安装JDK</p>
+<p>微信公众号“唠码客”往期文章</p>
+<p>安装IDEA</p>
+<p>微信公众号“唠码客”往期文章</p>
+<p>创建第一个Java程序参考链接： <a href="https://www.cnblogs.com/hanwen1014/p/9053492.html" target="_blank" rel="noopener">https://www.cnblogs.com/hanwen1014/p/9053492.html</a> </p>
+ <a id="more"></a> 
+
+<p>一、一个简单的Java应用程序</p>
+<p>1类名的标准命名规则：类名以大写字母做开头，后面可以是数字或字母，若类名由多个单词构成则每个单词的首字母应大写。</p>
+<p>例：CamelCase</p>
+<p>2一个Java文件只能有一个public类，且公共类名（HelloWord）必须与java源文件名（如HelloWord.java）相同。一个程序可以有多个类但只能有一个public类，也只允许有一个起点即一个main方法。</p>
+<p>3main方法：Java的源文件里必须包含一个main方法。main方法是Java程序运行的起点。Java语言规范：mian方法必须声明为public，必须是静态的。</p>
+<p>4块：Java中用{}划分程序的各个部分，通常称为块。以“{”开始，以“}”结束。一般习惯把匹配的大括号上下对齐。</p>
+<p>5Java中每个语句必须以分号结束，回车不是一条语句的结束标志，因此，如果需要，可以将一条语句写在多行。</p>
+<p>6System.out.print(“aSdafa”);//使用System.out对象的print方法。</p>
+<p>7参数：有的程序员也把参数叫做实参。</p>
+<p>二、注释</p>
+<p>1Java有三种注释形式。</p>
+<p>1.1//：注释内容从//到本行结束</p>
+<p>1.2多行注释：/<em><em>/，注释内容从/</em>开始到</em>/结束。</p>
+<p>这种多行注释不能嵌套注释，/<em><em>/是从第一个/</em>开始到第一个</em>/结束：</p>
+<p>/<em>/</em>System.out.println(“qwe<em>/“);</em>/</p>
+<p>1.3文档化注释（在第二章详细介绍）：/<strong>注释部分*/，这种注释可以用来自动的生成文档。也可以用来注释多行，由/</strong>开始到*/结束。</p>
+<p>三、数据类型</p>
+<p>1.1一共8种基本数据类型:四种整型分别是int,short,long,byte;两种浮点类型分别是float,double;一种字符类型char;一种用于表示真值的boolean类型。</p>
+<p>1.2表示长整型(long)需要后缀一个L或l,如：40000L；表示十六进制要有前缀0x或0X.如：0x10表示十进制16；表示八进制要有前缀0.如：010表示十进制8；表示二进制要有前缀0b或0B.如：0b10表示十进制2。</p>
+<p>1.3可以在数的中间加下划线，如：2_000_000表示2000000，下划线是为了让人们更易读，编译时Java编译器会除去这些下划线。</p>
+<p>1.4浮点类型</p>
+<p>1.4.1单精度类型float：有效位数为6~7位。如float a=2.4;</p>
+<p>float类型的数值需要加一个后缀F或f,如3.14F.没有后缀F或f的浮点数会默认为double类型，当然浮点数也可以后缀D或d,如3.14D。</p>
+<p>双精度类型double:有效位数位15位。</p>
+<p>1.4.2可以使用十六进制表示浮点数，如十进制0.125用十六进制表示为0x1.0p-3：即1.0*2的-3次方。其中1.0这里用十六进制表示，表示指数，指数的基数为2，-3这里用十进制表示。</p>
+<p>1.4.3用于表示溢出和出错情况的三个特殊的浮点值：</p>
+<p>正无穷大：Double.POSITIVE_INFINITY</p>
+<p>负无穷大：Double.NEGATIVE_INFINITY</p>
+<p>NaN:不是一个数字</p>
+<p>例如一个正的浮点数除以0的结果为正无穷大，计算0.0/0或负数的平方根的结果为NaN。</p>
+<p>double a = 0.0 / 0;//此时a并不是一个数<br>if <strong>(</strong>Double.<strong>isNaN**</strong>(<strong>a</strong>)) {<strong>//检验a是否是一个数值<br>  System.</strong>out<strong>.println</strong>(<strong>“a不是一个数值”</strong>)<strong>;<br>  System.</strong>out<strong>.println</strong>(<strong>a</strong>)<strong>;//控制台输出NaN<br>**}</strong> else <strong>{**</strong><br>**  System.<strong>out</strong>.println<strong>(</strong>“a的数值是：”+a<strong>)</strong>;<br><strong>}</strong> ;</p>
+<p>1.4.4浮点数不适用于无法接收舍入误差的金融计算</p>
+<p>浮点数值采用二进制系统表示，即只能精确到0.5（此0.5是十进制）而二进制系统无法精确到1/10，，就好像十进制无法精确表示1/3，所以:</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>2.0-1.1<strong>)</strong>;//控制台输出：0.8999999999999999</p>
+<p>如果数值计算中不允许有任何舍入误差，就应该使用BigDecimal类，本章稍后讲。</p>
+<p>1.5char类型</p>
+<p>‘A’是编码值为65的字符常量，它与“A”不同，“A”是包含一个字符A的字符串，char类型的值还可以表示为十六进制，其范围从\u0000到\uFFFF。Unicode字符可以用一个char值描述或者两个char值描述。以下为部分特殊字符的转义序列：</p>
+<p>转义序列        名称        Unicode值</p>
+<p>\t                制表        \u0009</p>
+<p>\n                换行        \u000a</p>
+<p>\r                回车        \u000d</p>
+<p>\”                双引号    \u0022</p>
+<p>所有的转义序列都可以出现在字符中或字符串中，如：</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\u0009”+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+”\t”+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\t’+”d”<strong>)</strong>;//输出a    d</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>“a”+’\0009’+”d”<strong>)</strong>;//输出a    d</p>
+<p>Unicode转义序列会在解析代码之前得到处理，如：”\u0022+\u0022”在编译前\u0022会先转换成”，因此编译后会得到””+””,也就是一个空字符串。更为隐秘的是在注释中出现：// \u000a。。。。。，编译时会有语法错误，在编译代码前会先把 \u000a替换成一个换行符，此时等效于：</p>
+<p>//（换行了）</p>
+<p>。。。。。</p>
+<p>能用字符串类型表示就不要用字符类型。</p>
+<p>1.6布尔型</p>
+<p>在Java中整型值和布尔值无法相互转换。如下情况会发生编译错误：</p>
+<p>int i = 0;<br>if (i = 0) {<br>  System.out.println(“sdfsf”);<br>}</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Happy Every Day</title>
+    <url>/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p><img src="/2020/06/09/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/aaa.jpg" alt="aaa"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（五）</title>
+    <url>/2020/06/15/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%94%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<a id="more"></a>
+
+
+
+<p>6空串和null串</p>
+<p>6.1空串：即””，空串是一个Java对象，有自己的串长度（0）和内容（空）。以下两种方法可以检测字符串是否为空串：</p>
+<p>String str=””;<br>if(str.equals(“”)){<br>  System.out.println(“该字符串为空”);//输出该字符串为空<br>}<br>if(str.length()==0){<br>  System.out.println(“该字符串为空”);//输出该字符串为空<br>}</p>
+<p>6.2null串</p>
+<p>String变量可以存放一个特殊的值null,表示目前没有任何对象和该变量相关联。以下检测字符串是否为null串：</p>
+<p>String a;<br>if(a==null){<br>  System.out.println(“a是Null串”);//输出a是Null串<br>}</p>
+<p>6.3检测一个字符串既不是null串，也不是空串：要先检测是否为null串：</p>
+<p>if(str!=null&amp;&amp;str.length()!=0){}</p>
+<p>7String API</p>
+<p>7.1在API注释中，有一些CharSequence类型的参数，这是一种接口类型，所有字符串都属于这个接口。现在只需要知道，当看到CharSequence类型的参数时，完全可以传入String类型的参数。</p>
+<p>7.2阅读API文档网址(可以查阅标准库的所有类和方法)：</p>
+<p><a href="https://docs.oracle.com/javase/9/docs/api/overview-summary.html" target="_blank" rel="noopener">https://docs.oracle.com/javase/9/docs/api/overview-summary.html</a></p>
+<p>在网址中左上角搜索：java.lang.String，其中有String类的所有方法</p>
+<p>8构建字符串（将多个小字符串构建成一个大字符串）</p>
+<p>8.1如果使用字符串拼接的方式（+号）将多个小字符串构建成一个大字符串，每用一次+号就会多创建一个新的对象，既耗时又浪费空间，效率较低。</p>
+<p>8.2拼接字符串效率高的步骤：</p>
+<p>//拼接字符串时每使用一次+号就会产生一个新的对象即会产生多个对象,可以在StringBuilder类建立的构造器中加入多次内容后最后再建立对象即只建立一个对象<br>StringBuilder builder=new StringBuilder();//构建一个空的字符串构造器<br>builder.append(“asd”);//调用append方法添加内容<br>builder.append(“sdf”);<br>builder.append(“aaa”);<br>String completedString=builder.toString();//调用toString方法创建String对象,其中包含了构造器中的字符序列<br>System.out.println(completedString);//输出asdsdfaaa</p>
+<p>如果所有字符串编辑操作都在单个线程中执行（通常都是这样），则应该使用StringBulider。StringBulider线程不安全。</p>
+<p>8.3StringBulider类的前身是StringBuffer，StringBuffer类的效率比StringBulider类稍有些低，但允许采用多线程的方式添加或删除字符串。</p>
+<p>六、输入与输出</p>
+<p>将输出打印到”标准输出流”（即控制台窗口很容易），只要调用System.out.println即可。</p>
+<p>1读取输入</p>
+<p>1.1读取”标准输入流”System.in就不那么简单了，要想通过控制台输入，首先需要构造一个与”标准输入流”System.in关联的Scanner对象然后才可以使用Scanner类的各种方法读取输入。</p>
+<p>步骤：</p>
+<p>//先构造一个与”标准输入流”相关联的Scanner类型的对象，就可以再调用Scanner类中的各种方法读取输入了<br>Scanner in=new Scanner(System.in);<br>System.out.println(“你叫什么名字”);<br>String name=in.nextLine();//无论是否有空格做分隔符，nextLine方法读取输入的一整行，输入luo wen hao<br>System.out.println(name);//输出luo wen hao<br>String firstName=in.next();//next方法有空格做分隔符时仅读取输入的第一个单词即仅读取一个单词，输入luo wen hao<br>System.out.println(firstName);//输出luo<br>System.out.println(“你今年几岁”);<br>int age=in.nextInt();//nextInt方法读取整数,有空格做分隔符时仅读取输入的第一个数，输入12 13<br>System.out.println(age);//输出12<br>double num=in.nextDouble();//nextDouble方法读取整数,有空格做分隔符时仅读取输入的第一个数，输入12.0 13.1<br>System.out.println(num);//输出12.0</p>
+<p>程序默认的包为java.lang，Scanner类定义在java.util包中，当使用的类不是定义在基本java.lang包中时，一定要使用import导入相应的包。</p>
+<p>1.2因为使用Scanner类的方法输入是可见的，不适合在控制台输入密码，可以用Console类来实现，步骤：</p>
+<p>//Console类的方法只能读取整行，运行时会抛出java.lang.NullPointerException 原因是Console类不能直接在IDEA上运行，要到控制台运行<br>Console cons = System.console()<strong>;<br>String uesname = cons.readLine</strong>(<strong>“用户名是：”</strong>)<strong>;<br>char</strong>[] passwd = cons.readPassword<strong>(</strong>“密码是：”<strong>)</strong>;</p>
+<p>为安全起见返回的密码存放在一个字符数组中，而不是字符串中。在对密码处理完后应马上用一个填充值覆盖数组元素（数组处理后续会讲）。采用Console不如采用Scanner方便，Console类的方法只能读取整行，而没有能读取单个单词或数值的方法。</p>
+<p>2格式化输出</p>
+<p>2.1一般的输出：</p>
+<p>//print和println将以x的类型所允许的最大非零数位个数打印输出x，没有舍入运算<br>double x = 10.0 / 3;<br>System.out.print(x);//输出3.3333333333333335<br>System.out.println(x);//输出3.3333333333333335<br>System.out.println((float)1.11111347);//输出1.1111134</p>
+<p>2.2格式化输出</p>
+<p>//沿用了C语言的printf方法，进行舍入运算<br>double b = 1111.356;<br>System.out.printf(“%9.2f”, b);//以一个字段宽度打印a:包括9个字符（两个空格和七个字符，小数点也是字符），精度为小数点后两位且四舍五入，输出1111.36<br>double c = 10.0 / 3;<br>System.out.printf(“%9.2f”, c);//输出3.33，包括9个字符（五个空格和4个字符，小数点也是字符），精度为小数点后两位且四舍五入</p>
+<p>System.<strong>out</strong>.printf<strong>(</strong>“%f”, c<strong>)</strong>;//输出3.333333</p>
+<p>2.3可以为printf提供多个参数</p>
+<p>//可以为printf提供多个参数<br>String name=”小黑”;<br>int age=20;<br>System.out.printf(“嗨，%s。今年你%d岁啦”,name,age);<br>double c = 10.0 / 3;<br>System.out.printf(“%f”, c);</p>
+<p>格式说明符：以%开头，后面加上字母。即每一个以%开始的格式说明符都用相应的参数替换掉，格式说明符尾部的转换符表明要格式化的数值的类型：f表示浮点数，s表示字符串，d表示十进制整数，等等。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>第一章java程序概述（六）</title>
     <url>/2020/06/17/%E7%AC%AC%E4%B8%80%E7%AB%A0java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E5%85%AD%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -406,6 +475,133 @@
 ]]></content>
   </entry>
   <entry>
+    <title>第一章Java程序概述（三）</title>
+    <url>/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+    <content><![CDATA[<p><img src="/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/a.jpg" alt="a"></p>
+<p>晒下我的桌面，拍照技术菜的一批。。。</p>
+<a id="more"></a> 
+
+<p>六、字符串</p>
+<p>1String a=””; //空字符串</p>
+<p>String b=”sdfdsfg”;</p>
+<p>每个用双引号括起来的字符串都是String类型的一个示例（对象）。</p>
+<p>2提取一个子串</p>
+<p>String类里的substring方法可以从一个较大的字符串里提取一个子串，如：</p>
+<p>String greeting=”Hello”;</p>
+<p>String s=greeting.substring(0,3);//即Hel，这里复制位置0，1，2的字符，从0开始，到3截止但不包括3</p>
+<p>Java字符串中的代码单元和代码点从0开始计数。</p>
+<p>substring的优点：容易计算子串的长度，如字符串s.substring(a,b)的长度是b-a。</p>
+<p>3拼接字符串</p>
+<p>3.1Java语言可以用+号按顺序拼接字符串。</p>
+<p>String a=”asdaf “;<br>String b=”dsfrg”;<br>System.out.println(a+b);控制台输出asdaf dsfrg，因为a字符串有个空格</p>
+<p>3.2任何一个Java对象都可以转换成一个字符串，当字符串和一个非字符串（前提是一个对象）的值进行拼接时非字符串会转换成字符串，如：</p>
+<p>String a = “The answer is “;<br>String b = 16 + a;//16被当作了一个对象<br>System.out.println(b);//控制台输出The answer is 16<br>System.out.println(“The answer is “ + www);//www被当作了一个变量，所以编译出错</p>
+<p>这种特性通常用在输出语句中。</p>
+<p>3.3如果需要将多个字符串拼接起来，且各个字符串之间用界定符分隔，可以使用静态join方法，如：</p>
+<p>String abc=String.join(<strong>“/“,”S”,”M”,”L”,”K”</strong>)<strong>;//这里充当界定符的/也可以换成其他<br>System.</strong>out<strong>.println</strong>(<strong>abc</strong>);//控制台输出S/M/L/K，/被当作界定符使用</p>
+<p>3.4Java11中还提供了一个repeat方法：</p>
+<p>String def=”java”.repeat<strong>(</strong>3<strong>)</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>def<strong>)</strong>;//控制台输出javajavajava</p>
+<p>4字符串是不可变的</p>
+<p>4.1String类中没有提供修改字符串中某个字符的方法。</p>
+<p>4.2String s=”Hello”;</p>
+<p>如果想将字符串s里最后两个位置的字符修改成p和！，可以提取字符串s中想保留的子串，再与想替换的字符拼接：</p>
+<p>s=s.substring(0,3)+”p!”;//但是这种先提取再拼接的效率并不高</p>
+<p>4.3在Java中不能修改字符串里的单个字符，即”Hello”永远包含H，e,l,l,o这几个字符。但是可以改变其引用变量s,即让s引用另一个字符串：</p>
+<p>String a=”aaa”;//创建的对象aaa赋给引用变量a<br>a=”abc”;//又新创建了另一个对象abc,并赋给引用变量a(即不再建立引用变量a和对象aaa之间的联系)，并没有改变对象aaa的内容<br>System.out.println(a);//控制台输出abc</p>
+<p>可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆）。</p>
+<p>如果：</p>
+<p>String a=”sss”;</p>
+<p>String b=”sss”;//表示引用变量a和b都指向存放字符串sss的位置</p>
+<p>4.3的效率要高于4.2。</p>
+<p>4.4</p>
+<p>String a=”aaa”;</p>
+<p>String a=”bbb”;</p>
+<p>此时String类型的对象aaa不再被使用，系统最终会自动将其回收，因此不会产生内存泄露，即垃圾回收机制。</p>
+<p>注意：在Java中不能修改字符串里的单个字符，但是在C++中可以，Java和C++都有上述的垃圾回收机制。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第二章对象与类（二）</title>
+    <url>/2020/06/20/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<p>今天考试，更新的比较少。</p>
+<a id="more"></a> 
+
+<p>1.2在Java标准库里有一个Date类，它可以实时描述现在的时间点。</p>
+<p>构造器的名字应该与类名相同，构造对象时在前面加new操作符：</p>
+<p>new Date<strong>()</strong>;</p>
+<p>如果需要的话，也可以将这个对象传递给一个方法：</p>
+<p>System.<strong>out</strong>.println<strong>(</strong>new Date<strong>())</strong>;//输出Sat Jun 20 21:43:37 CST 2020</p>
+<p>或者，也可以对刚刚创建的对象应用一个方法，Date类中有一个toString方法，可以将返回的日期以字符串描述：</p>
+<p>String s = new Date<strong>()</strong>.toString<strong>()</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>s<strong>)</strong>;//Sat Jun 20 21:47:52 CST 2020</p>
+<p>1.3对象变量不是对象。</p>
+<p>定义（声明）一个对象变量：</p>
+<p>Date deadline;</p>
+<p>此时还没有引用任何对象，还不能在这个变量上使用任何Date类的方法。即String s=deadline.toString()是无法编译成功的。</p>
+<p>1.4初始化对象变量</p>
+<p>Date deadline=new Date();//deadline引用了一个新构造的对象</p>
+<p>或者两个变量引用同一个对象：</p>
+<p>Date date1= new Date<strong>()</strong>;<br>Date date2=date1;<br>System.<strong>out</strong>.println<strong>(</strong>date1==date2<strong>)</strong>;//输出true,两个变量引用同一位置的对象</p>
+<p>1.5对象变量只是引用一个对象，并不是包含对象。任何对象变量的值都是对存储在另一个地方的某个对象的引用。</p>
+<p>1.6new操作符的返回值也是一个引用。</p>
+<p>Date deadline=new Date()</p>
+<p>new Date()构造了一个Date类型的对象，它的值是对新创建对象的一个引用，这个引用存储在对象变量deadline中。</p>
+<p>1.6可以将对象变量设置为null,即这个对象变量目前没有存储任何对象。</p>
+<p>1.7所有的额Java对象都存储在堆中。</p>
+<p>当一个对象包含另一个对象变量时，它只是包含着另一个堆对象的指针（或者说这个对象只包含着对另一个堆对象的引用）。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>莒南县法治调研实践</title>
+    <url>/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/</url>
+    <content><![CDATA[<hr>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/a.jpg" alt="a"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/b.jpg" alt="b"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/c.jpg" alt="c"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/d.jpg" alt="d"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/e.jpg" alt="e"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/f.jpg" alt="f"></p>
+<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/g.jpg" alt="g"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第二章对象与类（一）</title>
+    <url>/2020/06/19/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<hr>
+<p>今天这篇博客如果看起来很吃力的话大家评论留言一下，我会考虑再出一篇更易理解的。</p>
+ <a id="more"></a> 
+
+<p>第二章、对象与类</p>
+<p>一、面向对象程序设计简称OOP。</p>
+<p>1类</p>
+<p>由类构造对象的过程称为创建类的实例。</p>
+<p>封装(有时称为数据隐藏)：就是将数据和行为组合在一个包中，并对对象的使用者隐藏具体的实现方式。</p>
+<p>对象中的数据称为实例字段。</p>
+<p>操作数据的过程称为方法。</p>
+<p>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。无论何时，只要在对象上调用一个方法，它的状态就有可能发生改变。</p>
+<p>实现封装的关键在于，绝对不能让类中的方法直接访问其他类的实例字段。程序只能通过对象的方法与对象数据进行交互。</p>
+<p>在Java中，所有的都源自一个“超类”，即Object类。</p>
+<p>通过扩展一个类（父）来建立另一个类（子）的过程的过程被称为继承。</p>
+<p>2对象</p>
+<p>对象的三个主要特性：</p>
+<p>（1）对象的行为：对象的行为是用可调用的方法来定义的。</p>
+<p>（2）对象的状态：每个对象都保存着描述当前状况的信息，这就是对象的状态。（但是对象的状态不能完全描述一个对象）</p>
+<p>（3）对象的标识：每个对象都有一个唯一的标识（或称身份），如：在一个订单处理系统中，任何两个订单都存在着不同之处，即使所订购的货物完全相同，它们也是不同的订单。注意：作为同一个类的实例，每个对象的标识符的总是不同的，状态也往往存在着差异。</p>
+<p>3类之间的关系</p>
+<p>依赖：如果一个类的方法使用或操纵另一个类的对象，我们就说一个类依赖于另一个类。</p>
+<p>应该尽可能地将相互依赖的类减至最少。因为如果类A不知道类B的存在，它就不会关心类B的任何改变（这意味着B的改变不会导致A产生任何bug），用软件工程的术语说，就是尽可能减少类之间的耦合。</p>
+<p>聚合（包容）：类A的对象包含类B的对象。</p>
+<p>还有关联关系等。</p>
+<p>继承：表示一个更特殊类与一个更一般的类之间的关系。如果类A扩展类B，类A不但包含从类B继承的方法等，还会有一些额外的功能。</p>
+<p>很多采用UML（统一建模语言）绘制类图，用来描述类之间的关系。</p>
+<p>二、使用预定义类</p>
+<p>并不是所有的类都表现出面向对象的典型特征。例如，Math类。可以直接使用Math类的方法，如Math.random,而不必了解它具体是如何实现的，你只需要知道方法名和参数(如果有的话）。这正是封装的关键所在，当然所有类都是这样。 但Math类只封装了功能，它也不必隐藏数据。由于没有数招，因此也不必专虑创建对象和初始化它们的实例字段，因为根本没有实例字段。</p>
+<p>1对象与对象变量</p>
+<p>在Java中要使用构造器（或称构造函数）构造新实例，构造器是一种特殊的方法，用来构造并初始化对象。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>第二章对象与类（三）</title>
     <url>/2020/06/22/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%89%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -492,203 +688,6 @@
 <p>使用null时要非常小心：如果对null值应用一个方法，会产生一个NullPointException异常，如果程序没有捕获异常，程序就会终止。正常情况下，程序并不捕获这些异常，而是依赖于程序员从一开始就不要带来异常。</p>
 <p>LocalDate bir=null;</p>
 <p>Sreing s=bir.toString();//产生NullPointException异常</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>莒南县法治调研实践</title>
-    <url>/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/</url>
-    <content><![CDATA[<hr>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/a.jpg" alt="a"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/b.jpg" alt="b"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/c.jpg" alt="c"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/d.jpg" alt="d"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/e.jpg" alt="e"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/f.jpg" alt="f"></p>
-<p><img src="/2020/06/21/%E8%8E%92%E5%8D%97%E5%8E%BF%E6%B3%95%E6%B2%BB%E8%B0%83%E7%A0%94%E5%AE%9E%E8%B7%B5/g.jpg" alt="g"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一章Java程序概述（七）</title>
-    <url>/2020/06/18/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%83%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<p>这是第一章的最后一篇博客啦，从明天开始进入第二章类和对象。</p>
-<a id="more"></a>
-
-<p>2在Java中允许长度为0的数组，</p>
-<p>//Java中允许有长度为0的数组，注意：长度为0的数组和null并不相同<br>int[] a = new int[0];<br>System.out.println(a.length);//输出0</p>
-<p>注意：长度为0和null并不相同。</p>
-<p>3访问数组元素</p>
-<p>创建一个数字数组时，所有元素都初始化为0；创建一个boolean数组时，元素全部初始化为false;对象数组的元素则初始化为null，，表示这些元素还未存储任何对象。</p>
-<p>int[] a = new int[3];<br>String[] b = new String[3];<br>for (int i = 0; i &lt; 3; i++) {<br>  System.out.println(a[i]);//输出0，0，0<br>  System.out.println(b[i]);//输出null，null.null<br>   }</p>
-<p>4for each循环</p>
-<p>3.1for each循环会自动遍历所有元素。这种增强得到for循环的语句格式为：</p>
-<p>for(variable:collection)statement</p>
-<p>它定义一个变量用于暂存集合中的每一个元素，并执行相应的语句（也可以是语句块）。collection这一集合表达式必须时一个数组或者是一个实现了Iterable接口的类对象（如：ArrayList）。</p>
-<p>int[] a=new int[3];<br>for(int b:a){<br>  System.out.println(b);//输出0,0,0<br>}</p>
-<p>3.2for each循环语句更加简介、更不易出错，因为你不必为下标的起始值和终止值而操心。</p>
-<p>fer each循环语句的循环变量将会遍历数组中的每个元素，而不是下标值。</p>
-<p>3.3还有一个更为简单的方式打印数组中得到所有值，即利用Arrays类的toString方法，返回一个包含数组元素的字符串，这些元素包围在中括号内，并用逗号分隔。</p>
-<p>int[] a=new int[3];<br>System.out.println(Arrays.toString(a));//输出[0, 0, 0]</p>
-<p>5数组拷贝</p>
-<p>5.1拷贝一个数组变量</p>
-<p>在Java中允许将一个数组变量拷贝到另一个数组变量，这时两个变量将引用同一个数组：</p>
-<p>//将一个数组变量拷贝到另一个数组变量</p>
-<p>int[] a={1,2,3};<br>int[] b=a;<br>for(int i=0;i&lt;3;i++) {<br>  System.out.println(b[i]);//依次输出1，2，3<br>}<br>System.out.println(a==b);//输出true,即表明两个数组变量a和b引用了同一个位置上的数组</p>
-<p>5.2</p>
-<p>如果希望将一个数组的所有值拷贝到另一个新的数组中去，就要使用Arrays类的copyOf方法：</p>
-<p>//将一个数组中的值拷贝到一个新的数组中<br>int[] a={1,2,3};<br>int[] b=Arrays.copyOf(a,a.length*2);<br>for(int i=0;i&lt;6;i++) {<br>  System.out.println(b[i]);//依次输出123000<br>}<br>System.out.println(a==b);//输出false，表明数组变量b引用的是另一个新的数组</p>
-<p>copyOf方法中的第二个参数是新数组的大小，这个方法通常用来增加数组的大小。</p>
-<p>新数组的长度大于原始数组时：如果数组元素是数值型，那么额外的元素将被赋值为0；如果数组元素为布尔型，则将数组元素赋值为false。</p>
-<p>新数组的长度小于原始数组时：则只拷贝前面的值：</p>
-<p>int<strong>[]</strong> a=<strong>{</strong>1,2,3<strong>}</strong>;<br>int<strong>[]</strong> b=Arrays.copyOf(a,2);<br>for<strong>(</strong>int i=0;i&lt;2;i++) {</p>
-<p>​    System.<strong>out</strong>.println<strong>(</strong>b<strong>[</strong>i<strong>])</strong>;//依次输出1，2<br>}</p>
-<p>6数组排序</p>
-<p>6.1要想对数值型数组进行排序，可以使用Arrays类的sort方法：</p>
-<p>int[] a={8,2,7,0};<br>Arrays.sort(a);<br>System.out.println(Arrays.toString(a));//输出[0, 2, 7, 8]</p>
-<p>这个方法使用了快速排序算法，快速排序算法对于大多数数据集合来说效率都是比较高的。</p>
-<p>6.2随机抽取</p>
-<p>Math.random方法将返回一个0到1之间（包含）不包含1）的随机浮点数，用n乘以这个浮点数，就可以得到从0到n-1之间的一个浮点数：</p>
-<p>System.out.println(Math.random());//[0,1)之间随机返回一个浮点数<br>int n = 8;<br>int r = (int) Math.random() * n;//r为在[0,n-1]中随机取一个数</p>
-<p>7多维数组</p>
-<p>7.1二维数组（或者说矩阵）</p>
-<p>简写形式：</p>
-<p><code>int[][] a = {</code><br>      <code>{1,2},</code><br>      <code>{3,4}</code><br><code>};</code><br><code>System.out.println(Arrays.deepToString(a));//输出[[1, 2], [3, 4]]</code><br><code>System.out.println(a[0][0]);//输出1</code><br><code>System.out.println(a[0][1]);//输出2</code></p>
-<p>声明数组：</p>
-<p>int[][] a;//a为数组变量，未初始化前不能使用</p>
-<p>声明并初始化：</p>
-<p><code>int [][] a=new int[3][3];</code>//此时才创建了一个数组</p>
-<p>7.2访问二维数组</p>
-<p>for each不能自动处理二维数组的每一个元素，它会循环处理行，而这些行本身就是一维数组。要想访问二维数组的所有元素，需要使用两个嵌套的for each循环：</p>
-<p>int[][] a = {<br>      {1, 2},<br>      {3, 4}<br>};<br>for (int[] b:a){<br>  for(int c:b){<br>    System.out.println(c);//依次输出1，2，3，4<br>  }<br>}</p>
-<p>7.3</p>
-<p>如果想快速得打印出一个二维数组元素列表，可以调用Arrays类的deepToString方法。</p>
-<p>int[][] a = {<br>    {1, 2},<br>    {3, 4}<br>};<br>System.out.println(Arrays.deepToString(a));//输出[[1, 2], [3, 4]]</p>
-<p>8不规则数组</p>
-<p>Java实际上没有多维数组，只有一维数组，多维数组被解释为“数组的数组”。</p>
-<p><code>int [][] a=new int[3][3]；</code></p>
-<p>int[i]表示引用第i个子数组，int[i][j]表示引用这个子数组里的第j个元素。</p>
-<p>由于可以单独的访问数组的某一行(即某个子数组)，所以可以让两行进行交换。</p>
-<p><code>int [][] a=new int[3][3];</code></p>
-<p><code>int i=1;</code></p>
-<p><code>int[] temp=a[i];</code></p>
-<p><code>a[i]=a[i+1];</code></p>
-<p><code>a[i+1]=temp;</code></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第二章对象与类（一）</title>
-    <url>/2020/06/19/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<hr>
-<p>今天这篇博客如果看起来很吃力的话大家评论留言一下，我会考虑再出一篇更易理解的。</p>
- <a id="more"></a> 
-
-<p>第二章、对象与类</p>
-<p>一、面向对象程序设计简称OOP。</p>
-<p>1类</p>
-<p>由类构造对象的过程称为创建类的实例。</p>
-<p>封装(有时称为数据隐藏)：就是将数据和行为组合在一个包中，并对对象的使用者隐藏具体的实现方式。</p>
-<p>对象中的数据称为实例字段。</p>
-<p>操作数据的过程称为方法。</p>
-<p>作为一个类的实例，特定对象都有一组特定的实例字段值，这些值的集合就是这个对象的当前状态。无论何时，只要在对象上调用一个方法，它的状态就有可能发生改变。</p>
-<p>实现封装的关键在于，绝对不能让类中的方法直接访问其他类的实例字段。程序只能通过对象的方法与对象数据进行交互。</p>
-<p>在Java中，所有的都源自一个“超类”，即Object类。</p>
-<p>通过扩展一个类（父）来建立另一个类（子）的过程的过程被称为继承。</p>
-<p>2对象</p>
-<p>对象的三个主要特性：</p>
-<p>（1）对象的行为：对象的行为是用可调用的方法来定义的。</p>
-<p>（2）对象的状态：每个对象都保存着描述当前状况的信息，这就是对象的状态。（但是对象的状态不能完全描述一个对象）</p>
-<p>（3）对象的标识：每个对象都有一个唯一的标识（或称身份），如：在一个订单处理系统中，任何两个订单都存在着不同之处，即使所订购的货物完全相同，它们也是不同的订单。注意：作为同一个类的实例，每个对象的标识符的总是不同的，状态也往往存在着差异。</p>
-<p>3类之间的关系</p>
-<p>依赖：如果一个类的方法使用或操纵另一个类的对象，我们就说一个类依赖于另一个类。</p>
-<p>应该尽可能地将相互依赖的类减至最少。因为如果类A不知道类B的存在，它就不会关心类B的任何改变（这意味着B的改变不会导致A产生任何bug），用软件工程的术语说，就是尽可能减少类之间的耦合。</p>
-<p>聚合（包容）：类A的对象包含类B的对象。</p>
-<p>还有关联关系等。</p>
-<p>继承：表示一个更特殊类与一个更一般的类之间的关系。如果类A扩展类B，类A不但包含从类B继承的方法等，还会有一些额外的功能。</p>
-<p>很多采用UML（统一建模语言）绘制类图，用来描述类之间的关系。</p>
-<p>二、使用预定义类</p>
-<p>并不是所有的类都表现出面向对象的典型特征。例如，Math类。可以直接使用Math类的方法，如Math.random,而不必了解它具体是如何实现的，你只需要知道方法名和参数(如果有的话）。这正是封装的关键所在，当然所有类都是这样。 但Math类只封装了功能，它也不必隐藏数据。由于没有数招，因此也不必专虑创建对象和初始化它们的实例字段，因为根本没有实例字段。</p>
-<p>1对象与对象变量</p>
-<p>在Java中要使用构造器（或称构造函数）构造新实例，构造器是一种特殊的方法，用来构造并初始化对象。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第二章对象与类（二）</title>
-    <url>/2020/06/20/%E7%AC%AC%E4%BA%8C%E7%AB%A0%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<p>今天考试，更新的比较少。</p>
-<a id="more"></a> 
-
-<p>1.2在Java标准库里有一个Date类，它可以实时描述现在的时间点。</p>
-<p>构造器的名字应该与类名相同，构造对象时在前面加new操作符：</p>
-<p>new Date<strong>()</strong>;</p>
-<p>如果需要的话，也可以将这个对象传递给一个方法：</p>
-<p>System.<strong>out</strong>.println<strong>(</strong>new Date<strong>())</strong>;//输出Sat Jun 20 21:43:37 CST 2020</p>
-<p>或者，也可以对刚刚创建的对象应用一个方法，Date类中有一个toString方法，可以将返回的日期以字符串描述：</p>
-<p>String s = new Date<strong>()</strong>.toString<strong>()</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>s<strong>)</strong>;//Sat Jun 20 21:47:52 CST 2020</p>
-<p>1.3对象变量不是对象。</p>
-<p>定义（声明）一个对象变量：</p>
-<p>Date deadline;</p>
-<p>此时还没有引用任何对象，还不能在这个变量上使用任何Date类的方法。即String s=deadline.toString()是无法编译成功的。</p>
-<p>1.4初始化对象变量</p>
-<p>Date deadline=new Date();//deadline引用了一个新构造的对象</p>
-<p>或者两个变量引用同一个对象：</p>
-<p>Date date1= new Date<strong>()</strong>;<br>Date date2=date1;<br>System.<strong>out</strong>.println<strong>(</strong>date1==date2<strong>)</strong>;//输出true,两个变量引用同一位置的对象</p>
-<p>1.5对象变量只是引用一个对象，并不是包含对象。任何对象变量的值都是对存储在另一个地方的某个对象的引用。</p>
-<p>1.6new操作符的返回值也是一个引用。</p>
-<p>Date deadline=new Date()</p>
-<p>new Date()构造了一个Date类型的对象，它的值是对新创建对象的一个引用，这个引用存储在对象变量deadline中。</p>
-<p>1.6可以将对象变量设置为null,即这个对象变量目前没有存储任何对象。</p>
-<p>1.7所有的额Java对象都存储在堆中。</p>
-<p>当一个对象包含另一个对象变量时，它只是包含着另一个堆对象的指针（或者说这个对象只包含着对另一个堆对象的引用）。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一章Java程序概述（五）</title>
-    <url>/2020/06/15/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%94%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<a id="more"></a>
-
-
-
-<p>6空串和null串</p>
-<p>6.1空串：即””，空串是一个Java对象，有自己的串长度（0）和内容（空）。以下两种方法可以检测字符串是否为空串：</p>
-<p>String str=””;<br>if(str.equals(“”)){<br>  System.out.println(“该字符串为空”);//输出该字符串为空<br>}<br>if(str.length()==0){<br>  System.out.println(“该字符串为空”);//输出该字符串为空<br>}</p>
-<p>6.2null串</p>
-<p>String变量可以存放一个特殊的值null,表示目前没有任何对象和该变量相关联。以下检测字符串是否为null串：</p>
-<p>String a;<br>if(a==null){<br>  System.out.println(“a是Null串”);//输出a是Null串<br>}</p>
-<p>6.3检测一个字符串既不是null串，也不是空串：要先检测是否为null串：</p>
-<p>if(str!=null&amp;&amp;str.length()!=0){}</p>
-<p>7String API</p>
-<p>7.1在API注释中，有一些CharSequence类型的参数，这是一种接口类型，所有字符串都属于这个接口。现在只需要知道，当看到CharSequence类型的参数时，完全可以传入String类型的参数。</p>
-<p>7.2阅读API文档网址(可以查阅标准库的所有类和方法)：</p>
-<p><a href="https://docs.oracle.com/javase/9/docs/api/overview-summary.html" target="_blank" rel="noopener">https://docs.oracle.com/javase/9/docs/api/overview-summary.html</a></p>
-<p>在网址中左上角搜索：java.lang.String，其中有String类的所有方法</p>
-<p>8构建字符串（将多个小字符串构建成一个大字符串）</p>
-<p>8.1如果使用字符串拼接的方式（+号）将多个小字符串构建成一个大字符串，每用一次+号就会多创建一个新的对象，既耗时又浪费空间，效率较低。</p>
-<p>8.2拼接字符串效率高的步骤：</p>
-<p>//拼接字符串时每使用一次+号就会产生一个新的对象即会产生多个对象,可以在StringBuilder类建立的构造器中加入多次内容后最后再建立对象即只建立一个对象<br>StringBuilder builder=new StringBuilder();//构建一个空的字符串构造器<br>builder.append(“asd”);//调用append方法添加内容<br>builder.append(“sdf”);<br>builder.append(“aaa”);<br>String completedString=builder.toString();//调用toString方法创建String对象,其中包含了构造器中的字符序列<br>System.out.println(completedString);//输出asdsdfaaa</p>
-<p>如果所有字符串编辑操作都在单个线程中执行（通常都是这样），则应该使用StringBulider。StringBulider线程不安全。</p>
-<p>8.3StringBulider类的前身是StringBuffer，StringBuffer类的效率比StringBulider类稍有些低，但允许采用多线程的方式添加或删除字符串。</p>
-<p>六、输入与输出</p>
-<p>将输出打印到”标准输出流”（即控制台窗口很容易），只要调用System.out.println即可。</p>
-<p>1读取输入</p>
-<p>1.1读取”标准输入流”System.in就不那么简单了，要想通过控制台输入，首先需要构造一个与”标准输入流”System.in关联的Scanner对象然后才可以使用Scanner类的各种方法读取输入。</p>
-<p>步骤：</p>
-<p>//先构造一个与”标准输入流”相关联的Scanner类型的对象，就可以再调用Scanner类中的各种方法读取输入了<br>Scanner in=new Scanner(System.in);<br>System.out.println(“你叫什么名字”);<br>String name=in.nextLine();//无论是否有空格做分隔符，nextLine方法读取输入的一整行，输入luo wen hao<br>System.out.println(name);//输出luo wen hao<br>String firstName=in.next();//next方法有空格做分隔符时仅读取输入的第一个单词即仅读取一个单词，输入luo wen hao<br>System.out.println(firstName);//输出luo<br>System.out.println(“你今年几岁”);<br>int age=in.nextInt();//nextInt方法读取整数,有空格做分隔符时仅读取输入的第一个数，输入12 13<br>System.out.println(age);//输出12<br>double num=in.nextDouble();//nextDouble方法读取整数,有空格做分隔符时仅读取输入的第一个数，输入12.0 13.1<br>System.out.println(num);//输出12.0</p>
-<p>程序默认的包为java.lang，Scanner类定义在java.util包中，当使用的类不是定义在基本java.lang包中时，一定要使用import导入相应的包。</p>
-<p>1.2因为使用Scanner类的方法输入是可见的，不适合在控制台输入密码，可以用Console类来实现，步骤：</p>
-<p>//Console类的方法只能读取整行，运行时会抛出java.lang.NullPointerException 原因是Console类不能直接在IDEA上运行，要到控制台运行<br>Console cons = System.console()<strong>;<br>String uesname = cons.readLine</strong>(<strong>“用户名是：”</strong>)<strong>;<br>char</strong>[] passwd = cons.readPassword<strong>(</strong>“密码是：”<strong>)</strong>;</p>
-<p>为安全起见返回的密码存放在一个字符数组中，而不是字符串中。在对密码处理完后应马上用一个填充值覆盖数组元素（数组处理后续会讲）。采用Console不如采用Scanner方便，Console类的方法只能读取整行，而没有能读取单个单词或数值的方法。</p>
-<p>2格式化输出</p>
-<p>2.1一般的输出：</p>
-<p>//print和println将以x的类型所允许的最大非零数位个数打印输出x，没有舍入运算<br>double x = 10.0 / 3;<br>System.out.print(x);//输出3.3333333333333335<br>System.out.println(x);//输出3.3333333333333335<br>System.out.println((float)1.11111347);//输出1.1111134</p>
-<p>2.2格式化输出</p>
-<p>//沿用了C语言的printf方法，进行舍入运算<br>double b = 1111.356;<br>System.out.printf(“%9.2f”, b);//以一个字段宽度打印a:包括9个字符（两个空格和七个字符，小数点也是字符），精度为小数点后两位且四舍五入，输出1111.36<br>double c = 10.0 / 3;<br>System.out.printf(“%9.2f”, c);//输出3.33，包括9个字符（五个空格和4个字符，小数点也是字符），精度为小数点后两位且四舍五入</p>
-<p>System.<strong>out</strong>.printf<strong>(</strong>“%f”, c<strong>)</strong>;//输出3.333333</p>
-<p>2.3可以为printf提供多个参数</p>
-<p>//可以为printf提供多个参数<br>String name=”小黑”;<br>int age=20;<br>System.out.printf(“嗨，%s。今年你%d岁啦”,name,age);<br>double c = 10.0 / 3;<br>System.out.printf(“%f”, c);</p>
-<p>格式说明符：以%开头，后面加上字母。即每一个以%开始的格式说明符都用相应的参数替换掉，格式说明符尾部的转换符表明要格式化的数值的类型：f表示浮点数，s表示字符串，d表示十进制整数，等等。</p>
 ]]></content>
   </entry>
 </search>
