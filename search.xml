@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/08/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+    <title>“我的第一篇博客”</title>
+    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
+    <content><![CDATA[<hr>
+<p>这还行来</p>
+ <a id="more"></a> 
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>“精准蒲法”农村普法一体化平台 农村土地确权相关问题</title>
+    <url>/2020/08/04/%E5%86%9C%E6%9D%91%E5%9C%9F%E5%9C%B0%E7%A1%AE%E6%9D%83%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>​     1、二轮土地承包订立的承包合同出现纠纷，如何适用《<a href="https://www.66law.cn/tiaoli/1003.aspx" target="_blank" rel="noopener">农村土地承包</a>法》?</p>
+<p><img src="/2020/08/04/%E5%86%9C%E6%9D%91%E5%9C%9F%E5%9C%B0%E7%A1%AE%E6%9D%83%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/r.png" alt="r"></p>
+<p>​        我国大部分地区在1995年前后开展二轮土地承包，《农村土地承包法》于2003年3月1日正式实施。土地承包合同纠纷发生在《农村土地承包法》实施前，处理该问题可以参照《农村土地承包法》第六十二条：“本法实施前已经按照国家有关农村土地承包的规定承包,包括承包期限长于本法规定的，本法实施后继续有效。”《立法法》第八十四条规定：“法律、行政法规、地方性法规、自治条例和单行条例、规章不溯及既往，但为了更好地保护公民、法人和其他组织的权利和利益而作的特别规定除外。”</p>
+<p>​        处理此类纠纷应当把握的原则是:《农村土地承包法》实施前所开展的二轮土地承包，符合当时党中央国务院相关文件精神，符合当时地方性法规、规章、政策，按照二轮土地承包方案履行了民主管理程序，并签订了二轮土地承包合同的，应当认定合同有效。如果该合同期限短于《农村土地承包法》规定的承包期限，或其他条款明显与《农村土地承包法》相违背，应当按照法律规定予以变更。</p>
+<p>​        2、二轮土地承包中，农户与发包方未签订承包合同，或者承包合同丟失、损毁，农户又不愿补签，如何处理?</p>
+<p>​        处理此类问题可以依据《农村土地承包法》第二十一条：“发包方应当与承包方签订书面承包合同”，第二十二条：“承包合同自成立之日起生效。承包方自承包合同生效时取得土地承包经营权。”</p>
+<p>​        处理此类问题应当把握的原则是:法律规定发包方与农户应当签订书面承包合同。承包合同丟失、损毁，应当按照二轮承包方案和土地承包台账进行补签。若农户不愿补签，乡村干部应当向其宣传土地承包合同的法律效力和对土地承包关系的保护作用。农户不签土地承包合同，一旦发生纠纷，因缺乏有效的法律证据，其土地承包经营权益可能得不到法律保护。</p>
+<p>​        3、户主为国家干部，代表全家签订的土地承包合同有效吗?</p>
+<p>​        根据《农村土地承包法》第五条：“农村集体经济组织成员有权依法承包由本集体经济组织发包的农村土地”，第十五条：“家庭承包的承包方是本集体经济组织的农户”，第二十二条：“承包合同自成立之日起生效。承包方自承包合同生效时取得土地承包经营权”的规定。《<a href="https://www.66law.cn/tiaoli/4.aspx" target="_blank" rel="noopener">合同法</a>》第五十二条规定：“有下列情形之一的，<a href="https://www.66law.cn/laws/126059.aspx" target="_blank" rel="noopener">合同无效</a>：一方以欺诈、胁迫的手段订立合同，损害国家利益;恶意串通，损害国家、集体或者第三人利益;以合法形式掩盖非法目的;损害社会公共利益;违反法律、行政法规的强制性规定。”</p>
+<p>​        处理此类问题应当把握的原则是:如果该集体经济组织在二轮土地承包工作中按照国家政策进行延包，即土地承包方案符合政策规定，土地承包的原则和程序按照规定进行，没有违背《合同法》等关于合同无效的规定，作为国家干部的户主代表其家庭与发包方签订的土地承包合同应当视为有效。因为他不是本集体经济组织成员，无权承包该集体经济组织以家庭承包方式发包的土地，不享有家庭的土地承包经营权。为便于管理土地承包合同和保护农户土地承包权益，建议在土地确权登记颁证中，该农户应经家庭成员协商后，变更承包合同的签约人。</p>
+<p>​        4、在二轮土地承包时，发包方将甲农户家庭承包方式承包地写入乙农户的土地承包合同中，县政府以此给农户乙颁发了土地承包经营权证。在处理该纠纷时是否先要经过行政诉讼，由<a href="https://www.66law.cn/special/fayuan/" target="_blank" rel="noopener">法院</a>撤销农户乙的土地承包经营权证?</p>
+<p>​        处理该问题的依据：一是《农村土地承包法》“第二十二条承包合同自成立之日起生效。承包方自承包合同生效时取得土地承包经营权。第二十三条县级以上地方人民政府应当向承包方颁发土地承包经营权证或者林权证等证书，并登记造册，确认土地承包经营权。”二是《<a href="https://www.66law.cn/tiaoli/33.aspx" target="_blank" rel="noopener">物权法</a>》“第二十八条因人民法院、<a href="https://www.66law.cn/special/zc/" target="_blank" rel="noopener">仲裁</a>委员会的法律文书或者人民政府的征收决定等，导致物权设立、变更、转让或者消灭的，自法律文书或者人民政府的征收决定等生效时发生效力。”</p>
+<p>​        处理原则：家庭承包方式的土地承包合同自成立之日起生效，承包方自承包合同生效时取得土地承包经营权，政府颁证只是确认土地承包经营权。如果农户甲直接行政诉讼，申请法院撤销县政府给农户乙颁发的土地承包经营权证，根据《<a href="https://www.66law.cn/tiaoli/32.aspx" target="_blank" rel="noopener">行政复议法</a>》第三十条规定，需要先行政复议，然后再走行政诉讼程序，但对农户乙的土地承包合同的效力并无影响，还要再通过民事诉讼确认其土地承包合同部分无效。因此，对于家庭承包方式的土地承包经营权纠纷，不必先经过行政诉讼由法院撤销县级人民政府颁发的土地承包经营权证，由农户甲直接申请仲裁机构或者法院确认农户乙的土地承包合同部分无效即可。如仲裁机构或者法院支持农户甲的主张，且裁决或者判决生效后，根据《物权法》第二十八条规定，由颁证机关变更农户乙的土地承包经营权证。</p>
+<p>​        更多相关内容，请持续关注公众号“精准蒲法”</p>
 ]]></content>
   </entry>
   <entry>
@@ -80,13 +91,21 @@
 ]]></content>
   </entry>
   <entry>
-    <title>“我的第一篇博客”</title>
-    <url>/2020/06/08/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
-    <content><![CDATA[<hr>
-<p>这还行来</p>
- <a id="more"></a> 
+    <title>Hello World</title>
+    <url>/2020/06/08/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
-<p>今下午四点开始睡觉，一觉睡到将近七点，晚上这可咋睡，丢儿。。。。</p>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
@@ -118,48 +137,6 @@
 <p>第三百六十四条　【宅基地的灭失和重新分配】宅基地因自然灾害等原因灭失的,宅基地使用权消灭。对失去宅基地的村民,应当依法重新分配宅基地。</p>
 <p>第三百六十五条　【宅基地使用权变更和注销登记】已经登记的宅基地使用权转让或者消灭的,应当及时办理变更登记或者注销登记。</p>
 <p>  文章将持续更新，更多相关内容请关注微信公众号: 精准蒲法</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>“精准蒲法”农村普法一体化平台 农村土地确权相关问题</title>
-    <url>/2020/08/04/%E5%86%9C%E6%9D%91%E5%9C%9F%E5%9C%B0%E7%A1%AE%E6%9D%83%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>​     <img src="/2020/08/04/%E5%86%9C%E6%9D%91%E5%9C%9F%E5%9C%B0%E7%A1%AE%E6%9D%83%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/r.png" alt="r"></p>
-<p>​        1、二轮土地承包订立的承包合同出现纠纷，如何适用《<a href="https://www.66law.cn/tiaoli/1003.aspx" target="_blank" rel="noopener">农村土地承包</a>法》?</p>
-<p>​        我国大部分地区在1995年前后开展二轮土地承包，《农村土地承包法》于2003年3月1日正式实施。土地承包合同纠纷发生在《农村土地承包法》实施前，处理该问题可以参照《农村土地承包法》第六十二条：“本法实施前已经按照国家有关农村土地承包的规定承包,包括承包期限长于本法规定的，本法实施后继续有效。”《立法法》第八十四条规定：“法律、行政法规、地方性法规、自治条例和单行条例、规章不溯及既往，但为了更好地保护公民、法人和其他组织的权利和利益而作的特别规定除外。”</p>
-<p>​        处理此类纠纷应当把握的原则是:《农村土地承包法》实施前所开展的二轮土地承包，符合当时党中央国务院相关文件精神，符合当时地方性法规、规章、政策，按照二轮土地承包方案履行了民主管理程序，并签订了二轮土地承包合同的，应当认定合同有效。如果该合同期限短于《农村土地承包法》规定的承包期限，或其他条款明显与《农村土地承包法》相违背，应当按照法律规定予以变更。</p>
-<p>​        2、二轮土地承包中，农户与发包方未签订承包合同，或者承包合同丟失、损毁，农户又不愿补签，如何处理?</p>
-<p>​        处理此类问题可以依据《农村土地承包法》第二十一条：“发包方应当与承包方签订书面承包合同”，第二十二条：“承包合同自成立之日起生效。承包方自承包合同生效时取得土地承包经营权。”</p>
-<p>​        处理此类问题应当把握的原则是:法律规定发包方与农户应当签订书面承包合同。承包合同丟失、损毁，应当按照二轮承包方案和土地承包台账进行补签。若农户不愿补签，乡村干部应当向其宣传土地承包合同的法律效力和对土地承包关系的保护作用。农户不签土地承包合同，一旦发生纠纷，因缺乏有效的法律证据，其土地承包经营权益可能得不到法律保护。</p>
-<p>​        3、户主为国家干部，代表全家签订的土地承包合同有效吗?</p>
-<p>​        根据《农村土地承包法》第五条：“农村集体经济组织成员有权依法承包由本集体经济组织发包的农村土地”，第十五条：“家庭承包的承包方是本集体经济组织的农户”，第二十二条：“承包合同自成立之日起生效。承包方自承包合同生效时取得土地承包经营权”的规定。《<a href="https://www.66law.cn/tiaoli/4.aspx" target="_blank" rel="noopener">合同法</a>》第五十二条规定：“有下列情形之一的，<a href="https://www.66law.cn/laws/126059.aspx" target="_blank" rel="noopener">合同无效</a>：一方以欺诈、胁迫的手段订立合同，损害国家利益;恶意串通，损害国家、集体或者第三人利益;以合法形式掩盖非法目的;损害社会公共利益;违反法律、行政法规的强制性规定。”</p>
-<p>​        处理此类问题应当把握的原则是:如果该集体经济组织在二轮土地承包工作中按照国家政策进行延包，即土地承包方案符合政策规定，土地承包的原则和程序按照规定进行，没有违背《合同法》等关于合同无效的规定，作为国家干部的户主代表其家庭与发包方签订的土地承包合同应当视为有效。因为他不是本集体经济组织成员，无权承包该集体经济组织以家庭承包方式发包的土地，不享有家庭的土地承包经营权。为便于管理土地承包合同和保护农户土地承包权益，建议在土地确权登记颁证中，该农户应经家庭成员协商后，变更承包合同的签约人。</p>
-<p>​        4、在二轮土地承包时，发包方将甲农户家庭承包方式承包地写入乙农户的土地承包合同中，县政府以此给农户乙颁发了土地承包经营权证。在处理该纠纷时是否先要经过行政诉讼，由<a href="https://www.66law.cn/special/fayuan/" target="_blank" rel="noopener">法院</a>撤销农户乙的土地承包经营权证?</p>
-<p>​        处理该问题的依据：一是《农村土地承包法》“第二十二条承包合同自成立之日起生效。承包方自承包合同生效时取得土地承包经营权。第二十三条县级以上地方人民政府应当向承包方颁发土地承包经营权证或者林权证等证书，并登记造册，确认土地承包经营权。”二是《<a href="https://www.66law.cn/tiaoli/33.aspx" target="_blank" rel="noopener">物权法</a>》“第二十八条因人民法院、<a href="https://www.66law.cn/special/zc/" target="_blank" rel="noopener">仲裁</a>委员会的法律文书或者人民政府的征收决定等，导致物权设立、变更、转让或者消灭的，自法律文书或者人民政府的征收决定等生效时发生效力。”</p>
-<p>​        处理原则：家庭承包方式的土地承包合同自成立之日起生效，承包方自承包合同生效时取得土地承包经营权，政府颁证只是确认土地承包经营权。如果农户甲直接行政诉讼，申请法院撤销县政府给农户乙颁发的土地承包经营权证，根据《<a href="https://www.66law.cn/tiaoli/32.aspx" target="_blank" rel="noopener">行政复议法</a>》第三十条规定，需要先行政复议，然后再走行政诉讼程序，但对农户乙的土地承包合同的效力并无影响，还要再通过民事诉讼确认其土地承包合同部分无效。因此，对于家庭承包方式的土地承包经营权纠纷，不必先经过行政诉讼由法院撤销县级人民政府颁发的土地承包经营权证，由农户甲直接申请仲裁机构或者法院确认农户乙的土地承包合同部分无效即可。如仲裁机构或者法院支持农户甲的主张，且裁决或者判决生效后，根据《物权法》第二十八条规定，由颁证机关变更农户乙的土地承包经营权证。</p>
-<p>​        更多相关内容，请持续关注公众号“精准蒲法”</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>“精准蒲法”农村普法一体化平台 农村房屋买卖常见的法律问题有哪些?</title>
-    <url>/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
-    <content><![CDATA[<p>​        一、房屋买卖中房屋与土地的“主从”关系二、现有法律规范中对<a href="http://www.64365.com/baike/ncfwmm/" target="_blank" rel="noopener">农村房屋买卖</a>问题的规定三、最高人民法院对农村房屋买卖效力的意见四、<a href="http://www.64365.com/baike/ncfwmmht/" target="_blank" rel="noopener">农村房屋买卖合同</a>的效力认定。</p>
-<p><img src="/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89/ii.png" alt="ii"></p>
-<p>​        在农村的房屋买卖过程中，经常出现相关的买卖纠纷。大多数买卖双方由于不知道相关的法律规定，所以经常产生纠纷。那么，<a href="http://www.64365.com/baike/ncfwmm/" target="_blank" rel="noopener">农村房屋买卖</a>常见的法律问题有哪些？怎么避免相关的买卖纠纷？</p>
-<p>​        【农村<a href="http://www.64365.com/tuwen/wytxk/" target="_blank" rel="noopener">房屋过户</a>条件】关于农村房屋买卖相关法律问题的探讨</p>
-<p>​        随着社会主义新农村建设的不断推进，农村的房屋流转日益增多，由此而引发的房屋买卖纠纷逐年增加。由于现有房屋买卖的法律<a href="http://www.64365.com/fagui/" target="_blank" rel="noopener">法规</a>比较杂乱，难以理解和把握。《<a href="http://www.64365.com/fagui/article-640350.aspx" target="_blank" rel="noopener">物权法</a>》草案中曾对农村房屋转让作出过详细规定，但正式通过的法律文本中却因有争议删去了相关条款，导致目前农村房屋转让仍然缺少具有可操作性的法律依据。为了减少对涉及<a href="http://www.64365.com/baike/ncfwmmht/" target="_blank" rel="noopener">农村房屋买卖合同</a>效力认定问题的争议，更好地维护和促进社会主义新农村建设，本文试从法律应用层面上提出解决农村房屋买卖法律适用问题的个人见解。</p>
-<p>​        一、房屋买卖中房屋与土地的“主从”关系 </p>
-<p>​        城市房屋买卖中，遵循“地随房走”原则。这一理念在《<a href="http://www.64365.com/fagui/article-640318.aspx" target="_blank" rel="noopener">城市房地产管理法</a>》和《城市房屋<a href="http://www.64365.com/baike/cq/" target="_blank" rel="noopener">拆迁</a>管理条例》中观点明确。</p>
-<p>​        在我国的农村，土地是农村经济组织集体所有。根据我国土地管理法等相关规定，<a href="http://www.64365.com/baike/jttd/" target="_blank" rel="noopener">集体土地</a>未经征用，不得出让、转让。实践中，在对农村土地进行征用时，房屋是作为地上附着物予以补偿的，采取的是“房随地走”的原则。因此，基于此因素，笔者认为，农村房屋转让也应遵循“房随地走”的原则，以<a href="http://www.64365.com/baike/tdsyq/" target="_blank" rel="noopener">土地使用权</a>能否转移作为决定房屋转让效力的主要因素。</p>
-<p>​        二、现有法律规范中对农村房屋买卖问题的规定 </p>
-<p>​        《物权法》第152条至155条规定，<a href="http://www.64365.com/baike/zjdsyq/" target="_blank" rel="noopener">宅基地使用权</a>人依法对集体所有的土地享有占有和使用的权利，有权依法利用该土地建房，<a href="http://www.64365.com/zs/tdfc/zjd/" target="_blank" rel="noopener">宅基地</a>使用权的取得、行使和转让，适用土地管理法等法律和国家有关规定。</p>
-<p>​        《土地管理法》第62条第3款规定，“农村村民出卖、出租住房后，再申请宅基地的，不予批准。”</p>
-<p>​        《国务院关于深化改革严格土地管理的决定》(国发[2004]28号)规定，禁止城镇居民在农村购置宅基地。</p>
-<p>​        国务院办公厅《关于加强<a href="http://www.64365.com/baike/tdzr/" target="_blank" rel="noopener">土地转让</a>严禁炒卖土地的通知》(国办发[1999]39号)规定“农民的住宅不得向城市居民出售，也不得批准城市居民占用农民集体土地建住宅，有关部门不得为违法建造和购买的住宅发放<a href="http://www.64365.com/baike/tdsyz/" target="_blank" rel="noopener">土地使用证</a>和<a href="http://www.64365.com/baike/fcz/" target="_blank" rel="noopener">房产证</a>”。</p>
-<p>​        三、最高人民法院对农村房屋买卖效力的意见 </p>
-<p>​        最高院于1963年作出的《关于贯彻执行民事政策几个问题的意见》规定：“宅基地上的附着物如房屋、树木、厂棚、猪圈、厕所等永远归社员所有，社员有买卖或租赁房屋的权利。房屋出卖以后，宅基地的使用权即随之转移给新房主，但宅基地的所有权仍归生产队所有。”最高院于1984年作出的《关于贯彻执行民事政策法律若干问题的意见》第60条规定：“村镇公民之间由于买卖房屋转移宅基地使用权而发生的纠纷，应根据国务院《村镇建房用地管理条例》中规定的审查、批准手续办理。”可见，《土地管理法》施行前，最高院原则上是承认农村房屋买卖效力的。《土地管理法》施行后，国务院及有关部门对农村房屋和宅基地出台了严格管理政策，最高院未就此出台过新的规定，也没有发布典型案例，因此很难判断最高院对农村房屋买卖的态度是否发生改变。</p>
-<p>​        四、农村房屋买卖<a href="http://www.64365.com/baike/htdxl/" target="_blank" rel="noopener">合同的效力</a>认定 </p>
-<p>​        关于农村房屋<a href="http://www.64365.com/contract/mmht/" target="_blank" rel="noopener">买卖合同</a>的效力问题， 应当以<a href="http://www.64365.com/zs/818412.aspx" target="_blank" rel="noopener">合同法</a>规定的合同有效要件为标准，符合合同有效要件的合同为有效合同，欠缺任何一个有效要件的合同均为<a href="http://www.64365.com/baike/wxht/" target="_blank" rel="noopener">无效合同</a>。</p>
-<p>​        我国《合同法》规定的合同有效要件主要包括四个方面：一是合同当事人是具有民事权利能力和民事行为能力的自然人和法人，具备相应的权限。无民事行为能力人订立的<a href="http://www.64365.com/baike/htwx/" target="_blank" rel="noopener">合同无效</a>，限制民事行为能力人订立的与其年龄、智力状况不符的合同，其法定代理人不予追认的无效;无处分权的人订立的合同，权利人不予追认的无效;无代理权的人订立的合同，被代理人不予追认的无效;二是意思表示真实，因欺诈、胁迫而订立的合同为可撤销的合同，法院应根据受欺诈、胁迫方的请求撤销或者变更该合同;因重大误解而订立的合同，法院可根据任何一方当事人的请求撤销或者变更该合同;恶意串通，损害国家、集体或者第三人利益的合同无效;以合法形式掩盖非法目的的合同无效;三是内容不违背法律强制性规定和公序良俗。因欺诈、胁迫损害国家利益的合同无效;损害社会公共利益的合同无效;违反法律、行政法规的强制性规定的合同无效;显失公平的合同，应根据当事人任何一方的请求予以变更或者撤销;四是形式上符合法律规定的要求或者当事人的约定，法律规定或者当事人约定必须采用特定形式的，未采用特定形式的无效。</p>
 ]]></content>
   </entry>
   <entry>
@@ -195,6 +172,29 @@
     <title>我的第二篇博客</title>
     <url>/2020/06/09/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>#冲冲冲！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>“精准蒲法”农村普法一体化平台 农村房屋买卖常见的法律问题有哪些?</title>
+    <url>/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
+    <content><![CDATA[<p>​        一、房屋买卖中房屋与土地的“主从”关系二、现有法律规范中对<a href="http://www.64365.com/baike/ncfwmm/" target="_blank" rel="noopener">农村房屋买卖</a>问题的规定三、最高人民法院对农村房屋买卖效力的意见四、<a href="http://www.64365.com/baike/ncfwmmht/" target="_blank" rel="noopener">农村房屋买卖合同</a>的效力认定。</p>
+<p><img src="/2020/07/18/%E5%86%9C%E6%9D%91%E6%99%AE%E6%B3%95%EF%BC%88%E4%BA%8C%EF%BC%89/ii.png" alt="ii"></p>
+<p>​        在农村的房屋买卖过程中，经常出现相关的买卖纠纷。大多数买卖双方由于不知道相关的法律规定，所以经常产生纠纷。那么，<a href="http://www.64365.com/baike/ncfwmm/" target="_blank" rel="noopener">农村房屋买卖</a>常见的法律问题有哪些？怎么避免相关的买卖纠纷？</p>
+<p>​        【农村<a href="http://www.64365.com/tuwen/wytxk/" target="_blank" rel="noopener">房屋过户</a>条件】关于农村房屋买卖相关法律问题的探讨</p>
+<p>​        随着社会主义新农村建设的不断推进，农村的房屋流转日益增多，由此而引发的房屋买卖纠纷逐年增加。由于现有房屋买卖的法律<a href="http://www.64365.com/fagui/" target="_blank" rel="noopener">法规</a>比较杂乱，难以理解和把握。《<a href="http://www.64365.com/fagui/article-640350.aspx" target="_blank" rel="noopener">物权法</a>》草案中曾对农村房屋转让作出过详细规定，但正式通过的法律文本中却因有争议删去了相关条款，导致目前农村房屋转让仍然缺少具有可操作性的法律依据。为了减少对涉及<a href="http://www.64365.com/baike/ncfwmmht/" target="_blank" rel="noopener">农村房屋买卖合同</a>效力认定问题的争议，更好地维护和促进社会主义新农村建设，本文试从法律应用层面上提出解决农村房屋买卖法律适用问题的个人见解。</p>
+<p>​        一、房屋买卖中房屋与土地的“主从”关系 </p>
+<p>​        城市房屋买卖中，遵循“地随房走”原则。这一理念在《<a href="http://www.64365.com/fagui/article-640318.aspx" target="_blank" rel="noopener">城市房地产管理法</a>》和《城市房屋<a href="http://www.64365.com/baike/cq/" target="_blank" rel="noopener">拆迁</a>管理条例》中观点明确。</p>
+<p>​        在我国的农村，土地是农村经济组织集体所有。根据我国土地管理法等相关规定，<a href="http://www.64365.com/baike/jttd/" target="_blank" rel="noopener">集体土地</a>未经征用，不得出让、转让。实践中，在对农村土地进行征用时，房屋是作为地上附着物予以补偿的，采取的是“房随地走”的原则。因此，基于此因素，笔者认为，农村房屋转让也应遵循“房随地走”的原则，以<a href="http://www.64365.com/baike/tdsyq/" target="_blank" rel="noopener">土地使用权</a>能否转移作为决定房屋转让效力的主要因素。</p>
+<p>​        二、现有法律规范中对农村房屋买卖问题的规定 </p>
+<p>​        《物权法》第152条至155条规定，<a href="http://www.64365.com/baike/zjdsyq/" target="_blank" rel="noopener">宅基地使用权</a>人依法对集体所有的土地享有占有和使用的权利，有权依法利用该土地建房，<a href="http://www.64365.com/zs/tdfc/zjd/" target="_blank" rel="noopener">宅基地</a>使用权的取得、行使和转让，适用土地管理法等法律和国家有关规定。</p>
+<p>​        《土地管理法》第62条第3款规定，“农村村民出卖、出租住房后，再申请宅基地的，不予批准。”</p>
+<p>​        《国务院关于深化改革严格土地管理的决定》(国发[2004]28号)规定，禁止城镇居民在农村购置宅基地。</p>
+<p>​        国务院办公厅《关于加强<a href="http://www.64365.com/baike/tdzr/" target="_blank" rel="noopener">土地转让</a>严禁炒卖土地的通知》(国办发[1999]39号)规定“农民的住宅不得向城市居民出售，也不得批准城市居民占用农民集体土地建住宅，有关部门不得为违法建造和购买的住宅发放<a href="http://www.64365.com/baike/tdsyz/" target="_blank" rel="noopener">土地使用证</a>和<a href="http://www.64365.com/baike/fcz/" target="_blank" rel="noopener">房产证</a>”。</p>
+<p>​        三、最高人民法院对农村房屋买卖效力的意见 </p>
+<p>​        最高院于1963年作出的《关于贯彻执行民事政策几个问题的意见》规定：“宅基地上的附着物如房屋、树木、厂棚、猪圈、厕所等永远归社员所有，社员有买卖或租赁房屋的权利。房屋出卖以后，宅基地的使用权即随之转移给新房主，但宅基地的所有权仍归生产队所有。”最高院于1984年作出的《关于贯彻执行民事政策法律若干问题的意见》第60条规定：“村镇公民之间由于买卖房屋转移宅基地使用权而发生的纠纷，应根据国务院《村镇建房用地管理条例》中规定的审查、批准手续办理。”可见，《土地管理法》施行前，最高院原则上是承认农村房屋买卖效力的。《土地管理法》施行后，国务院及有关部门对农村房屋和宅基地出台了严格管理政策，最高院未就此出台过新的规定，也没有发布典型案例，因此很难判断最高院对农村房屋买卖的态度是否发生改变。</p>
+<p>​        四、农村房屋买卖<a href="http://www.64365.com/baike/htdxl/" target="_blank" rel="noopener">合同的效力</a>认定 </p>
+<p>​        关于农村房屋<a href="http://www.64365.com/contract/mmht/" target="_blank" rel="noopener">买卖合同</a>的效力问题， 应当以<a href="http://www.64365.com/zs/818412.aspx" target="_blank" rel="noopener">合同法</a>规定的合同有效要件为标准，符合合同有效要件的合同为有效合同，欠缺任何一个有效要件的合同均为<a href="http://www.64365.com/baike/wxht/" target="_blank" rel="noopener">无效合同</a>。</p>
+<p>​        我国《合同法》规定的合同有效要件主要包括四个方面：一是合同当事人是具有民事权利能力和民事行为能力的自然人和法人，具备相应的权限。无民事行为能力人订立的<a href="http://www.64365.com/baike/htwx/" target="_blank" rel="noopener">合同无效</a>，限制民事行为能力人订立的与其年龄、智力状况不符的合同，其法定代理人不予追认的无效;无处分权的人订立的合同，权利人不予追认的无效;无代理权的人订立的合同，被代理人不予追认的无效;二是意思表示真实，因欺诈、胁迫而订立的合同为可撤销的合同，法院应根据受欺诈、胁迫方的请求撤销或者变更该合同;因重大误解而订立的合同，法院可根据任何一方当事人的请求撤销或者变更该合同;恶意串通，损害国家、集体或者第三人利益的合同无效;以合法形式掩盖非法目的的合同无效;三是内容不违背法律强制性规定和公序良俗。因欺诈、胁迫损害国家利益的合同无效;损害社会公共利益的合同无效;违反法律、行政法规的强制性规定的合同无效;显失公平的合同，应根据当事人任何一方的请求予以变更或者撤销;四是形式上符合法律规定的要求或者当事人的约定，法律规定或者当事人约定必须采用特定形式的，未采用特定形式的无效。</p>
 ]]></content>
   </entry>
   <entry>
@@ -334,100 +334,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>第一章Java程序概述（三）</title>
-    <url>/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/</url>
-    <content><![CDATA[<p><img src="/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/a.jpg" alt="a"></p>
-<p>晒下我的桌面，拍照技术菜的一批。。。</p>
-<a id="more"></a> 
-
-<p>六、字符串</p>
-<p>1String a=””; //空字符串</p>
-<p>String b=”sdfdsfg”;</p>
-<p>每个用双引号括起来的字符串都是String类型的一个示例（对象）。</p>
-<p>2提取一个子串</p>
-<p>String类里的substring方法可以从一个较大的字符串里提取一个子串，如：</p>
-<p>String greeting=”Hello”;</p>
-<p>String s=greeting.substring(0,3);//即Hel，这里复制位置0，1，2的字符，从0开始，到3截止但不包括3</p>
-<p>Java字符串中的代码单元和代码点从0开始计数。</p>
-<p>substring的优点：容易计算子串的长度，如字符串s.substring(a,b)的长度是b-a。</p>
-<p>3拼接字符串</p>
-<p>3.1Java语言可以用+号按顺序拼接字符串。</p>
-<p>String a=”asdaf “;<br>String b=”dsfrg”;<br>System.out.println(a+b);控制台输出asdaf dsfrg，因为a字符串有个空格</p>
-<p>3.2任何一个Java对象都可以转换成一个字符串，当字符串和一个非字符串（前提是一个对象）的值进行拼接时非字符串会转换成字符串，如：</p>
-<p>String a = “The answer is “;<br>String b = 16 + a;//16被当作了一个对象<br>System.out.println(b);//控制台输出The answer is 16<br>System.out.println(“The answer is “ + www);//www被当作了一个变量，所以编译出错</p>
-<p>这种特性通常用在输出语句中。</p>
-<p>3.3如果需要将多个字符串拼接起来，且各个字符串之间用界定符分隔，可以使用静态join方法，如：</p>
-<p>String abc=String.join(<strong>“/“,”S”,”M”,”L”,”K”</strong>)<strong>;//这里充当界定符的/也可以换成其他<br>System.</strong>out<strong>.println</strong>(<strong>abc</strong>);//控制台输出S/M/L/K，/被当作界定符使用</p>
-<p>3.4Java11中还提供了一个repeat方法：</p>
-<p>String def=”java”.repeat<strong>(</strong>3<strong>)</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>def<strong>)</strong>;//控制台输出javajavajava</p>
-<p>4字符串是不可变的</p>
-<p>4.1String类中没有提供修改字符串中某个字符的方法。</p>
-<p>4.2String s=”Hello”;</p>
-<p>如果想将字符串s里最后两个位置的字符修改成p和！，可以提取字符串s中想保留的子串，再与想替换的字符拼接：</p>
-<p>s=s.substring(0,3)+”p!”;//但是这种先提取再拼接的效率并不高</p>
-<p>4.3在Java中不能修改字符串里的单个字符，即”Hello”永远包含H，e,l,l,o这几个字符。但是可以改变其引用变量s,即让s引用另一个字符串：</p>
-<p>String a=”aaa”;//创建的对象aaa赋给引用变量a<br>a=”abc”;//又新创建了另一个对象abc,并赋给引用变量a(即不再建立引用变量a和对象aaa之间的联系)，并没有改变对象aaa的内容<br>System.out.println(a);//控制台输出abc</p>
-<p>可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆）。</p>
-<p>如果：</p>
-<p>String a=”sss”;</p>
-<p>String b=”sss”;//表示引用变量a和b都指向存放字符串sss的位置</p>
-<p>4.3的效率要高于4.2。</p>
-<p>4.4</p>
-<p>String a=”aaa”;</p>
-<p>String a=”bbb”;</p>
-<p>此时String类型的对象aaa不再被使用，系统最终会自动将其回收，因此不会产生内存泄露，即垃圾回收机制。</p>
-<p>注意：在Java中不能修改字符串里的单个字符，但是在C++中可以，Java和C++都有上述的垃圾回收机制。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>第一章Java程序概述（五）</title>
-    <url>/2020/06/15/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%94%EF%BC%89/</url>
-    <content><![CDATA[<hr>
-<a id="more"></a>
-
-
-
-<p>6空串和null串</p>
-<p>6.1空串：即””，空串是一个Java对象，有自己的串长度（0）和内容（空）。以下两种方法可以检测字符串是否为空串：</p>
-<p>String str=””;<br>if(str.equals(“”)){<br>  System.out.println(“该字符串为空”);//输出该字符串为空<br>}<br>if(str.length()==0){<br>  System.out.println(“该字符串为空”);//输出该字符串为空<br>}</p>
-<p>6.2null串</p>
-<p>String变量可以存放一个特殊的值null,表示目前没有任何对象和该变量相关联。以下检测字符串是否为null串：</p>
-<p>String a;<br>if(a==null){<br>  System.out.println(“a是Null串”);//输出a是Null串<br>}</p>
-<p>6.3检测一个字符串既不是null串，也不是空串：要先检测是否为null串：</p>
-<p>if(str!=null&amp;&amp;str.length()!=0){}</p>
-<p>7String API</p>
-<p>7.1在API注释中，有一些CharSequence类型的参数，这是一种接口类型，所有字符串都属于这个接口。现在只需要知道，当看到CharSequence类型的参数时，完全可以传入String类型的参数。</p>
-<p>7.2阅读API文档网址(可以查阅标准库的所有类和方法)：</p>
-<p><a href="https://docs.oracle.com/javase/9/docs/api/overview-summary.html" target="_blank" rel="noopener">https://docs.oracle.com/javase/9/docs/api/overview-summary.html</a></p>
-<p>在网址中左上角搜索：java.lang.String，其中有String类的所有方法</p>
-<p>8构建字符串（将多个小字符串构建成一个大字符串）</p>
-<p>8.1如果使用字符串拼接的方式（+号）将多个小字符串构建成一个大字符串，每用一次+号就会多创建一个新的对象，既耗时又浪费空间，效率较低。</p>
-<p>8.2拼接字符串效率高的步骤：</p>
-<p>//拼接字符串时每使用一次+号就会产生一个新的对象即会产生多个对象,可以在StringBuilder类建立的构造器中加入多次内容后最后再建立对象即只建立一个对象<br>StringBuilder builder=new StringBuilder();//构建一个空的字符串构造器<br>builder.append(“asd”);//调用append方法添加内容<br>builder.append(“sdf”);<br>builder.append(“aaa”);<br>String completedString=builder.toString();//调用toString方法创建String对象,其中包含了构造器中的字符序列<br>System.out.println(completedString);//输出asdsdfaaa</p>
-<p>如果所有字符串编辑操作都在单个线程中执行（通常都是这样），则应该使用StringBulider。StringBulider线程不安全。</p>
-<p>8.3StringBulider类的前身是StringBuffer，StringBuffer类的效率比StringBulider类稍有些低，但允许采用多线程的方式添加或删除字符串。</p>
-<p>六、输入与输出</p>
-<p>将输出打印到”标准输出流”（即控制台窗口很容易），只要调用System.out.println即可。</p>
-<p>1读取输入</p>
-<p>1.1读取”标准输入流”System.in就不那么简单了，要想通过控制台输入，首先需要构造一个与”标准输入流”System.in关联的Scanner对象然后才可以使用Scanner类的各种方法读取输入。</p>
-<p>步骤：</p>
-<p>//先构造一个与”标准输入流”相关联的Scanner类型的对象，就可以再调用Scanner类中的各种方法读取输入了<br>Scanner in=new Scanner(System.in);<br>System.out.println(“你叫什么名字”);<br>String name=in.nextLine();//无论是否有空格做分隔符，nextLine方法读取输入的一整行，输入luo wen hao<br>System.out.println(name);//输出luo wen hao<br>String firstName=in.next();//next方法有空格做分隔符时仅读取输入的第一个单词即仅读取一个单词，输入luo wen hao<br>System.out.println(firstName);//输出luo<br>System.out.println(“你今年几岁”);<br>int age=in.nextInt();//nextInt方法读取整数,有空格做分隔符时仅读取输入的第一个数，输入12 13<br>System.out.println(age);//输出12<br>double num=in.nextDouble();//nextDouble方法读取整数,有空格做分隔符时仅读取输入的第一个数，输入12.0 13.1<br>System.out.println(num);//输出12.0</p>
-<p>程序默认的包为java.lang，Scanner类定义在java.util包中，当使用的类不是定义在基本java.lang包中时，一定要使用import导入相应的包。</p>
-<p>1.2因为使用Scanner类的方法输入是可见的，不适合在控制台输入密码，可以用Console类来实现，步骤：</p>
-<p>//Console类的方法只能读取整行，运行时会抛出java.lang.NullPointerException 原因是Console类不能直接在IDEA上运行，要到控制台运行<br>Console cons = System.console()<strong>;<br>String uesname = cons.readLine</strong>(<strong>“用户名是：”</strong>)<strong>;<br>char</strong>[] passwd = cons.readPassword<strong>(</strong>“密码是：”<strong>)</strong>;</p>
-<p>为安全起见返回的密码存放在一个字符数组中，而不是字符串中。在对密码处理完后应马上用一个填充值覆盖数组元素（数组处理后续会讲）。采用Console不如采用Scanner方便，Console类的方法只能读取整行，而没有能读取单个单词或数值的方法。</p>
-<p>2格式化输出</p>
-<p>2.1一般的输出：</p>
-<p>//print和println将以x的类型所允许的最大非零数位个数打印输出x，没有舍入运算<br>double x = 10.0 / 3;<br>System.out.print(x);//输出3.3333333333333335<br>System.out.println(x);//输出3.3333333333333335<br>System.out.println((float)1.11111347);//输出1.1111134</p>
-<p>2.2格式化输出</p>
-<p>//沿用了C语言的printf方法，进行舍入运算<br>double b = 1111.356;<br>System.out.printf(“%9.2f”, b);//以一个字段宽度打印a:包括9个字符（两个空格和七个字符，小数点也是字符），精度为小数点后两位且四舍五入，输出1111.36<br>double c = 10.0 / 3;<br>System.out.printf(“%9.2f”, c);//输出3.33，包括9个字符（五个空格和4个字符，小数点也是字符），精度为小数点后两位且四舍五入</p>
-<p>System.<strong>out</strong>.printf<strong>(</strong>“%f”, c<strong>)</strong>;//输出3.333333</p>
-<p>2.3可以为printf提供多个参数</p>
-<p>//可以为printf提供多个参数<br>String name=”小黑”;<br>int age=20;<br>System.out.printf(“嗨，%s。今年你%d岁啦”,name,age);<br>double c = 10.0 / 3;<br>System.out.printf(“%f”, c);</p>
-<p>格式说明符：以%开头，后面加上字母。即每一个以%开始的格式说明符都用相应的参数替换掉，格式说明符尾部的转换符表明要格式化的数值的类型：f表示浮点数，s表示字符串，d表示十进制整数，等等。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>第一章Java程序概述（二）</title>
     <url>/2020/06/12/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%8C%EF%BC%89/</url>
     <content><![CDATA[<hr>
@@ -503,6 +409,100 @@
 <p>&amp;&amp;和||运算符是按照”短路”方式求值的：若第通过一个操作数就能确定表达式的值，则不会再判断第二个操作数的值。</p>
 <p>&amp;和|不遵循短路求值</p>
 <p>三元运算符：x&lt;y?x:y//如果x&lt;y则返回x</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（五）</title>
+    <url>/2020/06/15/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%BA%94%EF%BC%89/</url>
+    <content><![CDATA[<hr>
+<a id="more"></a>
+
+
+
+<p>6空串和null串</p>
+<p>6.1空串：即””，空串是一个Java对象，有自己的串长度（0）和内容（空）。以下两种方法可以检测字符串是否为空串：</p>
+<p>String str=””;<br>if(str.equals(“”)){<br>  System.out.println(“该字符串为空”);//输出该字符串为空<br>}<br>if(str.length()==0){<br>  System.out.println(“该字符串为空”);//输出该字符串为空<br>}</p>
+<p>6.2null串</p>
+<p>String变量可以存放一个特殊的值null,表示目前没有任何对象和该变量相关联。以下检测字符串是否为null串：</p>
+<p>String a;<br>if(a==null){<br>  System.out.println(“a是Null串”);//输出a是Null串<br>}</p>
+<p>6.3检测一个字符串既不是null串，也不是空串：要先检测是否为null串：</p>
+<p>if(str!=null&amp;&amp;str.length()!=0){}</p>
+<p>7String API</p>
+<p>7.1在API注释中，有一些CharSequence类型的参数，这是一种接口类型，所有字符串都属于这个接口。现在只需要知道，当看到CharSequence类型的参数时，完全可以传入String类型的参数。</p>
+<p>7.2阅读API文档网址(可以查阅标准库的所有类和方法)：</p>
+<p><a href="https://docs.oracle.com/javase/9/docs/api/overview-summary.html" target="_blank" rel="noopener">https://docs.oracle.com/javase/9/docs/api/overview-summary.html</a></p>
+<p>在网址中左上角搜索：java.lang.String，其中有String类的所有方法</p>
+<p>8构建字符串（将多个小字符串构建成一个大字符串）</p>
+<p>8.1如果使用字符串拼接的方式（+号）将多个小字符串构建成一个大字符串，每用一次+号就会多创建一个新的对象，既耗时又浪费空间，效率较低。</p>
+<p>8.2拼接字符串效率高的步骤：</p>
+<p>//拼接字符串时每使用一次+号就会产生一个新的对象即会产生多个对象,可以在StringBuilder类建立的构造器中加入多次内容后最后再建立对象即只建立一个对象<br>StringBuilder builder=new StringBuilder();//构建一个空的字符串构造器<br>builder.append(“asd”);//调用append方法添加内容<br>builder.append(“sdf”);<br>builder.append(“aaa”);<br>String completedString=builder.toString();//调用toString方法创建String对象,其中包含了构造器中的字符序列<br>System.out.println(completedString);//输出asdsdfaaa</p>
+<p>如果所有字符串编辑操作都在单个线程中执行（通常都是这样），则应该使用StringBulider。StringBulider线程不安全。</p>
+<p>8.3StringBulider类的前身是StringBuffer，StringBuffer类的效率比StringBulider类稍有些低，但允许采用多线程的方式添加或删除字符串。</p>
+<p>六、输入与输出</p>
+<p>将输出打印到”标准输出流”（即控制台窗口很容易），只要调用System.out.println即可。</p>
+<p>1读取输入</p>
+<p>1.1读取”标准输入流”System.in就不那么简单了，要想通过控制台输入，首先需要构造一个与”标准输入流”System.in关联的Scanner对象然后才可以使用Scanner类的各种方法读取输入。</p>
+<p>步骤：</p>
+<p>//先构造一个与”标准输入流”相关联的Scanner类型的对象，就可以再调用Scanner类中的各种方法读取输入了<br>Scanner in=new Scanner(System.in);<br>System.out.println(“你叫什么名字”);<br>String name=in.nextLine();//无论是否有空格做分隔符，nextLine方法读取输入的一整行，输入luo wen hao<br>System.out.println(name);//输出luo wen hao<br>String firstName=in.next();//next方法有空格做分隔符时仅读取输入的第一个单词即仅读取一个单词，输入luo wen hao<br>System.out.println(firstName);//输出luo<br>System.out.println(“你今年几岁”);<br>int age=in.nextInt();//nextInt方法读取整数,有空格做分隔符时仅读取输入的第一个数，输入12 13<br>System.out.println(age);//输出12<br>double num=in.nextDouble();//nextDouble方法读取整数,有空格做分隔符时仅读取输入的第一个数，输入12.0 13.1<br>System.out.println(num);//输出12.0</p>
+<p>程序默认的包为java.lang，Scanner类定义在java.util包中，当使用的类不是定义在基本java.lang包中时，一定要使用import导入相应的包。</p>
+<p>1.2因为使用Scanner类的方法输入是可见的，不适合在控制台输入密码，可以用Console类来实现，步骤：</p>
+<p>//Console类的方法只能读取整行，运行时会抛出java.lang.NullPointerException 原因是Console类不能直接在IDEA上运行，要到控制台运行<br>Console cons = System.console()<strong>;<br>String uesname = cons.readLine</strong>(<strong>“用户名是：”</strong>)<strong>;<br>char</strong>[] passwd = cons.readPassword<strong>(</strong>“密码是：”<strong>)</strong>;</p>
+<p>为安全起见返回的密码存放在一个字符数组中，而不是字符串中。在对密码处理完后应马上用一个填充值覆盖数组元素（数组处理后续会讲）。采用Console不如采用Scanner方便，Console类的方法只能读取整行，而没有能读取单个单词或数值的方法。</p>
+<p>2格式化输出</p>
+<p>2.1一般的输出：</p>
+<p>//print和println将以x的类型所允许的最大非零数位个数打印输出x，没有舍入运算<br>double x = 10.0 / 3;<br>System.out.print(x);//输出3.3333333333333335<br>System.out.println(x);//输出3.3333333333333335<br>System.out.println((float)1.11111347);//输出1.1111134</p>
+<p>2.2格式化输出</p>
+<p>//沿用了C语言的printf方法，进行舍入运算<br>double b = 1111.356;<br>System.out.printf(“%9.2f”, b);//以一个字段宽度打印a:包括9个字符（两个空格和七个字符，小数点也是字符），精度为小数点后两位且四舍五入，输出1111.36<br>double c = 10.0 / 3;<br>System.out.printf(“%9.2f”, c);//输出3.33，包括9个字符（五个空格和4个字符，小数点也是字符），精度为小数点后两位且四舍五入</p>
+<p>System.<strong>out</strong>.printf<strong>(</strong>“%f”, c<strong>)</strong>;//输出3.333333</p>
+<p>2.3可以为printf提供多个参数</p>
+<p>//可以为printf提供多个参数<br>String name=”小黑”;<br>int age=20;<br>System.out.printf(“嗨，%s。今年你%d岁啦”,name,age);<br>double c = 10.0 / 3;<br>System.out.printf(“%f”, c);</p>
+<p>格式说明符：以%开头，后面加上字母。即每一个以%开始的格式说明符都用相应的参数替换掉，格式说明符尾部的转换符表明要格式化的数值的类型：f表示浮点数，s表示字符串，d表示十进制整数，等等。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一章Java程序概述（三）</title>
+    <url>/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/</url>
+    <content><![CDATA[<p><img src="/2020/06/13/%E7%AC%AC%E4%B8%80%E7%AB%A0Java%E7%A8%8B%E5%BA%8F%E6%A6%82%E8%BF%B0%EF%BC%88%E4%B8%89%EF%BC%89/a.jpg" alt="a"></p>
+<p>晒下我的桌面，拍照技术菜的一批。。。</p>
+<a id="more"></a> 
+
+<p>六、字符串</p>
+<p>1String a=””; //空字符串</p>
+<p>String b=”sdfdsfg”;</p>
+<p>每个用双引号括起来的字符串都是String类型的一个示例（对象）。</p>
+<p>2提取一个子串</p>
+<p>String类里的substring方法可以从一个较大的字符串里提取一个子串，如：</p>
+<p>String greeting=”Hello”;</p>
+<p>String s=greeting.substring(0,3);//即Hel，这里复制位置0，1，2的字符，从0开始，到3截止但不包括3</p>
+<p>Java字符串中的代码单元和代码点从0开始计数。</p>
+<p>substring的优点：容易计算子串的长度，如字符串s.substring(a,b)的长度是b-a。</p>
+<p>3拼接字符串</p>
+<p>3.1Java语言可以用+号按顺序拼接字符串。</p>
+<p>String a=”asdaf “;<br>String b=”dsfrg”;<br>System.out.println(a+b);控制台输出asdaf dsfrg，因为a字符串有个空格</p>
+<p>3.2任何一个Java对象都可以转换成一个字符串，当字符串和一个非字符串（前提是一个对象）的值进行拼接时非字符串会转换成字符串，如：</p>
+<p>String a = “The answer is “;<br>String b = 16 + a;//16被当作了一个对象<br>System.out.println(b);//控制台输出The answer is 16<br>System.out.println(“The answer is “ + www);//www被当作了一个变量，所以编译出错</p>
+<p>这种特性通常用在输出语句中。</p>
+<p>3.3如果需要将多个字符串拼接起来，且各个字符串之间用界定符分隔，可以使用静态join方法，如：</p>
+<p>String abc=String.join(<strong>“/“,”S”,”M”,”L”,”K”</strong>)<strong>;//这里充当界定符的/也可以换成其他<br>System.</strong>out<strong>.println</strong>(<strong>abc</strong>);//控制台输出S/M/L/K，/被当作界定符使用</p>
+<p>3.4Java11中还提供了一个repeat方法：</p>
+<p>String def=”java”.repeat<strong>(</strong>3<strong>)</strong>;<br>System.<strong>out</strong>.println<strong>(</strong>def<strong>)</strong>;//控制台输出javajavajava</p>
+<p>4字符串是不可变的</p>
+<p>4.1String类中没有提供修改字符串中某个字符的方法。</p>
+<p>4.2String s=”Hello”;</p>
+<p>如果想将字符串s里最后两个位置的字符修改成p和！，可以提取字符串s中想保留的子串，再与想替换的字符拼接：</p>
+<p>s=s.substring(0,3)+”p!”;//但是这种先提取再拼接的效率并不高</p>
+<p>4.3在Java中不能修改字符串里的单个字符，即”Hello”永远包含H，e,l,l,o这几个字符。但是可以改变其引用变量s,即让s引用另一个字符串：</p>
+<p>String a=”aaa”;//创建的对象aaa赋给引用变量a<br>a=”abc”;//又新创建了另一个对象abc,并赋给引用变量a(即不再建立引用变量a和对象aaa之间的联系)，并没有改变对象aaa的内容<br>System.out.println(a);//控制台输出abc</p>
+<p>可以想象成各种字符串存放在公共的存储池中，引用变量可以指向存储池中存放相应字符串的位置（引用变量指向存放相关字符串的堆）。</p>
+<p>如果：</p>
+<p>String a=”sss”;</p>
+<p>String b=”sss”;//表示引用变量a和b都指向存放字符串sss的位置</p>
+<p>4.3的效率要高于4.2。</p>
+<p>4.4</p>
+<p>String a=”aaa”;</p>
+<p>String a=”bbb”;</p>
+<p>此时String类型的对象aaa不再被使用，系统最终会自动将其回收，因此不会产生内存泄露，即垃圾回收机制。</p>
+<p>注意：在Java中不能修改字符串里的单个字符，但是在C++中可以，Java和C++都有上述的垃圾回收机制。</p>
 ]]></content>
   </entry>
   <entry>
